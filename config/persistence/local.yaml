@@ -1,5 +1,5 @@
 type: local
-data_root_folder:  /novo/projects/departments/cdd/molecular_ai/mlbp/data
-artifacts_root_folder: /novo/projects/departments/cdd/molecular_ai/mlbp/artifacts
+data_root_folder:  ./data
+artifacts_root_folder: ./artifacts
 training_data: static_input_data
 pretrained_weights: static_pretrained_weights
