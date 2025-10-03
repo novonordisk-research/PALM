@@ -3,6 +3,7 @@
 Flexible PALM Inference Script
 Supports CSV, FASTA, or direct sequence input
 Provides sequence-level predictions (CSV) and residue-level predictions (JSON)
+Optional interactive residue plots with Plotly
 """
 
 import os
@@ -11,6 +12,8 @@ import argparse
 import pandas as pd
 import numpy as np
 import torch
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from pathlib import Path
 from glob import glob
 import warnings
@@ -170,7 +173,7 @@ class FlexiblePALMInference:
                 overrides=[
                     f"+general.composite_model_path={str(model_path)}",
                     "general.run_mode=test",
-		    "persistence.data_root_folder=."
+                    "persistence.data_root_folder=."
                 ]
             )
             
@@ -220,8 +223,175 @@ class FlexiblePALMInference:
             'residue_predictions': residue_predictions
         }
     
+    def create_residue_plots_plotly(self, proteins_data, output_file=None):
+        """
+        Create interactive residue aggregation plots for multiple proteins in a single HTML file
+        
+        Args:
+            proteins_data: Dictionary with protein data including sequences and scores
+            output_file: Output HTML file path (if None, auto-generated)
+        
+        Returns:
+            Path to saved HTML file
+        """
+
+        n_proteins = len(proteins_data)
+        
+        # Create subplots - arrange in a grid
+
+        cols = min(2, n_proteins)  # Max 2 columns
+        rows = (n_proteins + cols - 1) // cols  # Calculate required rows
+        
+        fig = make_subplots(
+            rows=rows, 
+            cols=cols,
+            subplot_titles=list(proteins_data.keys()),
+            vertical_spacing=0.08,
+            horizontal_spacing=0.1
+        )
+        
+        # Track colors for consistent fold coloring across proteins
+        fold_colors = {}
+        color_palette = ['blue', 'red', 'green', 'orange', 'purple', 'brown', 'pink', 'gray']
+        
+        for idx, (protein_name, data) in enumerate(proteins_data.items()):
+            row = (idx // cols) + 1
+            col = (idx % cols) + 1
+            
+            sequence = data['sequence']
+            seq_length = len(sequence)
+            residue_numbers = np.arange(1, seq_length + 1)
+            
+            # Add scatter plots for each fold
+            for fold_idx, (fold_name, scores) in enumerate(data['fold_scores'].items()):
+                scores = np.array(scores)
+                
+                # Assign consistent color to each fold
+                if fold_name not in fold_colors:
+                    fold_colors[fold_name] = color_palette[len(fold_colors) % len(color_palette)]
+                
+                # Only show legend for first protein
+                show_legend = (idx == 0)
+                
+                fig.add_trace(
+                    go.Scatter(
+                        x=residue_numbers,
+                        y=scores,
+                        mode='markers',
+                        marker=dict(
+                            size=3,
+                            opacity=0.6,
+                            color=fold_colors[fold_name]
+                        ),
+                        name=fold_name,
+                        showlegend=show_legend,
+                        legendgroup=fold_name,
+                        hovertemplate='<b>Protein:</b> ' + protein_name + '<br>' +
+                                     '<b>Fold:</b> ' + fold_name + '<br>' +
+                                     '<b>Position:</b> %{x}<br>' +
+                                     '<b>Score:</b> %{y:.3f}<br>' +
+                                     '<b>Residue:</b> %{text}<br>' +
+                                     '<extra></extra>',
+                        text=[sequence[i] for i in range(seq_length)]
+                    ),
+                    row=row, col=col
+                )
+            
+            # Add ensemble line plot if available
+            if data['ensemble_scores'] is not None:
+                ensemble_scores = np.array(data['ensemble_scores'])
+                
+                fig.add_trace(
+                    go.Scatter(
+                        x=residue_numbers,
+                        y=ensemble_scores,
+                        mode='lines',
+                        line=dict(color='black', width=2),
+                        name='Ensemble',
+                        showlegend=(idx == 0),
+                        legendgroup='ensemble',
+                        hovertemplate='<b>Protein:</b> ' + protein_name + '<br>' +
+                                     '<b>Ensemble</b><br>' +
+                                     '<b>Position:</b> %{x}<br>' +
+                                     '<b>Score:</b> %{y:.3f}<br>' +
+                                     '<b>Residue:</b> %{text}<br>' +
+                                     '<extra></extra>',
+                        text=[sequence[i] for i in range(seq_length)]
+                    ),
+                    row=row, col=col
+                )
+            
+            # Update x-axis for this subplot with residue labels
+            seq_length = len(sequence)
+            
+            #its tough to show tick labels so wrote a soft edge case for this
+
+            # Create tick labels with residue number and amino acid
+            if seq_length <= 50:
+                # Show all residues for short sequences
+                tickvals = list(range(1, seq_length + 1))
+                ticktext = [f"{i}<br>{sequence[i-1]}" for i in tickvals]
+            elif seq_length <= 100:
+                # Show every other residue for medium sequences
+                step = 2
+                tickvals = list(range(1, seq_length + 1, step))
+                ticktext = [f"{i}<br>{sequence[i-1]}" for i in tickvals]
+            else:
+                # Show every nth residue for long sequences
+                step = max(1, seq_length // 25)
+                tickvals = list(range(1, seq_length + 1, step))
+                ticktext = [f"{i}<br>{sequence[i-1]}" for i in tickvals]
+            
+            fig.update_xaxes(
+                title_text='Residue number',
+                tickmode='array',
+                tickvals=tickvals,
+                ticktext=ticktext,
+                showgrid=True,
+                gridcolor='lightgray',
+                row=row, col=col
+            )
+            
+            # Update y-axis for this subplot
+            fig.update_yaxes(
+                title_text='Aggregation score',
+                showgrid=True,
+                gridcolor='lightgray',
+                row=row, col=col
+            )
+        
+        # Update overall layout
+        fig.update_layout(
+            title=dict(
+                text='Residue Aggregation Scores - All Proteins',
+                x=0.5,
+                xanchor='center',
+                font=dict(size=16)
+            ),
+            plot_bgcolor='white',
+            hovermode='closest',
+            legend=dict(
+                yanchor="top",
+                y=0.98,
+                xanchor="right",
+                x=0.98
+            ),
+            height=max(400, 300 * rows),  # Adaptive height based on number of rows
+            showlegend=True
+        )
+        
+        # Save to HTML
+        if output_file is None:
+            output_file = "residue_plots_all_peptides.html"
+        
+        fig.write_html(output_file)
+        print(f"Interactive plots for all sequences saved to: {output_file}")
+        
+        return output_file
+    
     def run_inference(self, input_data, input_type='csv', model_name='PALM', 
-                     ensemble=True, output_prefix='predictions'):
+                     ensemble=True, output_prefix='predictions',
+                     create_plots=False, plot_format='plotly'):
         """
         Run inference with automatic model discovery
         
@@ -231,6 +401,8 @@ class FlexiblePALMInference:
             model_name: Model variant to use (PALM, PALM_NNK, PALM_NNK_OH)
             ensemble: Whether to use ensemble predictions
             output_prefix: Prefix for output files (will create .csv and .json)
+            create_plots: Whether to create residue plots
+            plot_format: Format for plots ('plotly' for interactive HTML)
         
         Returns:
             Tuple of (sequence_df, residue_dict)
@@ -270,7 +442,6 @@ class FlexiblePALMInference:
             fold_name = fold_path.name
             print(f"\nProcessing {fold_name}...")
             
-            # try:
             model, cfg = self.load_model(fold_path)
             results = self.run_single_model_inference(model, cfg, df)
             
@@ -285,10 +456,6 @@ class FlexiblePALMInference:
                 protein_name = row['name']
                 residue_predictions_dict[protein_name][f'{model_name}_{fold_name}_residue_scores'] = \
                     results['residue_predictions'][idx].tolist()
-                
-            # except Exception as e:
-            #     print(f"Warning: Error processing {fold_name}: {e}")
-            #     continue
         
         if successful_folds == 0:
             raise RuntimeError("No models successfully processed")
@@ -342,6 +509,44 @@ class FlexiblePALMInference:
         with open(json_file, 'w') as f:
             json.dump(residue_predictions_dict, f, cls=NumpyEncoder, indent=2)
         print(f"Residue predictions saved to: {json_file}")
+        
+        # Create plots if requested
+        if create_plots:
+            print("\nGenerating residue plots...")
+            
+            # Prepare data for all proteins
+            proteins_plot_data = {}
+            
+            for protein_name, data in residue_predictions_dict.items():
+                sequence = data['sequence']
+                
+                # Collect all fold scores
+                fold_scores = {}
+                for key in data.keys():
+                    if 'residue_scores' in key and 'ensemble' not in key:
+                        # Extract fold name from key
+                        fold_name = key.replace(f'{model_name}_', '').replace('_residue_scores', '')
+                        fold_scores[fold_name] = data[key]
+                
+                # Get ensemble scores if available
+                ensemble_scores = None
+                if f'{model_name}_ensemble_residue_scores' in data:
+                    ensemble_scores = data[f'{model_name}_ensemble_residue_scores']
+                
+                proteins_plot_data[protein_name] = {
+                    'sequence': sequence,
+                    'fold_scores': fold_scores,
+                    'ensemble_scores': ensemble_scores
+                }
+            
+            # Create single HTML file with all plots
+            if plot_format.lower() == 'plotly':
+                plot_file = f"{output_prefix}_residue_plots_all.html"
+                self.create_residue_plots_plotly(
+                    proteins_data=proteins_plot_data,
+                    output_file=plot_file
+                )
+                print(f"\nGenerated single interactive plot file: {plot_file}")
         
         # Print summary
         self.print_summary(sequence_df, residue_predictions_dict, ensemble)
@@ -403,6 +608,13 @@ def main():
     parser.add_argument('--output_prefix', type=str, default='predictions',
                        help='Prefix for output files (creates _sequences.csv and _residues.json)')
     
+    # Plot options
+    parser.add_argument('--plot', action='store_true',
+                       help='Generate interactive residue plots (HTML)')
+    parser.add_argument('--plot_format', type=str, default='plotly',
+                       choices=['plotly'],
+                       help='Plot format (default: plotly for interactive HTML)')
+    
     # Path options
     parser.add_argument('--models_dir', type=str, default='./PALM_models',
                        help='Directory containing PALM model variants')
@@ -445,13 +657,14 @@ def main():
         input_type = 'sequences'
     
     # Run inference
-    # try:
     seq_results, res_results = inference.run_inference(
         input_data=input_data,
         input_type=input_type,
         model_name=args.model_name,
         ensemble=args.ensemble,
-        output_prefix=args.output_prefix
+        output_prefix=args.output_prefix,
+        create_plots=args.plot,
+        plot_format=args.plot_format
     )
     
     print("\n" + "="*60)
@@ -460,12 +673,9 @@ def main():
     print(f"Output files created:")
     print(f"  📊 {args.output_prefix}_sequences.csv - Sequence-level predictions")
     print(f"  📈 {args.output_prefix}_residues.json - Residue-level predictions")
-        
-    # except Exception as e:
-    #     print(f"\nError during inference: {e}")
-    #     import traceback
-    #     traceback.print_exc()
-    #     return 1
+    
+    if args.plot:
+        print(f"  🎨 {args.output_prefix}_residue_plots_all.html - Interactive plots for all proteins")
 
 
 if __name__ == "__main__":
