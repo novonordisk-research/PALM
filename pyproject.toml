@@ -10,9 +10,10 @@ packages = [{ include = "src", from = "." }]
 python = ">=3.10,<3.11"
 # Core ML dependencies from MLflow conda.yaml
 mlflow = "^2.13.0"
-torch = "^2.3.0"
+torch = "^2.2.2"
 transformers = "^4.56.2"
 lightning = "2.4.0"
+plotly = "6.3.1" 
 numpy = "^1.26.4"
 pandas = "^2.2.2"
 scipy = "^1.13.1"
@@ -66,6 +67,7 @@ tensorflow = [
 ]
 tensorflow-macos = { version = "2.15.0", platform = "darwin", markers = "platform_machine=='arm64'" }
 tensorflow-io-gcs-filesystem = "0.34.0"
+plotly = "^6.3.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.11.0"
