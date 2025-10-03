@@ -270,25 +270,25 @@ class FlexiblePALMInference:
             fold_name = fold_path.name
             print(f"\nProcessing {fold_name}...")
             
-            try:
-                model, cfg = self.load_model(fold_path)
-                results = self.run_single_model_inference(model, cfg, df)
+            # try:
+            model, cfg = self.load_model(fold_path)
+            results = self.run_single_model_inference(model, cfg, df)
+            
+            all_seq_preds.append(results['sequence_predictions'])
+            successful_folds += 1
+            
+            # Add fold predictions to dataframe (sequence-level)
+            df[f'{model_name}_{fold_name}_seq_score'] = results['sequence_predictions']
+            
+            # Store residue predictions in dictionary
+            for idx, (_, row) in enumerate(df.iterrows()):
+                protein_name = row['name']
+                residue_predictions_dict[protein_name][f'{model_name}_{fold_name}_residue_scores'] = \
+                    results['residue_predictions'][idx].tolist()
                 
-                all_seq_preds.append(results['sequence_predictions'])
-                successful_folds += 1
-                
-                # Add fold predictions to dataframe (sequence-level)
-                df[f'{model_name}_{fold_name}_seq_score'] = results['sequence_predictions']
-                
-                # Store residue predictions in dictionary
-                for idx, (_, row) in enumerate(df.iterrows()):
-                    protein_name = row['name']
-                    residue_predictions_dict[protein_name][f'{model_name}_{fold_name}_residue_scores'] = \
-                        results['residue_predictions'][idx].tolist()
-                
-            except Exception as e:
-                print(f"Warning: Error processing {fold_name}: {e}")
-                continue
+            # except Exception as e:
+            #     print(f"Warning: Error processing {fold_name}: {e}")
+            #     continue
         
         if successful_folds == 0:
             raise RuntimeError("No models successfully processed")
@@ -445,27 +445,27 @@ def main():
         input_type = 'sequences'
     
     # Run inference
-    try:
-        seq_results, res_results = inference.run_inference(
-            input_data=input_data,
-            input_type=input_type,
-            model_name=args.model_name,
-            ensemble=args.ensemble,
-            output_prefix=args.output_prefix
-        )
+    # try:
+    seq_results, res_results = inference.run_inference(
+        input_data=input_data,
+        input_type=input_type,
+        model_name=args.model_name,
+        ensemble=args.ensemble,
+        output_prefix=args.output_prefix
+    )
+    
+    print("\n" + "="*60)
+    print("INFERENCE COMPLETE")
+    print("="*60)
+    print(f"Output files created:")
+    print(f"  📊 {args.output_prefix}_sequences.csv - Sequence-level predictions")
+    print(f"  📈 {args.output_prefix}_residues.json - Residue-level predictions")
         
-        print("\n" + "="*60)
-        print("INFERENCE COMPLETE")
-        print("="*60)
-        print(f"Output files created:")
-        print(f"  📊 {args.output_prefix}_sequences.csv - Sequence-level predictions")
-        print(f"  📈 {args.output_prefix}_residues.json - Residue-level predictions")
-        
-    except Exception as e:
-        print(f"\nError during inference: {e}")
-        import traceback
-        traceback.print_exc()
-        return 1
+    # except Exception as e:
+    #     print(f"\nError during inference: {e}")
+    #     import traceback
+    #     traceback.print_exc()
+    #     return 1
 
 
 if __name__ == "__main__":
