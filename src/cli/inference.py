@@ -169,7 +169,8 @@ class FlexiblePALMInference:
                 config_name='model',
                 overrides=[
                     f"+general.composite_model_path={str(model_path)}",
-                    "general.run_mode=test"
+                    "general.run_mode=test",
+		    "persistence.data_root_folder=."
                 ]
             )
             
