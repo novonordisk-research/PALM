@@ -124,6 +124,9 @@ python src/cli/inference.py \
     --sequences "MVLSEGEWQLVLHVWAK" "KPKATEEQLKTVMENFV" \
     --model_name PALM
 
+#Direct plot outputs a html file of aggregation profile plot  of residues within a sequences using the plot command 
+python inference_script.py --fasta sequences.fasta --plot
+
 # Disable ensemble (use individual folds only)
 python src/cli/inference.py --fasta proteins.fasta --no_ensemble
 
