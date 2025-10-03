@@ -245,7 +245,7 @@ If you use PALM in your research, please cite:
 ### CUDA/CPU device mismatch
 Use the `--cpu` flag to force CPU usage:
 ```bash
-python src/cli/inference.py --dataset data.csv --cpu --huggingface
+python src/cli/inference.py --dataset data.csv --cpu 
 ```
 
 ### Memory issues with large datasets
