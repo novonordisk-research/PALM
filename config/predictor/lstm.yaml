@@ -1,0 +1,14 @@
+class_name: LSTM
+model_name: null
+model_type: classification_binary
+mem_per_job: null
+residue_prediction_mode: false # true not enable yet
+hparams:
+  dropout: 0.25
+  optimizer_type: 'sgd' #alternative: adam
+  learning_rate: 0.0005
+  batch_size: 5000
+  max_epochs: 10000
+  patience: 100
+  optimal_cutoff: 0.5
+

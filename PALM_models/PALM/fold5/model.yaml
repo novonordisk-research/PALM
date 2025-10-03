@@ -1,0 +1,78 @@
+general:
+  run_mode: test
+  abs_repo_path: null
+  composite_model_name: esm2t68MUR50D_LightAttention_sbxwfibrillationpeptidewaltzdb-5foldtrain-valserrano-testrandpadded10xpadlen-10
+  composite_model_path: null
+  precomputed_embeddings_path: null
+  random_state: 42
+dataset:
+  data_name: sbxw_fibrillation_peptide_waltzdb-5fold_train-val_serrano-test_randpadded10x_padlen-10
+  add_data_columns: []
+  data_columns_dimred: []
+  data_columns_standard: []
+  group_column: null
+  data_scaler: RobustScaler
+  target_scaling: null
+  rbf_encoder: RadialBasisFunctionGaussian
+  rbf_n_kernels: 10
+  task: classification_binary
+  use_predefined_split: true
+  use_sample_weights: false
+  residue_prediction_labels: null
+  data_split_column: data_split_fold5
+  data_split:
+    train: 0.8
+    val: 0.0
+    test: 0.2
+embedder:
+  class_name: ESM
+  model_name: esm2_t6_8M_UR50D
+  model_path: null
+  standardize: false
+  scalar_type: StandardScaler
+  hparams: null
+  n_copies: 1
+  chain_break: poly-gly-linker
+  buffer_scale_factor: 2.0
+  max_batch_size: 400
+  simple_batching: false
+  strict: true
+  verbose: false
+  mean_pool: false
+  output_hidden_states: false
+dimred:
+  class_name: NoReduction
+  transform_name: null
+  fraction_variance_explained: null
+predictor:
+  class_name: LightAttention
+  model_name: lightattention_output_dim_1_kernel_size_5_dropout_0.25_conv_dropout_0.25_learning_rate_0.05_batch_size_1000_max_epochs_50000_patience_200_post_attention_mlp_conv1d_output_dim_-1_optimal_cutoff_0.43_reduction_mode_weighted_mean_penalty_weight_0.0
+  model_type: classification_binary
+  mem_per_job: null
+  residue_prediction_mode: false
+  hparams:
+    output_dim: 1
+    kernel_size: 5
+    dropout: 0.25
+    conv_dropout: 0.25
+    optimizer_type: sgd
+    learning_rate: 0.05
+    batch_size: 1000
+    max_epochs: 50000
+    patience: 200
+    post_attention: mlp
+    conv1d_output_dim: -1
+    optimal_cutoff: 0.43
+    reduction_mode: weighted_mean
+    penalty_weight: 0.0
+persistence:
+  type: lovelace
+  data_root_folder: /path/to/data
+  artifacts_root_folder: /path/to/artifacts
+  training_data: fibrillation_data
+  pretrained_weights: static_pretrained_weights
+mlflow:
+  tracking_uri: local
+  experiment_name: waltz_fibrillation_model_fivefold
+plots:
+  generate_plots: false

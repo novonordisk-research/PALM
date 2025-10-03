@@ -1,0 +1,21 @@
+class_name: LightAttention
+model_name: null
+model_type: classification_binary
+mem_per_job: null
+residue_prediction_mode: false
+hparams:
+  output_dim: 1
+  kernel_size: 7
+  dropout: 0.25
+  conv_dropout: 0.25
+  optimizer_type: "sgd" #alternative: adam
+  learning_rate: 0.0005
+  batch_size: 5000
+  max_epochs: 10000
+  patience: 100
+  post_attention: "mlp" # alternatives: mlp_deep, linear
+  conv1d_output_dim: -1 # if -1, then will
+  optimal_cutoff: 0.5
+  reduction_mode: 'max' # alternatives: mean, sum
+  penalty_weight: 0.0
+

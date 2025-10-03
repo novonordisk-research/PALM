@@ -1,0 +1,4 @@
+# standardize the mean and variance
+class_name: PCADimReduction
+transform_name: null
+fraction_variance_explained: 0.99

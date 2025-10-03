@@ -1,0 +1,12 @@
+class_name: TorchMLP
+model_name: null
+model_type: regression
+mem_per_job: null
+residue_prediction_mode: false
+hparams:
+  dropout_rate: 0.25
+  hidden_size: 64
+  learning_rate: 3e-4
+  batch_size: 5000
+  max_epochs: 10000
+  patience: 100

@@ -1,0 +1,9 @@
+# atom-level features from  https://doi.org/10.1016/j.jmb.2020.11.006
+class_name: ANuPP
+model_name: anupp
+standardize: false
+scalar_type: null
+model_path: null
+hparams: null
+batch_size_scaling_factor: null
+mean_pool: false # by default, not reduced
