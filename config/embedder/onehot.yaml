@@ -1,0 +1,8 @@
+class_name: OneHot
+model_name: onehot
+standardize: false
+scalar_type: null
+model_path: null
+hparams: null
+batch_size_scaling_factor: null
+mean_pool: false # by default, not reduced

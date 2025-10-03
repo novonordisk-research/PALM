@@ -1,0 +1,159 @@
+,sequence,value_bool,parent_protein,name,group,fold,seq_aa_length
+1,PGGGKVYKPV,0,t-Protein,K19d,serrano_1,-1,10
+2,PGGGKNAEVYKPV,0,t-Protein,Mut1,serrano_1,-1,13
+4,QTAPVPMPDLKNVKSKIGSTENLKHQPGGGKVQIVY,0,t-Protein,K19Chym,serrano_1,-1,36
+5,KPVDLSKVTSKCGSLGNIHHKPGGGQVEVKSEKLDF,0,t-Protein,K19Chym1,serrano_1,-1,36
+6,KDRVQSKIGSLDNITHVPGGGN,0,t-Protein,K19Chym2,serrano_1,-1,22
+7,QTAPVPMPDLKNVKSKIGSTE,0,t-Protein,K19Gluc4,serrano_1,-1,21
+10,KLDFKDRVQSKIGSLDNITHVPGGGN,0,t-Protein,K19Gluc43,serrano_1,-1,26
+11,QTAPVPMPD,0,t-Protein,K19Gluc78,serrano_1,-1,9
+12,LKNVKSKIGSTE,0,t-Protein,K19Gluc781,serrano_1,-1,12
+14,LSKVTSKCGSLGNIHHKPGGGQVE,0,t-Protein,K19Gluc783,serrano_1,-1,24
+15,VKSEKLDFKDRVQSKIGSLDNITHVPGGGN,0,t-Protein,K19Gluc784,serrano_1,-1,30
+18,VDLSKVTSK,0,t-Protein,V313-K321,serrano_1,-1,9
+19,VTSKCGSLGNIHHKPGGG,0,t-Protein,V318-G335,serrano_1,-1,18
+20,GQVEVSKE,0,t-Protein,V335-E342,serrano_1,-1,8
+25,VHHQPLVFFAEDVGS,1,Amyloid beta A4 peptide,HABP4,serrano_1,-1,15
+26,KKPVFFAED,0,Amyloid beta A4 peptide,HABP5,serrano_1,-1,9
+27,KKLPFFAED,0,Amyloid beta A4 peptide,HABP6,serrano_1,-1,9
+28,KKLVPFAED,0,Amyloid beta A4 peptide,HABP7,serrano_1,-1,9
+29,VHHQKLVPFAEDVGS,0,Amyloid beta A4 peptide,HABP8,serrano_1,-1,15
+30,KKLVFPAED,0,Amyloid beta A4 peptide,HABP9,serrano_1,-1,9
+31,KKLVFFPED,1,Amyloid beta A4 peptide,HABP10,serrano_1,-1,9
+49,EQVTNVGGAVVTGVTAVA,1,Alpha synuclein,NAC1-18,serrano_1,-1,18
+50,TVNGVGEVTATAVQGVAV,1,Alpha synuclein,NAC1-18s,serrano_1,-1,18
+51,VTNVGGAVVTGVTAVA,1,Alpha synuclein,NAC3-18,serrano_1,-1,16
+52,EQVTNVGGAVVTG,1,Alpha synuclein,NAC1-13,serrano_1,-1,13
+53,VGGAVVTGV,1,Alpha synuclein,NAC6-14,serrano_1,-1,9
+54,STAQSLKSVDYEVFGRV,0,Acyl Phosphatase,1-17,serrano_1,-1,17
+55,QGVSFRMYTEDEARKI,0,Acyl Phosphatase,18-33,serrano_1,-1,16
+56,GVVGWVKNTSKGTVTGQVQG,1,Acyl Phosphatase,34-53,serrano_1,-1,20
+57,PEDKVNSMKSWLSKV,0,Acyl Phosphatase,54-68,serrano_1,-1,15
+58,GSPSSRIDRTNFSNEKT,0,Acyl Phosphatase,69-85,serrano_1,-1,17
+68,MQTLSERLKKRRIALKY,0,434 Cro repressor,1Cro,serrano_1,-1,17
+69,YKMTQTELATKAGVK,0,435 Cro repressor,2Cro,serrano_1,-1,15
+70,YKQQSIQLIEAGVTKR,0,436 Cro repressor,3Cro,serrano_1,-1,16
+71,TKRPRFLYEIAMALNSD,1,437 Cro repressor,4Cro,serrano_1,-1,17
+72,AMALNCDPVWLQYGTKRGKA,0,438 Cro repressor,5Cro,serrano_1,-1,20
+73,VLSEGEWQLVLHVWAKVEA,1,Sperm whale myoglobin,A-Helix,serrano_1,-1,19
+74,EGEWQLVLHVWAKVEADVAGHGQDILIRLFK,1,Sperm whale myoglobin,AB-Domain,serrano_1,-1,31
+75,DVAGHGQDILIRLFKS,1,Sperm whale myoglobin,B-Helix,serrano_1,-1,16
+76,KSHPET,0,Sperm whale myoglobin,BC-Turn,serrano_1,-1,6
+77,HPETLEKFDRFKHLK,0,Sperm whale myoglobin,CCD-Domain,serrano_1,-1,15
+78,TEAEMKA,0,Sperm whale myoglobin,D-Helix,serrano_1,-1,7
+79,SEDLKKHGVTVLTALGAILK,0,Sperm whale myoglobin,E-Helix,serrano_1,-1,20
+80,KKGHHEAE,0,Sperm whale myoglobin,EF-Turn,serrano_1,-1,8
+81,ELKPLAQSHA,0,Sperm whale myoglobin,F-helix,serrano_1,-1,10
+82,ATKHKIP,0,Sperm whale myoglobin,FG-Turn,serrano_1,-1,7
+83,GWEIPEPYVWDESFRVFY,0,Myohemerithrin,N-terminal,serrano_1,-1,18
+84,GTDFKYKGKL,0,Myohemerithrin,C-terminal,serrano_1,-1,10
+85,YEQLDEEHKKIFKGIFDCIRD,0,Myohemerithrin,A-helix,serrano_1,-1,21
+87,SAPNLATLVKVTTNHFTHEEAMMD,1,Myohemerithrin,B-helix,serrano_1,-1,24
+88,DAAKYSEV,0,Myohemerithrin,BC-loop,serrano_1,-1,8
+89,EVVPHKKMHKDFLEKIGGL,1,Myohemerithrin,C-Helix,serrano_1,-1,19
+90,GLSAPVD,0,Myohemerithrin,CD-loop,serrano_1,-1,7
+91,AKNVDYCKEWLVNHIK,0,Myohemerithrin,D-helix,serrano_1,-1,16
+92,LEVLLGSG,0,French bean Plastocyanin,Pc-1,serrano_1,-1,8
+93,LEVLLGSGDGSLVFV,1,French bean Plastocyanin,Pc-2,serrano_1,-1,15
+94,SGDGSL,0,French bean Plastocyanin,Pc-2a,serrano_1,-1,6
+95,SLVFVPSEFS,0,French bean Plastocyanin,Pc-3,serrano_1,-1,10
+97,SEFSVPSGEK,0,French bean Plastocyanin,Pc-5,serrano_1,-1,10
+98,KIVFKNNA,0,French bean Plastocyanin,Pc-6,serrano_1,-1,8
+99,GEKIVFKNNAGFPHNVVFDE,1,French bean Plastocyanin,Pc-6a,serrano_1,-1,20
+100,KIVFKNNAGFPH,0,French bean Plastocyanin,Pc-7,serrano_1,-1,12
+101,KNNAGFPHNV,0,French bean Plastocyanin,Pc-8,serrano_1,-1,10
+102,PHNVVFDEDDEIP,0,French bean Plastocyanin,Pc-9,serrano_1,-1,13
+103,IPAGVDAVKISM,1,French bean Plastocyanin,Pc-10,serrano_1,-1,12
+104,EIPAGV,0,French bean Plastocyanin,Pc-10a,serrano_1,-1,6
+105,DAVKIS,0,French bean Plastocyanin,Pc-10b,serrano_1,-1,6
+106,MPEEELL,0,French bean Plastocyanin,Pc-11,serrano_1,-1,7
+107,MPEEELLNAPGETYVVTL,1,French bean Plastocyanin,Pc-12,serrano_1,-1,18
+108,ELLNAPGETY,0,French bean Plastocyanin,Pc-13,serrano_1,-1,10
+109,NAPGETY,0,French bean Plastocyanin,Pc-13a,serrano_1,-1,7
+111,GETYVVTL,1,French bean Plastocyanin,Pc-14,serrano_1,-1,8
+112,ETYVVT,0,French bean Plastocyanin,Pc-14a,serrano_1,-1,6
+113,VTLDTKGTY,0,French bean Plastocyanin,Pc-15,serrano_1,-1,9
+114,GTYSFYT,1,French bean Plastocyanin,Pc-16,serrano_1,-1,7
+115,TYSFYC,0,French bean Plastocyanin,Pc-16a,serrano_1,-1,6
+116,YTSPHQGAGMV,0,French bean Plastocyanin,Pc-17,serrano_1,-1,11
+117,MVGKVTVN,0,French bean Plastocyanin,Pc-18,serrano_1,-1,8
+118,GTVSFVTSPHQGAGMVGKVTVN,1,French bean Plastocyanin,Pc-19,serrano_1,-1,22
+119,RPDFSLEPPYTGPSK,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P1-15,serrano_1,-1,15
+120,LSQTFVYGGSRAKRNN,1,Bovine Pancreatic Trypsin Inhibitor (BPTI),P29-44,serrano_1,-1,16
+121,PSKARIIRY,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P13-21,serrano_1,-1,9
+122,KRNNFKSAEDS,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P41-51,serrano_1,-1,11
+123,ARIIRYFYNAKAG,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P16-28,serrano_1,-1,13
+124,FKSAEDSMRTSGGA,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P45-58,serrano_1,-1,14
+125,NAKAGLSQT,0,Bovine Pancreatic Trypsin Inhibitor (BPTI),P24-32,serrano_1,-1,9
+126,MKVIFLKDVKG,1,N-terminal domain of Ribosomal protein L9,Beta-1,serrano_1,-1,11
+127,KGKKGEIKNVAD,0,N-terminal domain of Ribosomal protein L10,Beta-2,serrano_1,-1,12
+128,GYANNFLFKQG,1,N-terminal domain of Ribosomal protein L11,Alpha-1,serrano_1,-1,11
+129,LAIEATPA,0,N-terminal domain of Ribosomal protein L12,Beta-3,serrano_1,-1,8
+130,TPANLKALEAQKQKEQR,0,N-terminal domain of Ribosomal protein L13,Alpha-2,serrano_1,-1,17
+131,DQKEAALVDMVNDGVEDLRCKYATLIYT,0,Glutathione S Transeferase P domain II (Glutex),Alpha-4,serrano_1,-1,28
+132,YEAGKEKYVKELPEHLKPFETLLSQ,0,Glutathione S Transeferase P domain II (Glutex),Alpha-5,serrano_1,-1,25
+133,QISFADYNLLDLLRIHQVLN,1,Glutathione S Transeferase P domain II (Glutex),Alpha-6,serrano_1,-1,20
+134,PLLSAYVARLSA,0,Glutathione S Transeferase P domain II (Glutex),Alpha-7,serrano_1,-1,12
+135,PKIKAFLA,0,Glutathione S Transeferase P domain II (Glutex),Alpha-8,serrano_1,-1,8
+136,AYVKKLDSGTGKELVLAL,0,Spectrin SH3,M-2,serrano_1,-1,18
+137,YDYQEKSPREVTMKKGD,0,Spectrin SH4,M-4,serrano_1,-1,17
+138,DILTLLNSTNKDWWKVEVND,1,Spectrin SH5,M-8,serrano_1,-1,20
+139,GGKDWWKVGG,0,Spectrin SH6,M-C,serrano_1,-1,10
+140,DWWKVEVNDRQGFVPA,1,Spectrin SH7,M-6,serrano_1,-1,16
+141,DILTLLNSTNKDWWKVEVNDRQGFVPA,1,Spectrin SH8,M-68,serrano_1,-1,27
+142,DILTLLNSTNKDWWKVEVNDRQGFVPA,0,Spectrin SH9,M-681,serrano_1,-1,27
+143,VPSNEEQIKNLLQLEAQEHLQY,0,Ada-2h,H1-Wt,serrano_1,-1,22
+144,VPSNEEQIKKLLELEAKKHLQY,0,Ada-2h,H1-Mt,serrano_1,-1,22
+145,FVNVQAVKVFLESQGIAY,1,Ada-2h,H2-WT,serrano_1,-1,18
+146,FVNVEAVKAFLEAHGIAY,1,Ada-2h,H2-Mt,serrano_1,-1,18
+147,AVGKSNLLSRYARNEFSA,0,Ara,Ara1,serrano_1,-1,18
+148,RFRAVTSAYYRGAVG,0,Ara,Ara2,serrano_1,-1,15
+149,TRRTTFESVGRWLDELKIHSD,0,Ara,Ara3,serrano_1,-1,21
+150,AVSVEEGKALAEEEGLF,0,Ara,Ara4,serrano_1,-1,17
+151,STNVKTAFEMVILDIYNNV,1,Ara,Ara5,serrano_1,-1,19
+152,DHPAVMEGTKTILETDSNLS,0,Com-A,ComA1,serrano_1,-1,20
+153,EPSEQFIKQHDFSSY,0,Com-A,ComA2,serrano_1,-1,15
+154,VNGMELSKQILQENPH,0,Com-A,ComA3,serrano_1,-1,16
+155,EVEDYFEEAIRAGLH,0,Com-A,ComA4,serrano_1,-1,15
+156,TESKEKITQYIYHVLNGEIL,1,Com-A,ComA5,serrano_1,-1,20
+157,DFSTMRRIVRNLLKELGYN,0,CheY,Che-Y1,serrano_1,-1,19
+158,EDGVDALNKLQAGGY,0,CheY,Che-Y2,serrano_1,-1,15
+159,MDGLELLKTIRADSAY,0,CheY,Che-Y3,serrano_1,-1,16
+160,AKKENIIAAAQAGASGY,1,CheY,Che-Y4,serrano_1,-1,17
+161,PFTAATLEEKLNKIFEKLGMY,1,CheY,Che-Y5,serrano_1,-1,21
+162,GTGNTEKMAELIAKGIIESGKDY,0,Flavodoxin,FXN1,serrano_1,-1,23
+163,EESEFEPFIEEISTKISY,0,Flavodoxin,FXN3,serrano_1,-1,18
+164,GDGKWMRDFEQRMNGYGSV,0,Flavodoxin,FXN4,serrano_1,-1,19
+165,EPDEAEQDSIEFGKKIANIY,0,Flavodoxin,FXN5,serrano_1,-1,20
+166,GVGKSALTIQLIQNHFVY,1,P21-ras,P21A,serrano_1,-1,18
+167,EYSAMRDQYMRTGEG,0,P21-ras,P21B,serrano_1,-1,15
+168,INNTKSFEDIHQYREQIKRVKDS,0,P21-ras,P21C,serrano_1,-1,23
+169,ARTVESRQAQDLARSYGIP,0,P21-ras,P21D,serrano_1,-1,19
+170,RQGVEDAFYTLVREIRQHK,1,P21-ras,P21E,serrano_1,-1,19
+171,VTIKANLIFANGFTQTAEFKG,1,PL-B1,PL-B1-95,serrano_1,-1,21
+172,KGTFEKATSEAYAYADTLKKDNGEY,1,PL-B3,PL-B1-114,serrano_1,-1,25
+173,GEYTVDVADKGYTLNIKFAGD,1,PL-B5,PL-B1-136,serrano_1,-1,21
+174,TYKLINGKTLKGETTTEA,0,Protein_G,ProteinG2-19,serrano_1,-1,18
+175,GDAATAEKVFKQYANDNGVD,0,Protein_G,ProteinG21-40,serrano_1,-1,20
+177,QGGGTHSQWN,0,human prion protein,1-10,serrano_2,-1,10
+178,HSQWNKPSKP,0,human prion protein,6-15,serrano_2,-1,10
+179,KPSKPKTNMK,0,human prion protein,11-20,serrano_2,-1,10
+180,KTNMKHMAGA,0,human prion protein,16-25,serrano_2,-1,10
+181,HMAGAAAAGA,0,human prion protein,21-30,serrano_2,-1,10
+182,AAAGAVVGGL,0,human prion protein,26-35,serrano_2,-1,10
+183,VVGGLGGYML,0,human prion protein,31-40,serrano_2,-1,10
+185,GSAMSRPIIH,0,human prion protein,41-50,serrano_2,-1,10
+186,FGSDYEDRYY,0,human prion protein,51-60,serrano_2,-1,10
+187,EDRYYRENMH,0,human prion protein,56-65,serrano_2,-1,10
+188,RENMHRYPNQ,0,human prion protein,61-70,serrano_2,-1,10
+189,RYPNQVYYRP,0,human prion protein,66-75,serrano_2,-1,10
+190,VYYRPMDEYS,0,human prion protein,71-80,serrano_2,-1,10
+194,NITIKQHTVT,0,human prion protein,91-100,serrano_2,-1,10
+195,QHTVTTTTKG,0,human prion protein,96-105,serrano_2,-1,10
+197,ENFTETDVKM,0,human prion protein,106-115,serrano_2,-1,10
+198,TDVKMMERVV,0,human prion protein,111-120,serrano_2,-1,10
+199,MERVVEQMCI,0,human prion protein,116-125,serrano_2,-1,10
+200,EQMCITQYER,0,human prion protein,121-130,serrano_2,-1,10
+201,TQYERESQAY,0,human prion protein,126-135,serrano_2,-1,10
+202,ESQAYYQRGS,0,human prion protein,131-140,serrano_2,-1,10
+203,YQRGSSMVLF,0,human prion protein,136-145,serrano_2,-1,10

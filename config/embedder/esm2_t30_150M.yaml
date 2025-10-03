@@ -1,0 +1,15 @@
+class_name: ESM
+model_name: esm2_t30_150M_UR50D
+model_path: null
+standardize: false 
+scalar_type: StandardScaler
+hparams: null
+n_copies: 1
+chain_break: poly-gly-linker
+buffer_scale_factor: 2.0
+max_batch_size: 400
+simple_batching: False
+strict: True
+verbose: False
+mean_pool: True
+output_hidden_states: False

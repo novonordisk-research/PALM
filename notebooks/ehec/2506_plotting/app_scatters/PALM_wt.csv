@@ -1,0 +1,2 @@
+,sequence,is_amyloid,ID,nscore3_c,mut_pos,data_split_fold1,data_split_fold2,data_split_fold3,data_split_fold4,data_split_fold5,sequence_predictions_4
+0,DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA,False,0-WT-0,-0.218535925,N/A,test,test,test,test,test,0.9407411

@@ -1,0 +1,91 @@
+﻿model,mlflow,crossval_split,amypro22 rocauc,serrano158 rocauc,serrano 158 mcc,split
+ESM2 8M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9ce7f66eb6f24268b4c941b5db0d9ce0,1,0.6541,0.909,0.449,embedding
+ESM2 8M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ab1952d5a68a4a66bcd988af8ce5d6a4,2,0.6779,0.906,0.458,embedding
+ESM2 8M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4ec1088b6f484939bb7c71c1ec7ceaca,3,0.6717,0.913,0.406,embedding
+ESM2 8M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,4,0.6865,0.919,0.419,embedding
+ESM2 8M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,5,0.702,0.914,0.436,embedding
+ESM2 35M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/c56f3b32d5fe4fde903d5a684cc17d4e,1,0.6334,0.904,0.406,embedding
+ESM2 35M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/0d88ef12a07249b9bd672984fc8abbdd,2,0.6364,0.906,0.425,embedding
+ESM2 35M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/3af8326dd01c4896b1bba0377fda5489,3,0.6431,0.9,0.631,embedding
+ESM2 35M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/82c4f5e879c64bdda82a4bc5c08e3e4b,4,0.6615,0.9,0.438,embedding
+ESM2 35M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/59dac6968f534b02878cee164a3a24b4,5,0.6426,0.891,0.432,embedding
+ESM2 150M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/05d8c7064c224b4b8836ed82bb41bf03,1,0.6063,0.884,0.393,embedding
+ESM2 150M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4fa9ecc7864143d1be5e017adc1dd1fe,2,0.6201,0.883,0.449,embedding
+ESM2 150M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ecf1318c008e4108b52f3a9ba2b4390a,3,0.6419,0.871,0.369,embedding
+ESM2 150M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/cd7ed23dd0c8493aae794e7574ad3f66,4,0.6357,0.885,0.611,embedding
+ESM2 150M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/f0fbe28a92b342c18f589c4bd4a7c982,5,0.634,0.885,0.413,embedding
+ESM2 650M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/5490d8930bce4da492a7bb80f0913d30,1,0.5681,0.881,0.449,embedding
+ESM2 650M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/7e3edda8ecdc4f468e91c3d08bcd7e92,2,0.5295,0.884,0.441,embedding
+ESM2 650M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/2241eed7d7a8443494b713f18c9b08f7,3,0.5568,0.89,0.424,embedding
+ESM2 650M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9350de03690241bdb1afdb8939e6958c,4,0.5647,0.88,0.616,embedding
+ESM2 650M,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/25656a5ef37e4b26adbd0867840b69c4,5,0.5682,0.868,0.441,embedding
+PALM,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9ce7f66eb6f24268b4c941b5db0d9ce0,1,0.6541,0.909,0.449,architecture
+PALM,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ab1952d5a68a4a66bcd988af8ce5d6a4,2,0.6779,0.906,0.458,architecture
+PALM,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4ec1088b6f484939bb7c71c1ec7ceaca,3,0.6717,0.913,0.406,architecture
+PALM,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,4,0.6865,0.919,0.419,architecture
+PALM,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,5,0.702,0.914,0.436,architecture
+No attention weights,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/6e2ed118a2b0405c8e9b438d0c436710,1,0.7006,0.9,0.424,architecture
+No attention weights,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ad035d1766e4418bae4469e7bb9cec4b,2,0.6779,0.888,0.438,architecture
+No attention weights,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/617e633e4ab546e2a14dc69f1847e771,3,0.6777,0.875,0.438,architecture
+No attention weights,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/698230f5a39f4da2a7e7c9573db69f70,4,0.6881,0.902,0.394,architecture
+No attention weights,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/7a534853bfd442098f9fc3748ed8e15f,5,0.6176,0.885,0.507,architecture
+Mean reduction,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/e319901a5c2c4e5cb602b107f963930a,1,0.636,0.903,0.401,architecture
+Mean reduction,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/421ee070ee8749a9b494ef4345ab0174,2,0.6037,0.908,0.442,architecture
+Mean reduction,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/60875f9e3b2942c3a6e5ced5581e5a11,3,0.6202,0.901,0.413,architecture
+Mean reduction,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a0764f4b90d2436587462ef0ea289490,4,0.6851,0.914,0.393,architecture
+Mean reduction,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/5b25155b341044439707380b51eeb04a,5,0.6417,0.913,0.442,architecture
+One-hot encoding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8c0bf835e23d4358aa4fcedcf8f04fbe,1,0.577,0.87,0.294,embedding
+One-hot encoding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/2b7fe7fabf764cd1bd9aa6c8ff9b6ed3,2,0.5863,0.843,0.406,embedding
+One-hot encoding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9a9e005b04664c7891c883c26ff45d4e,3,0.5819,0.842,0.438,embedding
+One-hot encoding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/368ae5c9a9cd4cebb69ee18dd0a2bbf2,4,0.5881,0.854,0.382,embedding
+One-hot encoding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9f425efe668b49839b2ce54a43a135d6,5,0.5918,0.844,0.305,embedding
+"Mean reduction, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/584487673f764dd1a0c26e8374e9745c,1,0.409,0.833,0.066,architecture
+"Mean reduction, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8001b0afab234aefad9971a61d3f0f46,2,0.5052,0.851,0.459,architecture
+"Mean reduction, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/c79915b9e3b74d9cbe38a66fcdf4b8cb,3,0.47,0.846,0.471,architecture
+"Mean reduction, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/41abc47459fa4a35833024ac1fc45e66,4,0.4991,0.833,0.252,architecture
+"Mean reduction, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/c02560a71e6243c386e559418436345a,5,0.4947,0.851,0.406,architecture
+Logistic Regression,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/600126f2a47f44139ce315545825b8f7,1,0.6497,0.905,0.474,architecture
+Logistic Regression,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8a327ed486854ca9a0079d55ad0f970a,2,0.6538,0.911,0.492,architecture
+Logistic Regression,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/6fc75a8f13504bc599df9a3edc41aed3,3,0.643,0.904,0.445,architecture
+Logistic Regression,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/f9d76bc0bbee4267ba613e01411274cf,4,0.6603,0.908,0.484,architecture
+Logistic Regression,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/e34f003127cf469eb8d0c22b0a5d33f3,5,0.658,0.912,0.458,architecture
+"Logistic Regression, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/482a96b0c31947538a51b52c758c6a59,1,0.6429,0.815,0.303,architecture
+"Logistic Regression, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/f374cd3ef2e84b97ab24988eff030f37,2,0.6371,0.848,0.412,architecture
+"Logistic Regression, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/2d527c0b0ab14b37aea59f47da9a4901,3,0.6216,0.825,0.322,architecture
+"Logistic Regression, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9f05fcbef57148a4963cfe800b4e1b0c,4,0.6403,0.873,0.553,architecture
+"Logistic Regression, no residue padding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/995c9ba27d88472dbb44cd26dd1d4547,5,0.6327,0.837,0.364,architecture
+"Logistic Regression, one-hot encoding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a0c36f2013a94b95aeab633bbb0cd4c1,1,0.6362,0.795,0.235,architecture
+"Logistic Regression, one-hot encoding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/bcf2aa15d9fe491aa835e50ef23e6e9c,2,0.6481,0.803,0.284,architecture
+"Logistic Regression, one-hot encoding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8aa9120aaf20420fa8d53e159b3fe64b,3,0.6387,0.793,0.266,architecture
+"Logistic Regression, one-hot encoding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/41cf2c3d1fcd42a58633f1491978d368,4,0.6463,0.798,0.264,architecture
+"Logistic Regression, one-hot encoding",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ae4257e036ec47cf813adebdf23c70e1,5,0.6415,0.793,0.222,architecture
+"Non-hydrophobic, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/9ce7f66eb6f24268b4c941b5db0d9ce0,1,0.6541,0.909,0.449,padding
+"Non-hydrophobic, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ab1952d5a68a4a66bcd988af8ce5d6a4,2,0.6779,0.906,0.458,padding
+"Non-hydrophobic, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4ec1088b6f484939bb7c71c1ec7ceaca,3,0.6717,0.913,0.406,padding
+"Non-hydrophobic, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,4,0.6865,0.919,0.419,padding
+"Non-hydrophobic, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a72943900a454e0a9df0f6d7f07d5e0e,5,0.702,0.914,0.436,padding
+"Non-hydrophobic, 5 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/80ca906f87274760a51d3eae6b8faba7,1,0.5802,0.917,0.477,padding
+"Non-hydrophobic, 5 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/e49fdd3496a44e2b909da310f5d97fa8,2,0.5471,0.913,0.466,padding
+"Non-hydrophobic, 5 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/1f605795ae4f4cd58b407a2776ebbecb,3,0.5586,0.899,0.6,padding
+"Non-hydrophobic, 5 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4b9f42f34cc34fe68bdf006c01722ede,4,0.5681,0.918,0.401,padding
+"Non-hydrophobic, 5 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8a1be93121724e958e73fad01f081583,5,0.5357,0.922,0.498,padding
+"Non-hydrophobic, 20 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/2415770555aa4490a96f5cf0bb67d38a,1,0.6503,0.887,0.413,padding
+"Non-hydrophobic, 20 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/db626c2abc1c4939bf151d884529e681,2,0.6539,0.889,0.494,padding
+"Non-hydrophobic, 20 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/25829dc092bd450884d384190f6774d7,3,0.6533,0.885,0.388,padding
+"Non-hydrophobic, 20 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8e553e1c39fd40cda41547069047461a,4,0.6729,0.892,0.432,padding
+"Non-hydrophobic, 20 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/99e6206a00aa46fa8ff1a2a26ac272f6,5,0.6661,0.888,0.406,padding
+"WaltzDB negative, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/5e0b043d9ff84dd88615b1b1399b2329,1,0.5639,0.879,0.363,padding
+"WaltzDB negative, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/f3e24d862df4452dbfa34387c32512d3,2,0.5346,0.871,0.406,padding
+"WaltzDB negative, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/96d028f431a04db5888e55a8e48dc288,3,0.5248,0.837,0.428,padding
+"WaltzDB negative, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/8df21dc017d54b71b60904dc39970305,4,0.5211,0.876,0.609,padding
+"WaltzDB negative, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/955a1550ec9c4f9099cd271ba6d73972,5,0.5721,0.842,0.4,padding
+"Random, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ac20b0b8eb914d27bcab8de80e6a7db4,1,0.5999,0.893,0.536,padding
+"Random, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/20540e4324dc4676a17522debbe52ccd,2,0.5611,0.88,0.375,padding
+"Random, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/49606b9dce334fff8d65492118c07779,3,0.5627,0.898,0.448,padding
+"Random, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/a34b9011a9204557b52c6e276d574756,4,0.5801,0.911,0.635,padding
+"Random, 10 aa",https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/4ab9abdd1ad64bee80b0e2fa5744645a,5,0.6049,0.861,0.481,padding
+No padding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/273809c56c1846f88a4997dd350f43bb,1,0.6261,0.808,0.268,padding
+No padding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/e7389565341f475d980bfc083d9d6449,2,0.637,0.819,0.18,padding
+No padding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/ec43c8beb97546b4bb02a8c0d7306a21,3,0.6353,0.815,0.31,padding
+No padding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/c8abbdfba52c415bb9ce7042970242b6,4,0.63,0.828,0.278,padding
+No padding,https://datalab.corp.novocorp.net/mlflow/#/experiments/380/runs/231e3083b43145859c1b40b347ffb68f,5,0.6369,0.827,0.288,padding

@@ -1,0 +1,25 @@
+class_name: LogisticRegression
+model_name: null
+mem_per_job: 8.0
+model_type: classification_binary
+residue_prediction_mode: false
+hparams:
+  C: null
+  penalty: null
+  solver: null
+  class_weight: null
+hparam_tuning:
+  n_splits: 5
+  C_values:
+    - 0.01
+    - 0.1
+    - 1.0
+    - 10.0
+    - 100.0
+  penalties:
+    - l1
+    - l2
+  solver: saga
+  max_iter: 10000
+  class_weight: null # the only other option that is supported is 'balanced'
+

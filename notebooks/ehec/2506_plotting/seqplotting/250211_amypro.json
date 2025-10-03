@@ -1,0 +1,3114 @@
+[
+    {
+        "entry_id": "AP00055",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19345193",
+            "22561191"
+        ],
+        "protein_name": "Nup100",
+        "prion_domain": "True",
+        "class_name": "not known",
+        "uniprot_id": "Q02629",
+        "sequence": "MFGNNRPMFGGSNLSFGSNTSSFGGQQSQQPNSLFGNSNNNNNSTSNNAQSGFGGFTSAAGSNSNSLFGNNNTQNNGAFGQSMGATQNSPFGSLNSSNASNGNTFGGSSSMGSFGGNTNNAFNNNSNSTNSPFGFNKPNTGGTLFGSQNNNSAGTSSLFGGQSTSTTGTFGNTGSSFGTGLNGNGSNIFGAGNNSQSNTTGSLFGNQQSSAFGTNNQQGSLFGQQSQNTNNAFGNQNQLGGSSFGSKPVGSGSLFGQSNNTLGNTTNNRNGLFGQMNSSNQGSSNSGLFGQNSMNSSTQGVFGQNNNQMQINGNNNNSLFGKANTFSNSASGGLFGQNNQQQGSGLFGQNSQTSGSSGLFGQNNQKQPNTFTQSNTGIGLFGQNNNQQQQSTGLFGAKPAGTTGSLFGGNSSTQPNSLFGTTNVPTSNTQSQQGNSLFGATKLTNMPFGGNPTANQSGSGNSLFGTKPASTTGSLFGNNTASTTVPSTNGLFGNNANNSTSTTNTGLFGAKPDSQSKPALGGGLFGNSNSNSSTIGQNKPVFGGTTQNTGLFGATGTNSSAVGSTGKLFGQNNNTLNVGTQNVPPVNNTTQNALLGTTAVPSLQQAPVTNEQLFSKISIPNSITNPVKATTSKVNADMKRNSSLTSAYRLAPKPLFAPSSNGDAKFQKWGKTLERSDRGSSTSNSITDPESSYLNSNDLLFDPDRRYLKHLVIKNNKNLNVINHNDDEASKVKLVTFTTESASKDDQASSSIAASKLTEKAHSPQTDLKDDHDESTPDPQSKSPNGSTSIPMIENEKISSKVPGLLSNDVTFFKNNYYISPSIETLGNKSLIELRKINNLVIGHRNYGKVEFLEPVDLLNTPLDTLCGDLVTFGPKSCSIYENCSIKPEKGEGINVRCRVTLYSCFPIDKETRKPIKNITHPLLKRSIAKLKENPVYKFESYDPVTGTYSYTIDHPVLT",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "300-400",
+                "region_sequence": "GVFGQNNNQMQINGNNNNSLFGKANTFSNSASGGLFGQNNQQQGSGLFGQNSQTSGSSGLFGQNNQKQPNTFTQSNTGIGLFGQNNNQQQQSTGLFGAKPA"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Yeast nucleoporin able to form bona fide prions. The associated benefits are unknown."
+    },
+    {
+        "entry_id": "AP00054",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19345193",
+            "21453424"
+        ],
+        "protein_name": "New1",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "Q08972",
+        "sequence": "MPPKKFKDLNSFLDDQPKDPNLVASPFGGYFKNPAADAGSNNASKKSSYQQQRNWKQGGNYQQGGYQSYNSNYNNYNNYNNYNNYNNYNNYNKYNGQGYQKSTYKQSAVTPNQSGTPTPSASTTSLTSLNEKLSNLELTPISQFLSKIPECQSITDCKNQIKLIIEEFGKEGNSTGEKIEEWKIVDVLSKFIKPKNPSLVRESAMLIISNIAQFFSGKPPQEAYLLPFFNVALDCISDKENTVKRAAQHAIDSLLNCFPMEALTCFVLPTILDYLSSGAKWQAKMAALSVVDRIREDSANDLLELTFKDAVPVLTDVATDFKPELAKQGYKTLLDYVSILDNLDLSPRYKLIVDTLQDPSKVPESVKSLSSVTFVAEVTEPSLSLLVPILNRSLNLSSSSQEQLRQTVIVVENLTRLVNNRNEIESFIPLLLPGIQKVVDTASLPEVRELAEKALNVLKEDDEADKENKFSGRLTLEEGRDFLLDHLKDIKADDSCFVKPYMNDETVIKYMSKILTVDSNVNDWKRLEDFLTAVFGGSDSQREFVKQDFIHNLRALFYQEKERADEDEGIEIVNTDFSLAYGSRMLLNKTNLRLLKGHRYGLCGRNGAGKSTLMRAIANGQLDGFPDKDTLRTCFVEHKLQGEEGDLDLVSFIALDEELQSTSREEIAAALESVGFDEERRAQTVGSLSGGWKMKLELARAMLQKADILLLDEPTNHLDVSNVKWLEEYLLEHTDITSLIVSHDSGFLDTVCTDIIHYENKKLAYYKGNLAAFVEQKPEAKSYYTLTDSNAQMRFPPPGILTGVKSNTRAVAKMTDVTFSYPGAQKPSLSHVSCSLSLSSRVACLGPNGAGKSTLIKLLTGELVPNEGKVEKHPNLRIGYIAQHALQHVNEHKEKTANQYLQWRYQFGDDREVLLKESRKISEDEKEMMTKEIDIDDGRGKRAIEAIVGRQKLKKSFQYEVKWKYWKPKYNSWVPKDVLVEHGFEKLVQKFDDHEASREGLGYRELIPSVITKHFEDVGLDSEIANHTPLGSLSGGQLVKVVIAGAMWNNPHLLVLDEPTNYLDRDSLGALAVAIRDWSGGVVMISHNNEFVGALCPEQWIVENGKMVQKGSAQVDQSKFEDGGNADAVGLKASNLAKPSVDDDDSPANIKVKQRKKRLTRNEKKLQAERRRLRYIEWLSSPKGTPKPVDTDDEED",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-153",
+                "region_sequence": "MPPKKFKDLNSFLDDQPKDPNLVASPFGGYFKNPAADAGSNNASKKSSYQQQRNWKQGGNYQQGGYQSYNSNYNNYNNYNNYNNYNNYNNYNKYNGQGYQKSTYKQSAVTPNQSGTPTPSASTTSLTSLNEKLSNLELTPISQFLSKIPECQS"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. New1 potentially has a regulatory role in prion state in yeast, working independently of the Hsp104 system."
+    },
+    {
+        "entry_id": "AP00057",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24981173"
+        ],
+        "protein_name": "Tia1",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P52912",
+        "sequence": "MEDEMPKTLYVGNLSRDVTEALILQLFSQIGPCKNCKMIMDTAGNDPYCFVEFHEHRHAAAALAAMNGRKIMGKEVKVNWATTPSSQKKDTSSSTVVSTQRSQDHFHVFVGDLSPEITTEDIKAAFAPFGRISDARVVKDMATGKSKGYGFVSFFNKWDAENAIQQMGGQWLGGRQIRTNWATRKPPAPKSTYESNTKQLSYDEVVSQSSPNNCTVYCGGVTSGLTEQLMRQTFSPFGQIMEIRVFPDKGYSFVRFSSHESAAHAIVSVNGTTIEGHVVKCYWGKETLDMINPVQQQNQIGYPPTYGQWGQWYGNAQQIGQYVPNGWQVPAYGVYGQPWSQQGFNQTQSSAPWMGPNYSVPPPQGQNGSMLPSQPAGYRVAGYETQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "290-386",
+                "region_sequence": "MINPVQQQNQIGYPPTYGQWGQWYGNAQQIGQYVPNGWQVPAYGVYGQPWSQQGFNQTQSSAPWMGPNYSVPPPQGQNGSMLPSQPAGYRVAGYETQ"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Mus musculus",
+        "description": "Tia1/Pub1 is a stress granule component carrying a Q/N-rich prion domain. Tia1 forms a prion in yeast. Moreover, it acts cooperatively with release factor Sup35/eRF3 to establish a two-protein self-propagating state. This complex is most probably implicated in protein synthesis at the site of microtubule assembly."
+    },
+    {
+        "entry_id": "AP00056",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19345193",
+            "23512891"
+        ],
+        "protein_name": "Lsm4",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P40070",
+        "sequence": "MLPLYLLTNAKGQQMQIELKNGEIIQGILTNVDNWMNLTLSNVTEYSEESAINSEDNAESSKAVKLNEIYIRGTFIKFIKLQDNIIDKVKQQINSNNNSNSNGPGHKRYYNNRDSNNNRGNYNRRNNNNGNSNRRPYSQNRQYNNSNSSNINNSINSINSNNQNMNNGLGGSVQHHFNSSSPQKVEF",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "91-187",
+                "region_sequence": "QQINSNNNSNSNGPGHKRYYNNRDSNNNRGNYNRRNNNNGNSNRRPYSQNRQYNNSNSSNINNSINSINSNNQNMNNGLGGSVQHHFNSSSPQKVEF"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. Lsm4 forms an amyloid in vivo, which seems to play a crucial role in the elimination of the three major prions [PSI+], [URE3], and [RNQ+]."
+    },
+    {
+        "entry_id": "AP00051",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "25229478"
+        ],
+        "protein_name": "Egg envelope protein ZP2",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q9PWC8",
+        "sequence": "SPHWKHGRHPHRPHHPHGLTVQQSDYLIKEIVQPQVSQPLPVRVEEVVVKAGPVDKCSVADLGQIQCGPPGISGPDCEAINCCFNGQQCYYGNAVTVQCIRDGQFVVVVARDVTVPRLSLDTVSLLGGNDPPCSPVASNPYFAVYQFPVSACGTNVIEQRGHVVYENRMVSSYEVAMGPLGSITRDSQFEVLFQCRYSNTAVEALVVEVNAIRAPPPVAALGPLRVELRLANGQCVTKGCAEGDEVYTSYYNEADYPVTKVLREPVYVDVHILERTDPNIVLMLGNCWATSTPNPLSVPRWDLLVNGCPNQDDRYLTTLVPVTASSGVHFPNHHKRFIVKMFTFVDPQSLSPVQQMVFIHCNTAVCYPSAAGSCEQSCARKRRAVPDMPISNENTVSSGAVTFVL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "95-100",
+                "region_sequence": "VTVQCI"
+            },
+            "region_2": {
+                "region_indices": "189-195",
+                "region_sequence": "FEVLFQC"
+            }
+        },
+        "uniprot_end": "428",
+        "uniprot_start": "24",
+        "species": "Danio rerio",
+        "description": "Formation of the zona pellucida (ZP), that is an extracellular matrix surrounding and protecting mammalian and fish oocytes. ZP is also responsible for sperm binding."
+    },
+    {
+        "entry_id": "AP00050",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24069181"
+        ],
+        "protein_name": "Zona pellucida sperm-binding protein 1",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P60852",
+        "sequence": "RWLQPDPGLPGLRHSYDCGIKGMQLLVFPRPGQTLRFKVVDEFGNRFDVNNCSICYHWVTSRPQEPAVFSADYRGCHVLEKDGRFHLRVFMEAVLPNGRVDVAQDATLICPKPDPSRTLDSQLAPPAMFSVSTPQTLSFLPTSGHTSQGSGHAFPSPLDPGHSSVHPTPALPSPGPGPTLATLAQPHWGTLEHWDVNKRDYIGTHLSQEQCQVASGHLPCIVRRTSKEACQQAGCCYDNTREVPCYYGNTATVQCFRDGYFVLVVSQEMALTHRITLANIHLAYAPTSCSPTQHTEAFVVFYFPLTHCGTTMQVAGDQLIYENWLVSGIHIQKGPQGSITRDSTFQLHVRCVFNASDFLPIQASIFPPPSPAPMTQPGPLRLELRIAKDETFSSYYGEDDYPIVRLLREPVHVEVRLLQRTDPNLVLLLHQCWGAPSANPFQQPQWPILSDGCPFKGDSYRTQMVALDGATPFQSHYQRFTVATFALLDSGSQRALRGLVYLFCSTSACHTSGLETCSTACSTGTTRQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "251-256",
+                "region_sequence": "ATVQCF"
+            },
+            "region_2": {
+                "region_indices": "345-351",
+                "region_sequence": "FQLHVRC"
+            }
+        },
+        "uniprot_end": "553",
+        "uniprot_start": "26",
+        "species": "Homo sapiens",
+        "description": "Formation of the zona pellucida (ZP), that is an extracellular matrix surrounding and protecting mammalian and fish oocytes. ZP is also responsible for sperm binding."
+    },
+    {
+        "entry_id": "AP00053",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "23540696"
+        ],
+        "protein_name": "Mot3",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P54785",
+        "sequence": "MNADHHLQQQQQQRQQHQQQQHQQQQHQHQHQQQQHTILQNVSNTNNIGSDSLASQPFNTTTVSSNKDDVMVNSGARELPMPLHQQQYIYPYYQYTSNNSNNNNVTAGNNMSASPIVHNNSNNSNNSNISASDYTVANNSTSNNNNNNNNNNNNNNNIHPNQFTAAANMNSNAAAAAYYSFPTANMPIPQQDQQYMFNPASYISHYYSAVNSNNNGNNAANNGSNNSSHSAPAPAPGPPHHHHHHSNTHNNLNNGGAVNTNNAPQHHPTIITDQFQFQLQQNPSPNLNLNINPAQPLHLPPGWKINTMPQPRPTTAPNHPPAPVPSSNPVASNLVPAPSSDHKYIHQCQFCEKSFKRKSWLKRHLLSHSQQRHFLCPWCLSRQKRKDNLLQHMKLKHTNYLLDELKKNNIIFNYNNSSSSNNNNDNNNNNNSNSASGSGGAGAAAAAATAPENEDGNGYDTNIKTLINDGVLNKDDVKRVLNNLIVSHNK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "7-157",
+                "region_sequence": "LQQQQQQRQQHQQQQHQQQQHQHQHQQQQHTILQNVSNTNNIGSDSLASQPFNTTTVSSNKDDVMVNSGARELPMPLHQQQYIYPYYQYTSNNSNNNNVTAGNNMSASPIVHNNSNNSNNSNISASDYTVANNSTSNNNNNNNNNNNNNNN"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. The prion formed by the Mot3 transcription factor, [MOT3+], governs the acquisition of facultative multicellularity in the budding yeast."
+    },
+    {
+        "entry_id": "AP00052",
+        "pdb_id": "3EPH",
+        "pubmed_ids": [
+            "22517861"
+        ],
+        "protein_name": "Mod5",
+        "prion_domain": "False",
+        "class_name": "functional prion",
+        "uniprot_id": "P07884",
+        "sequence": "MLKGPLKGCLNMSKKVIVIAGTTGVGKSQLSIQLAQKFNGEVINSDSMQVYKDIPIITNKHPLQEREGIPHHVMNHVDWSEEYYSHRFETECMNAIEDIHRRGKIPIVVGGTHYYLQTLFNKRVDTKSSERKLTRKQLDILESTDPDVIYNTLVKCDPDIATKYHPNDYRRVQRMLEIYYKTGKKPSETFNEQKITLKFDTLFLWLYSKPEPLFQRLDDRVDDMLERGALQEIKQLYEYYSQNKFTPEQCENGVWQVIGFKEFLPWLTGKTDDNTVKLEDCIERMKTRTRQYAKRQVKWIKKMLIPDIKGDIYLLDATDLSQWDTNASQRAIAISNDFISNRPIKQERAPKALEELLSKGETTMKKLDDWTHYTCNVCRNADGKNVVAIGEKYWKIHLGSRRHKSNLKRNTRQADFEKWKINKKETVE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "199-207",
+                "region_sequence": "FDTLFLWLY"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. The Mod5 prion conversion in yeast regulates the sterol biosynthetic pathway for acquired cellular resistance against antifungal agents."
+    },
+    {
+        "entry_id": "AP00059",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "14697205",
+            "21270333"
+        ],
+        "protein_name": "Neuronal cytoplasmic polyadenylation element-binding protein, CPEB Isoform-1",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "Q967R6",
+        "sequence": "MSQSPQTVDQAISVKTDYEDNQQEHIPSNFEIFRRINALLDNSLEANNVSCSQSQSQQQQQQTQQQQQQQQQQQQQQHLQQVQQQQLLKQQQQQAQQQQIQQQLLQQQQQKQQLQQQQQQEQLQQQQLQLQQQLQQQLQHIQKEPSSHTYTPGPSPELQSVLNYANVPLSKSAAFNCNNSSSYSVGPTPVQSPVTPSPAASAVTVNSPSYGNFQLFGENAFDSTTPFQSDGTSQSHSRSLANDSDPMVVMSPGRDSIIPLSPTEKILYQNFLLSKQAQGENTALPPSPPHEIMPLSPLEKKLYSNLLSKHTQGMRAINSTSPLQTPLTPPRSPQEVLYASMPAAQVGESSSVIDMMSRMDLSGRNQQADYSGTLAFLDAHNVLRRRTPSSSRSRSVMERSAPSSYFANLDPYAIDRAARLHRNAAAVGEASCTWSGHLPPRNHENPVYSPKVFLGGVPWDITESGLQAAFSKYGHLKIEWPGKDGYVHLLFDVEKSVRSLLQACTHDFSNGDYFYKISSRRMRSKEVQVIPWVLADSNHVFQPSQRLESNKTVFVGALHGMITAEALGRIMSDLFGNVVYAGIDTDKHKYPIGSGRVTFSSRKSYMKAVQAAFVEIKTPKFTKKLQVDPYLGDAICSLCNSHQGNYFCRDLLCFKYLCRSCWYWQHAPDSMRQHRPLTRNTKSSLSL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-128",
+                "region_sequence": "MSQSPQTVDQAISVKTDYEDNQQEHIPSNFEIFRRINALLDNSLEANNVSCSQSQSQQQQQQTQQQQQQQQQQQQQQHLQQVQQQQLLKQQQQQAQQQQIQQQLLQQQQQKQQLQQQQQQEQLQQQQL"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Aplysia californica",
+        "description": "Role in learning and memory. CPEB employs a prion mechanism to create stable, finely tuned self-perpetuating biochemical memories, which might be used in the local homeostatic maintenance of long-term learning-related changes in synaptic morphology and function."
+    },
+    {
+        "entry_id": "AP00058",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "25611193"
+        ],
+        "protein_name": "Nab3",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P38996",
+        "sequence": "MSDENHNSDVQDIPSPELSVDSNSNENELMNNSSADDGIEFDAPEEEREAEREEENEEQHELEDVNDEEEEDKEEKGEENGEVINTEEEEEEEHQQKGGNDDDDDDNEEEEEEEEDDDDDDDDDDDDEEEEEEEEEEGNDNSSVGSDSAAEDGEDEEDKKDKTKDKEVELRRETLEKEQKDVDEAIKKITREENDNTHFPTNMENVNYDLLQKQVKYIMDSNMLNLPQFQHLPQEEKMSAILAMLNSNSDTALSVPPHDSTISTTASASATSGARSNDQRKPPLSDAQRRMRFPRADLSKPITEEEHDRYAAYLHGENKITEMHNIPPKSRLFIGNLPLKNVSKEDLFRIFSPYGHIMQINIKNAFGFIQFDNPQSVRDAIECESQEMNFGKKLILEVSSSNARPQFDHGDHGTNSSSTFISSAKRPFQTESGDMYNDDNGAGYKKSRRHTVSCNIFVKRTADRTYAIEVFNRFRDGTGLETDMIFLKPRMELGKLINDAAYNGVWGVVLVNKTHNVDVQTFYKGSQGETKFDEYISISADDAVAIFNNIKNNRNNSRPTDYRAMSHQQNIYGAPPLPVPNGPAVGPPPQTNYYQGYSMPPPQQQQQQPYGNYGMPPPSHDQGYGSQPPIPMNQSYGRYQTSIPPPPPQQQIPQGYGRYQAGPPPQPPSQTPMDQQQLLSAIQNLPPNVVSNLLSMAQQQQQQPHAQQQLVGLIQSMQGQAPQQQQQQLGGYSSMNSSSPPPMSTNYNGQNISAKPSAPPMSHQPPPPQQQQQQQQQQQQQQQQPAGNNVQSLLDSLAKLQK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "669-802",
+                "region_sequence": "SQTPMDQQQLLSAIQNLPPNVVSNLLSMAQQQQQQPHAQQQLVGLIQSMQGQAPQQQQQQLGGYSSMNSSSPPPMSTNYNGQNISAKPSAPPMSHQPPPPQQQQQQQQQQQQQQQQPAGNNVQSLLDSLAKLQK"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. RNA binding protein with a low complexity domain formimg a dynamic subcellular matrix in which RNA metabolism takes place."
+    },
+    {
+        "entry_id": "AP00114",
+        "pdb_id": "3ZC9",
+        "pubmed_ids": [
+            "24265134"
+        ],
+        "protein_name": "Miraculin-like protein",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "D2YW43",
+        "sequence": "DPLLDINGNVVEASRDYYLVSVIGGAGGGGLTLYRGRNELCPLDVIQLSPDLHKGTRLRFAAYNNTSIIHEAVDLNVKFSTETSCNEPTVWRVDNYDPSRGKWFITTGGVEGNPGAQTLKNWFKLERVGTDQGTYEIVHCPSVCKSCVFLCNDVGVSYDYRRRLALTAGNERVFGVVIVPANEGSASCVS",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Murraya koenigii",
+        "description": "Miraculin-like proteins, belonging to the Kunitz superfamily, are natural plant defense agents against pests and predators. Murraya koenigii miraculin-like protein (MKMLP) gradually precipitates below pH 7.5 and forms amyloid fibres."
+    },
+    {
+        "entry_id": "AP00115",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24415538"
+        ],
+        "protein_name": "Leukocyte cell-derived chemotaxin 2, LECT2",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "O14960",
+        "sequence": "GPWANICAGKSSNEIRTCDRHGCGQYSAQRSQRPHQGVDILCSAGSTVYAPFTGMIVGQEKPYQNKNAINNGVRISGRGFCVKMFYIKPIKYKGPIKKGEKLGTLLPLQKVYPGIQSHVHIENCDSSDPTAYL",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "151",
+        "uniprot_start": "19",
+        "species": "Homo sapiens",
+        "description": "Common cause of hepatic amyloidosis in the USA."
+    },
+    {
+        "entry_id": "AP00116",
+        "pdb_id": "2LSH",
+        "pubmed_ids": [
+            "23137797"
+        ],
+        "protein_name": "DewA class I hydrophobin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P52750",
+        "sequence": "LPASAAKNAKLATSAAFAKQAEGTTCNVGSIACCNSPAETNNDSLLSGLLGAGLLNGLSGNTGSACAKASLIDQLGLLALVDHTEEGPVCKNIVACCPEGTTNCVAVDNAGAGTKAE",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "135",
+        "uniprot_start": "19",
+        "species": "Aspergillus nidulans",
+        "description": "DewA is a highly surface-active protein that spontaneously self-assembles into amphipathic monolayers at hydrophobic:hydrophilic interfaces. These monolayers are composed of fibrils that are a form of functional amyloid. Predicted region of amyloid fibre formation: 68-81."
+    },
+    {
+        "entry_id": "AP00117",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19345193",
+            "23926098",
+            "25549323",
+            "20118659",
+            "24981173"
+        ],
+        "protein_name": "Pub1",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P32588",
+        "sequence": "SENNEEQHQQQQQQQPVAVETPSAVEAPASADPSSEQSVAVEGNSEQAEDNQGENDPSVVPANAITGGRETSDRVLYVGNLDKAITEDILKQYFQVGGPIANIKIMIDKNNKNVNYAFVEYHQSHDANIALQTLNGKQIENNIVKINWAFQSQQSSSDDTFNLFVGDLNVNVDDETLRNAFKDFPSYLSGHVMWDMQTGSSRGYGFVSFTSQDDAQNAMDSMQGQDLNGRPLRINWAAKRDNNNNNNYQQRRNYGNNNRGGFRQYNSNNNNNMNMGMNMNMNMNMNNSRGMPPSSMGMPIGAMPLPSQGQPQQSQTIGLPPQVNPQAVDHIIRSAPPRVTTAYIGNIPHFATEADLIPLFQNFGFILDFKHYPEKGCCFIKYDTHEQAAVCIVALANFPFQGRNLRTGWGKERSNFMPQQQQQGGQPLIMNDQQQPVMSEQQQQQQQQQQQQ",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "453",
+        "uniprot_start": "2",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Tia1/Pub1 is a stress granule component carrying a Q/N-rich prion domain. Tubulin-associated complex containing Pub1 and Sup35 oligomers normally exists in yeast, and its assembly depends on prion domains of Pub1 and Sup35. This Sup35/Pub1 complex, which also contains TUB1 mRNA and components of translation machinery, is important for the integrity of the tubulin cytoskeleton."
+    },
+    {
+        "entry_id": "AP00110",
+        "pdb_id": "5C9K",
+        "pubmed_ids": [
+            "19941869"
+        ],
+        "protein_name": "Amyloid lambda 6 light chain variable region PIP, 6aJL2, mutant",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q96JD1",
+        "sequence": "NFMLTQPHSVSESPGKTITISCTRSSGSIASNYVQWYQQRPGSAPTTVIYEDNQRPSGVPDRFSGSIDSSSNSASLTISGLKTEDEADYYCQSYDSNNYALFGGGTQLTVLG",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in AL amyloidosis/multiple myeloma."
+    },
+    {
+        "entry_id": "AP00111",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19636854",
+            "24107228"
+        ],
+        "protein_name": "Amyloid lambda 6 light chain IGLV6-57",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "A0A075B6I2",
+        "sequence": "NFMLTQPHSVSESPGKTVTISCTGSSGSIASNYVQWYQQRPGSAPTTVIYEDNQRPSGVPDRFSGSIDSSSNSASLTISGLKTEDEADYYCQSYDSSNHTVLQTHGEVRQKLPRASLPGPVSACLHRRG",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "148",
+        "uniprot_start": "20",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in AL amyloidosis/multiple myeloma."
+    },
+    {
+        "entry_id": "AP00112",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "20080671",
+            "23632024"
+        ],
+        "protein_name": "Spore coat-associated protein N TasA",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P54507",
+        "sequence": "AFNDIKSKDATFASGTLDLSAKENSASVNLSNLKPGDKLTKDFQFENNGSLAIKEVLMALNYGDFKANGGSNTSPEDFLSQFEVTLLTVGKEGGNGYPKNIILDDANLKDLYLMSAKNDAAAAEKIKKQIDPKFLNASGKVNVATIDGKTAPEYDGVPKTPTDFDQVQMEIQFKDDKTKDEKGLMVQNKYQGNSIKLQFSFEATQWNGLTIKKDHTDKDGYVKENEKAHSEDKN",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "261",
+        "uniprot_start": "28",
+        "species": "Bacillus subtilis",
+        "description": "Bacterial biofilm formation."
+    },
+    {
+        "entry_id": "AP00113",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26160665"
+        ],
+        "protein_name": "HNRPDL",
+        "prion_domain": "True",
+        "class_name": "pathogenic",
+        "uniprot_id": "O14979",
+        "sequence": "MEVPPRLSHVPPPLFPSAPATLASRSLSHWRPRPPRQLAPLLPSLAPSSARQGARRAQRHVTAQQPSRLAGGAAIKGGRRRRPDLFRRHFKSSSIQRSAAAAAATRTARQHPPADSSVTMEDMNEYSNIEEFAEGSKINASKNQQDDGKMFIGGLSWDTSKKDLTEYLSRFGEVVDCTIKTDPVTGRSRGFGFVLFKDAASVDKVLELKEHKLDGKLIDPKRAKALKGKEPPKKVFVGGLSPDTSEEQIKEYFGAFGEIENIELPMDTKTNERRGFCFITYTDEEPVKKLLESRYHQIGSGKCEIKVAQPKEVYRQQQQQQKGGRGAAAGGRGGTRGRGRGQGQNWNQGFNNYYDQGYGNYNSAYGGDQNYSGYGGYDYTGYNYGNYGYGQGYADYSGQQSTYGKASRGGGNHQNNYQPY",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "HNRPDL is linked to the development of limb-girdle muscular dystrophy 1G. HNRPDL inclusion bodies display characteristic amyloid hallmarks and are highly neurotoxic."
+    },
+    {
+        "entry_id": "AP00118",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19345193",
+            "26411291"
+        ],
+        "protein_name": "Meiotic activator Rim4",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P38741",
+        "sequence": "MKTEISTADSLRDPPSNGLKADSELVIREDIDQFLPSEVSSLGSDHQNDGEDSDTDSDNFLQDPEDDVDEESTGRGTVTTTSTSTESRGRPSSCIFVASLAAALSDDELCLSVTENFKKYGDLARVKVLRDNANRPYAFVQYNNDHDAKHALIRAQGTLLNGRRLRCEPAKVNRTLYLKNQQSIDFNEISQICEKFGGLEQIVPDRTDNQYTRRYTYPISSANSWFVQFVYRDDAIRAYANLRTDPNWIIEWAQNINVPKNYNLLHKSKFKSSKYHQNNGIINNDGSNNNDNNNSNNNNREDSRRNGDVIEEECGHVHGSDSEEKLTSDGIYDDEDKDSEITIDKRSIFVGQLDKETTREELNRRFSTHGKIQDINLIFKPTNIFAFIKYETEEAAAAALESENHAIFLNKTMHVQYKEVGGRHNRKFSGKNGGSNFNHHQFFSTRSGKTFTGPELNLAPPPINMYRKMSGGSQQESETMMPYMPMGPMPMGPPPPNAASLSDFDMFPPSYSTFMKGMMPLRRKSMPNSWSSPSSKSVNSENESVNGGDENSELPSEIPESSGRYNAANSFTTYNNSSAGNSNNNNNNNNSNSNKSQYKKRYARRSSYGYNEVPPKPYYFQPYYYHPMQYHMGPMGPLHPSQGSAGNHHPYMMVYPMSPPPPSGLDGSMIPPPINVSQSHAANHGSTHVHANEFISNDTGDINEDNKAYSLDY",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Rim4 forms amyloid-like aggregates and it is the amyloid-like form of Rim4 that is the active, translationally repressive form of the protein. Rim4 aggregation is a developmentally regulated process. Starvation induces the conversion of monomeric Rim4 into amyloid-like aggregates, thereby activating the protein to bring about repression of translation."
+    },
+    {
+        "entry_id": "AP00119",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "23504942"
+        ],
+        "protein_name": "fapC",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "C4IN70",
+        "sequence": "GPAEKWKPTPAPTGTVAAAVTDTQVSKDNKFDDTKTLNNAGANGSLSNSKGNLGANIAAGSGNQQDNAAAITSSAGDAATVFAVADIYQESKDNKFTNKGTQNNALLNNSANNSSGNVGVNVAAGQGNQQKNNLAIVTADGKNVAAASNTEQVSLDNHFLNEASSKHSYKPQYVVNNAGLLNSANNASGNIGVNVAAGAGNQQSNTLTLGSGCTVCAAGTGSKLAF",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "250",
+        "uniprot_start": "25",
+        "species": "Pseudomonas sp. UK4",
+        "description": "Bacterial biofilm formation. FapC is the main fibril monomer."
+    },
+    {
+        "entry_id": "AP00042",
+        "pdb_id": "2FMC",
+        "pubmed_ids": [
+            "22308366"
+        ],
+        "protein_name": "Monomeric EAS class I hydrophobin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q04571",
+        "sequence": "ATTIGPNTCSIDDYKPYCCQSMSGPAGSPGLLNLIPVDLSASLGCVVGVIGSQCGASVKCCKDDVTNTGNSFLIINAANCVA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "70-76",
+                "region_sequence": "NSFLIIN"
+            }
+        },
+        "uniprot_end": "108",
+        "uniprot_start": "27",
+        "species": "Neurospora crassa",
+        "description": "Formation of fungal coat by self-assembly at the water-air interface."
+    },
+    {
+        "entry_id": "AP00043",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "18268327",
+            "10678178"
+        ],
+        "protein_name": "Rnq1p",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P25367",
+        "sequence": "MDTDKLISEAESHFSQGNHAEAVAKLTSAAQSNPNDEQMSTIESLIQKIAGYVMDNRSGGSDASQDRAAGGGSSFMNTLMADSKGSSQTQLGKLALLATVMTHSSNKGSSNRGFDVGTVMSMLSGSGGGSQSMGASGLAALASQFFKSGNNSQGQGQGQGQGQGQGQGQGQGSFTALASLASSFMNSNNNNQQGQNQSSGGSSFGALASMASSFMHSNNNQNSNNSQQGYNQSYQNGNQNSQGYNNQQYQGGNGGYQQQQGQSGGAFSSLASMAQSYLGGGQTQSNQQQYNQQGQNNQQQYQQQGQNYQHQQQGQQQQQGHSSSFSALASMASSYLGNNSNSNSSYGGQQQANEYGRPQQNGQQQSNEYGRPQYGGNQNSNGQHESFNFSGNFSQQNNNGNQNRY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "153-405",
+                "region_sequence": "QGQGQGQGQGQGQGQGQGQGSFTALASLASSFMNSNNNNQQGQNQSSGGSSFGALASMASSFMHSNNNQNSNNSQQGYNQSYQNGNQNSQGYNNQQYQGGNGGYQQQQGQSGGAFSSLASMAQSYLGGGQTQSNQQQYNQQGQNNQQQYQQQGQNYQHQQQGQQQQQGHSSSFSALASMASSYLGNNSNSNSSYGGQQQANEYGRPQQNGQQQSNEYGRPQYGGNQNSNGQHESFNFSGNFSQQNNNGNQNRY"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion [PIN+]. The [PIN(+)] prion increases the frequency with which the [PSI(+)] or [URE3] prions arise de novo."
+    },
+    {
+        "entry_id": "AP00040",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "15917245",
+            "26858708"
+        ],
+        "protein_name": "Microcin E492",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q9Z4N4",
+        "sequence": "GETDPNTQLLNDLGNNMAWGAALGAPGGLGSAALGAAGGALQTVGQGLIDHGPVNVPIPVLIGPSWNGSGSGYNSATSSSGSGS",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "54-63",
+                "region_sequence": "VNVPIPVLIG"
+            }
+        },
+        "uniprot_end": "99",
+        "uniprot_start": "16",
+        "species": "Klebsiella pneumoniae",
+        "description": "Channel-forming bacteriocin achieving its antimicrobial activity through membrane disruption."
+    },
+    {
+        "entry_id": "AP00041",
+        "pdb_id": "1GCN",
+        "pubmed_ids": [
+            "18339765"
+        ],
+        "protein_name": "Glucagon",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01275",
+        "sequence": "HSQGTFTSDYSKYLDSRRAQDFVQWLMNT",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-10",
+                "region_sequence": "HSQGTFTSDY"
+            }
+        },
+        "uniprot_end": "81",
+        "uniprot_start": "53",
+        "species": "Homo sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00046",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "17056273"
+        ],
+        "protein_name": "Chorion class A protein PC292",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P02846",
+        "sequence": "VQNVFGVCRGGLGLKGLAAPACGCGGLGYEGLGYGALGYDGLGYGAGWAGPACGSYGGEGIGNVAVAGELPVAGTTAVAGQVPIIGAVDFCGRANAGGCVSIGGRCTGCGCGCGSSYPY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "54-102",
+                "region_sequence": "GSYGGEGIGNVAVAGELPVAGTTAVAGQVPIIGAVDFCGRANAGGCVSI"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Antheraea polyphemus",
+        "description": "Silkmoth chorion is a natural protective amyloid."
+    },
+    {
+        "entry_id": "AP00047",
+        "pdb_id": "1WFB",
+        "pubmed_ids": [
+            "12524307"
+        ],
+        "protein_name": "Ice-structuring protein A",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P04002",
+        "sequence": "DTASDAAAAAALTAANAKAAAELTAANAAAAAAATAR",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-37",
+                "region_sequence": "DTASDAAAAAALTAANAKAAAELTAANAAAAAAATAR"
+            }
+        },
+        "uniprot_end": "81",
+        "uniprot_start": "45",
+        "species": "Pseudopleuronectes americanus",
+        "description": "Cold water fish survive at low temperatures by virtue of 'antifreeze' plasma proteins in the blood that bind to ice crystals and prevent these from growing."
+    },
+    {
+        "entry_id": "AP00044",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19219034"
+        ],
+        "protein_name": "Cyc8",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P14922",
+        "sequence": "MNPGGEQTIMEQPAQQQQQQQQQQQQQQQQAAVPQQPLDPLTQSTAETWLSIASLAETLGDGDRAAMAYDATLQFNPSSAKALTSLAHLYRSRDMFQRAAELYERALLVNPELSDVWATLGHCYLMLDDLQRAYNAYQQALYHLSNPNVPKLWHGIGILYDRYGSLDYAEEAFAKVLELDPHFEKANEIYFRLGIIYKHQGKWSQALECFRYILPQPPAPLQEWDIWFQLGSVLESMGEWQGAKEAYEHVLAQNQHHAKVLQQLGCLYGMSNVQFYDPQKALDYLLKSLEADPSDATTWYHLGRVHMIRTDYTAAYDAFQQAVNRDSRNPIFWCSIGVLYYQISQYRDALDAYTRAIRLNPYISEVWYDLGTLYETCNNQLSDALDAYKQAARLDVNNVHIRERLEALTKQLENPGNINKSNGAPTNASPAPPPVILQPTLQPNDQGNPLNTRISAQSANATASMVQQQHPAQQTPINSSATMYSNGASPQLQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAHAQAQAQAQAQAQAQAQAQAQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQLQPLPRQQLQQKGVSVQMLNPQQGQPYITQPTVIQAHQLQPFSTQAMEHPQSSQLPPQQQQLQSVQHPQQLQGQPQAQAPQPLIQHNVEQNVLPQKRYMEGAIHTLVDAAVSSSTHTENNTKSPRQPTHAIPTQAPATGITNAEPQVKKQKLNSPNSNINKLVNTATSIEENAKSEVSNQSPAVVESNTNNTSQEEKPVKANSIPSVIGAQEPPQEASPAEEATKAASVSPSTKPLNTEPESSSVQPTVSSESSTTKANDQSTAETIELSTATVPAEASPVEDEVRQHSKEENGTTEASAPSTEEAEPAASRDAEKQQDETAATTITVIKPTLETMETVKEEAKMREEEQTSQEKSPQENTLPRENVVRQVEEDENYDD",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "467-682",
+                "region_sequence": "QQQHPAQQTPINSSATMYSNGASPQLQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAHAQAQAQAQAQAQAQAQAQAQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQLQPLPRQQLQQKGVSVQMLNPQQGQPYITQPTVIQAHQLQPFSTQAMEHPQSSQLPPQQQQLQSVQHPQQLQGQPQAQAPQPLIQHNVEQNVLPQ"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Transient overproduction of a glutamine-rich region of Cyc8 induced a heritable dominant cyc8(-) phenotype that is transmitted cytoplasmically and is dependent on the chaperone Hsp104. Cyc8 prionization could lead to mass activation or repression of yeast genes."
+    },
+    {
+        "entry_id": "AP00045",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "21670156"
+        ],
+        "protein_name": "Swi1",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P09547",
+        "sequence": "MDFFNLNNNNNNNNTTTTTTTTNNNNTNNNNTNNNNNPANNTNNNNSTGHSSNTNNNTNNNNTNTGASGVDDFQNFFDPKPFDQNLDSNNNNSNSNNNDNNNSNTVASSTNFTSPTAVVNNAAPANVTGGKAANFIQNQSPQFNSPYDSNNSNTNLNSLSPQAILAKNSIIDSSNLPLQAQQQLYGGNNNNNSTGIANDNVITPHFITNVQSISQNSSSSTPNTNSNSTPNANQQFLPFNNSASNNGNLTSNQLISNYAASNSMDRSSSASNEFVPNTSDNNNNSNNHNMRNNSNNKTSNNNNVTAVPAATPANTNNSTSNANTVFSERAAMFAALQQKQQQRFQALQQQQQQQQNQQQQNQQPQQQQQQQQNPKFLQSQRQQQQRSILQSLNPALQEKISTELNNKQYELFMKSLIENCKKRNMPLQSIPEIGNRKINLFYLYMLVQKFGGADQVTRTQQWSMVAQRLQISDYQQLESIYFRILLPYERHMISQEGIKETQAKRIFLQQFLQELLKKVQQQQQAAALANANNNINSASSAPTPAAPGASVPATAAPGTEAGIVPVSANTPKSLNSNININVNNNNIGQQQVKKPRKQRVKKKTKKELELERKEREDFQKRQQKLLEDQQRQQKLLLETKLRQQYEIELKKLPKVYKRSIVRNYKPLINRLKHYNGYDINYISKIGEKIDSNKPIFLFAPELGAINLHALSMSLQSKNLGEINTALNTLLVTSADSNLKISLVKYPELLDSLAILGMNLLSNLSQNVVPYHRNTSDYYYEDAGSNQYYVTQHDKMVDKIFEKVNNNATLTPNDSNDEKVTILVDSLTGNQLPTPTPTEMEPDLDTECFISMQSTSPAVKQWDLLPEPIRFLPNQFPLKIHRTPYLTSLKKIKDEIDDPFTKINTRGAEDPKVLINDQLSTISMILRNISFSDNNSRIMSRNFYLKRFISDLLWLVLIHPENFTCNRKILNFKKDLVIVLSNISHLLEIASSIDCLLILILVISFGQPKLNPMASSSSFGSESLTFNEFQLQWGKYQTFGVDILAKLFSLEKPNLNYFKSILLNKNTGNNLYDRNSNNNHKDKKLLRRLLNLYNDNNKNNNNRHNLLNDVVSFLFSAIPLQQVLSQSADPSLLIDQFSPVISQSLTSILVIVQKILPLSNEVFEISENNSDSNSNNNGNKDSSFNFNKNLPFVWLSSEENIGSGLLKLSEIILNINNSTSKNTLLQQQNYSKVLLPSINISCVQLIKCLVEKSICFENCLNNDPEILKKIASIPNLFPTDLEIFQLFTNPSVDIQIINQYQLLYNLKNDILTNLE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-37",
+                "region_sequence": "MDFFNLNNNNNNNNTTTTTTTTNNNNTNNNNTNNNNN"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion. Formation of the [SWI(+)] prion results in a partial loss-of-function phenotype for Swi1."
+    },
+    {
+        "entry_id": "AP00048",
+        "pdb_id": "2OYH",
+        "pubmed_ids": [
+            "12419183"
+        ],
+        "protein_name": "Fibrinogen alpha chain",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02671",
+        "sequence": "ADSGEGDFLAEGGGVRGPRVVERHQSACKDSDWPFCSDEDWNYKCPSGCRMKGLIDEVNQDFTNRINKLKNSLFEYQKNNKDSHSLTTNIMEILRGDFSSANNRDNTYNRVSEDLRSRIEVLKRKVIEKVQHIQLLQKNVRAQLVDMKRLEVDIDIKIRSCRGSCSRALAREVDLKDYEDQQKQLEQVIAKDLLPSRDRQHLPLIKMKPVPDLVPGNFKSQLQKVPPEWKALTDMPQMRMELERPGGNEITRGGSTSYGTGSETESPRNPSSAGSWNSGSSGPGSTGNRNPGSSGTGGTATWKPGSSGPGSTGSWNSGSSGTGSTGNQNPGSPRPGSTGTWNPGSSERGSAGHWTSESSVSGSTGQWHSESGSFRPDSPGSGNARPNNPDWGTFEEVSGNVSPGTRREYHTEKLVTSKGDKELRTGKEKVTSGSTTTTRRSCSKTVTKTVIGPDGHKEVTKEVVTSEDGSDCPEAMDLGTLSGIGTLDGFRHRHPDEAAFFDTASTGKTFPGFFSPMLGEFVSETESRGSESGIFTNTKESSSHHPGIAEFPSRGKSSSYSKQFTSSTSYNRGDSTFESKSYKMADEAGSEADHEGTHSTKRGHAKSRPVRDCDDVLQTHPSGTQSGIFNIKLPGSSKIFSVYCDQETSLGGWLLIQQRMDGSLNFNRTWQDYKRGFGSLNDEGEGEFWLGNDYLHLLTQRGSVLRVELEDWAGNEAYAEYHFRVGSEAEGYALQVSSYEGTAGDALIEGSVEEGAEYTSHNNMQFSTFDRDADQWEENCAEVYGGGWWYNNCQAANLNGIYYPGGSYDPRNNSPYEIENGVVWVSFRGADYSLRAVRMKIRPLVTQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "148-160",
+                "region_sequence": "KRLEVDIDIKIRS"
+            }
+        },
+        "uniprot_end": "866",
+        "uniprot_start": "20",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in familial visceral amyloidosis."
+    },
+    {
+        "entry_id": "AP00049",
+        "pdb_id": "2VXD",
+        "pubmed_ids": [
+            "25977257"
+        ],
+        "protein_name": "Nucleophosmin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P06748",
+        "sequence": "MEDSMDMDMSPLRPQNYLFGCELKADKDYHFKVDNDENEHQLSLRTVSLGAGAKDELHIVEAEAMNYEGSPIKVTLATLKMSVQPTVSLGGFEITPPVVLRLKCGSGPVHISGQHLVAVEEDAESEDEEEEDVKLLSISGKRSAPGGGSKVPQKKVKLAADEDDDDDDEEDDDEDDDDDDFDDEEAEEKAPVKKSIRDTPAKNAQKSNQNGKDSKPSSTPRSKGQESFKKQEKTPKTPKGPSSVEDIKAKMQASIEKGGSLPKVEAKFINYVKNCFRMTDQEAIQDLWQWRKSL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "264-277",
+                "region_sequence": "VEAKFINYVKNCFR"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "NPM1 mutants where the CTD is not properly folded could be implicated in the pathogenesis of acute myeloid leukemia (AML)."
+    },
+    {
+        "entry_id": "AP00121",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26109065"
+        ],
+        "protein_name": "Single major sheath protein, MspA",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "A0B829",
+        "sequence": "MKMMRSMLALAVLLVMVGWASAATVTQMPGGTHAWTQADGATAGWAHSFYEDTNFIQADILAVASTDGEGEAWVKTTVPDLASKDLAITNGKLTVSAKGTVEAYVKGETGSKATAVGQISSYANDNLAGSAEISSSLGESWSKNFGDPDYQLGDPQGSAKGKFYAYANADGFAGYSADETLKVGDTTTTYTIKGGVEGRTTIEGEVRDSNRAIGGGLSPMLQVSEDPAYASMVALSTSTEAHVSSNVDNEISIAAGQINLCNGATGSAAVSATASGKSSATGGNMTSTYRCDPNTGYCDYSEYYTSATTSKEDMMSADAYVLNNRDAAEASAELDVLGDADNTDSYTYSFIRTYGFAARINPGNKDDGSDRTYGRAFITTGKWNAEASQVYSHWWIDDDGYHSESSTNHSAELSGELSQVKDPTVANEYGIGAGAFLRNKKSSPASADIRLEQYAWSDGTTKSTWMFNYASISGPSAPIYGSSVWDGSGVYEAFKDLHVGADPDGTVWSTDIPSVEAYFWIDGTNDKMMNGPGLKVAEVPTFNPSGEYTPPYWTPFPGSSTERKAEVELETEQPY",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Methanosaeta thermophila PT",
+        "description": "Bacterial biofilm formation. Major constituent of the extracellular cell wall sheaths encasing the methanogenic archaea Methanosaeta thermophila PT."
+    },
+    {
+        "entry_id": "AP00120",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "23504942"
+        ],
+        "protein_name": "fapB",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "C4IN69",
+        "sequence": "DSNNQALIDNAGKQYTGVLSVNQAAGNQHQQINSRAISLGGQASDALIQKLDGKVDPSLNASAAIQGSAFSNGNGILGVNQSAGANNQMINAVRISTGPQSVDDNVLSQQNMTLLPDSRSPSTTGSRQVVTSDQAFTGSRGVVQVNQSAGVGNRMANTLGVTIK",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "182",
+        "uniprot_start": "19",
+        "species": "Pseudomonas sp. UK4",
+        "description": "Bacterial biofilm formation. FapB is an amyloid protein, probably a nucleator for FapC polymerization."
+    },
+    {
+        "entry_id": "AP00123",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24098542",
+            "22489132",
+            "19440546"
+        ],
+        "protein_name": "S100A9",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P06702",
+        "sequence": "MTCKMSQLERNIETIINTFHQYSVKLGHPDTLNQGEFKELVRKDLQNFLKKENKNEKVIEHIMEDLDTNADKQLSFEEFIMLMARLTWASHEKMHEGDEGPGHHHKPGLGEGTP",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "S100A8 and A9 form amyloids in the ageing prostate."
+    },
+    {
+        "entry_id": "AP00122",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24098542",
+            "22489132",
+            "19440546"
+        ],
+        "protein_name": "S100A8",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P05109",
+        "sequence": "MLTELEKALNSIIDVYHKYSLIKGNFHAVYRDDLKKLLETECPQYIRKKGADVWFKELDINTDGAVNFQEFLILVIKMGVAAHKKSHEESHKE",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "S100A8 and A9 form amyloids in the ageing prostate."
+    },
+    {
+        "entry_id": "AP00037",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "22684146"
+        ],
+        "protein_name": "Minor curlin subunit CSgB",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P0ABK7",
+        "sequence": "AGYDLANSEYNFAVNELSKSSFNQAAIIGQAGTNNSAQLRQGGSKLLAVVAQEGSSNRAKIDQTGDYNLAYIDQAGSANDASISQGAYGNTAMIIQKGSGNKANITQYGTQKTAIVVQRQSQMAIRVTQR",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "24-45",
+                "region_sequence": "QAAIIGQAGTNNSAQLRQGGSK"
+            },
+            "region_2": {
+                "region_indices": "46-67",
+                "region_sequence": "LLAVVAQEGSSNRAKIDQTGDY"
+            },
+            "region_3": {
+                "region_indices": "68-89",
+                "region_sequence": "NLAYIDQAGSANDASISQGAYG"
+            },
+            "region_4": {
+                "region_indices": "90-111",
+                "region_sequence": "NTAMIIQKGSGNKANITQYGTQ"
+            },
+            "region_5": {
+                "region_indices": "112-130",
+                "region_sequence": "KTAIVVQRQSQMAIRVTQR"
+            }
+        },
+        "uniprot_end": "151",
+        "uniprot_start": "22",
+        "species": "Escherichia coli K12",
+        "description": "Interaction with host, bacterial biofilm formation."
+    },
+    {
+        "entry_id": "AP00036",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19966296"
+        ],
+        "protein_name": "Major curlin subunit CsgA",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P28307",
+        "sequence": "GVVPQYGGGGNHGGGGNNSGPNSELNIYQYGGGNSALALQTDARNSDLTITQHGGGNGADVGQGSDDSSIDLTQRGFGNSATLDQWNGKNSEMTVKQFGGGNGAAVDQTASNSSVNVTQVGFGNNATAHQY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "23-45",
+                "region_sequence": "SELNIYQYGGGNSALALQTDARN"
+            },
+            "region_2": {
+                "region_indices": "46-67",
+                "region_sequence": "SDLTITQHGGGNGADVGQGSDD"
+            },
+            "region_3": {
+                "region_indices": "68-90",
+                "region_sequence": "SSIDLTQRGFGNSATLDQWNGKN"
+            },
+            "region_4": {
+                "region_indices": "91-112",
+                "region_sequence": "SEMTVKQFGGGNGAAVDQTASN"
+            },
+            "region_5": {
+                "region_indices": "113-131",
+                "region_sequence": "SSVNVTQVGFGNNATAHQY"
+            }
+        },
+        "uniprot_end": "151",
+        "uniprot_start": "21",
+        "species": "Escherichia coli K12",
+        "description": "Interaction with host, bacterial biofilm formation."
+    },
+    {
+        "entry_id": "AP00035",
+        "pdb_id": "1PNJ",
+        "pubmed_ids": [
+            "14596805",
+            "21857114"
+        ],
+        "protein_name": "Phosphatidylinositol 3-kinase regulatory subunit alpha SH3 domain",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P23727",
+        "sequence": "MSAEGYQYRALYDYKKEREEDIDLHLGDILTVNKGSLVALGFSDGQEAKPEEIGWLNGYNETTGERGDFPGTYVEYIGRKKISPPTPKPRPPRPLPVAPGPSKTEADSEQQASTLPDLAEQFAPPDVAPPLLIKLVEAIEKKGLECSTLYRTQSSSNPAELRQLLDCDTASLDLEMFDVHVLADAFKRYLLDLPNPVIPVAVSSELISLAPEVQSSEEYIQLLKKLIRSPSIPHQYWLTLQYLLKHFFKLSQTSSKNLLNARVLSELFSPLLFRFPAASSENTEHLIKIIEILISTEWNERQPAPALPPKPPKPTTVANNGMNNNMSLQDAEWYWGDISREEVNEKLRDTADGTFLVRDASTKMHGDYTLTLRKGGNNKLIKIFHRDGKYGFSDPLTFNSVVELINHYRNESLAQYNPKLDVKLLYPVSKYQQDQVVKEDNIEAVGKKLHEYNTQFQEKSREYDRLYEDYTRTSQEIQMKRTAIEAFNETIKIFEEQCQTQERYSKEYIEKFKREGNETEIQRIMHNYEKLKSRISEIVDSRRRLEEDLKKQAAEYREIDKRMNSIKPDLIQLRKTRDQYLMWLTQKGVRQKKLNEWLGNENTEDQYSLVEDDEDLPHHDEKTWNVGSSNRNKAENLLRGKRDGTFLVRESSKQGCYACSVVVDGEVKHCVINKTATGYGFAEPYNLYSSLKELVLHYQHTSLVQHNDSLNVTLAYPVYAQQRR",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "21-26",
+                "region_sequence": "DIDLHL"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Bos taurus",
+        "description": "Found to form amyloid fibrils in vitro under acidic conditions, biologically probably not relevant."
+    },
+    {
+        "entry_id": "AP00034",
+        "pdb_id": "2KJ3",
+        "pubmed_ids": [
+            "12727874",
+            "20828131"
+        ],
+        "protein_name": "Het-s",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "Q03689",
+        "sequence": "MSEPFGIVAGALNVAGLFNNCVDCFEYVQLGRPFGRDYERCQLRLDIAKARLSRWGEAVKINDDPRFHSDAPTDKSVQLAKSIVEEILLLFESAQKTSKRYELVADQQDLVVFEDKDMKPIGRALHRRLNDLVSRRQKQTSLAKKTAWALYDGKSLEKIVDQVARFVDELEKAFPIEAVCHKLAEIEIEEVEDEASLTILKDAAGGIDAAMSDAAAQKIDAIVGRNSAKDIRTEERARVQLGNVVTAAALHGGIRISDQTTNSVETVVGKGESRVLIGNEYGGKGFWDN",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "218-289",
+                "region_sequence": "KIDAIVGRNSAKDIRTEERARVQLGNVVTAAALHGGIRISDQTTNSVETVVGKGESRVLIGNEYGGKGFWDN"
+            }
+        },
+        "uniprot_end": "289",
+        "uniprot_start": "1",
+        "species": "Podospora anserina",
+        "description": "Amyloid state contributes to build a physical barrier that impedes the transfer of elements between genetically incompatible strains."
+    },
+    {
+        "entry_id": "AP00033",
+        "pdb_id": "1G6W",
+        "pubmed_ids": [
+            "16060675",
+            "17953455",
+            "21497604"
+        ],
+        "protein_name": "Ure2p",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "P23202",
+        "sequence": "MNNNGNQVSNLSNALRQVNIGNRNSNTTTDQSNINFEFSTGVNNNNNNNSSSNNNNVQNNNSGRNGSQNNDNENNIKNTLEQHRQQQQAFSDMSHVEYSRITKFFQEQPLEGYTLFSHRSAPNGFKVAIVLSELGFHYNTIFLDFNLGEHRAPEFVSVNPNARVPALIDHGMDNLSIWESGAILLHLVNKYYKETGNPLLWSDDLADQSQINAWLFFQTSGHAPMIGQALHFRYFHSQKIASAVERYTDEVRRVYGVVEMALAERREALVMELDTENAAAYSAGTTPMSQSRFFDYPVWLVGDKLTIADLAFVPWNNVVDRIGINIKIEFPEVYKWTKHMMRRPAVIKALRGE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-88",
+                "region_sequence": "MNNNGNQVSNLSNALRQVNIGNRNSNTTTDQSNINFEFSTGVNNNNNNNSSSNNNNVQNNNSGRNGSQNNDNENNIKNTLEQHRQQQQ"
+            }
+        },
+        "uniprot_end": "354",
+        "uniprot_start": "2",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion inducing the [URE3] phenotype. This phenotype occurs at a frequency of 10(-5) in haploid yeast strains, is reversible, and its frequency is increased by overexpressing the URE2 gene."
+    },
+    {
+        "entry_id": "AP00032",
+        "pdb_id": "2OMM",
+        "pubmed_ids": [
+            "11226247",
+            "12700355"
+        ],
+        "protein_name": "Sup35",
+        "prion_domain": "False",
+        "class_name": "functional prion",
+        "uniprot_id": "P05453",
+        "sequence": "SDSNQGNNQQNYQQYSQNGNQQQGNNRYQGYQAYNAQAQPAGGYYQNYQGYSGYQQGGYQQYNPDAGYQQQYNPQGGYQQYNPQGGYQQQFNPQGGRGNYKNFNYNNNLQGYQAGFQPQSQGMSLNDFQKQQKQAAPKPKKTLKLVSSSGIKLANATKKVGTKPAESDKKEEEKSAETKEPTKEPTKVEEPVKKEEKPVQTEEKTEEKSELPKVEDLKISESTHNTNNANVTSADALIKEQEEEVDDEVVNDMFGGKDHVSLIFMGHVDAGKSTMGGNLLYLTGSVDKRTIEKYEREAKDAGRQGWYLSWVMDTNKEERNDGKTIEVGKAYFETEKRRYTILDAPGHKMYVSEMIGGASQADVGVLVISARKGEYETGFERGGQTREHALLAKTQGVNKMVVVVNKMDDPTVNWSKERYDQCVSNVSNFLRAIGYNIKTDVVFMPVSGYSGANLKDHVDPKECPWYTGPTLLEYLDTMNHVDRHINAPFMLPIAAKMKDLGTIVEGKIESGHIKKGQSTLLMPNKTAVEIQNIYNETENEVDMAMCGEQVKLRIKGVEEEDISPGFVLTSPKNPIKSVTKFVAQIAIVELKSIIAAGFSCVMHVHTAIEEVHIVKLLHKLEKGTNRKSKKPPAFAKKGMKVIAVLETEAPVCVETYQDYPQLGRFTLRDQGTTIAIGKIVKIAE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "6-12",
+                "region_sequence": "GNNQQNY"
+            }
+        },
+        "uniprot_end": "685",
+        "uniprot_start": "2",
+        "species": "Saccharomyces cerevisiae",
+        "description": "Regulatory yeast prion governing translation termination efficiency in [PSI+] strains."
+    },
+    {
+        "entry_id": "AP00031",
+        "pdb_id": "1HKQ",
+        "pubmed_ids": [
+            "17959784"
+        ],
+        "protein_name": "RepA",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "Q52546",
+        "sequence": "NEKRLVLCAASLIDSRKPLPKDGYLTIRADTFAEVFGIDVKHAYAALDDAATKLFNRDIRRYVKGKVVERMRWVFHVKYREGQGCVELGFSPTIIPHLTMLHKEFTSYQLKQIGSLSSFYAVRLYELMSQFIKLKQRECTLAQLREMFDLGDKYQDVKDMRKRVLYPALEEVNKNTDLTVAVEPRRQGRRIIGFSFTIAKNDQLALSLE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "5-13",
+                "region_sequence": "LVLCAASLI"
+            }
+        },
+        "uniprot_end": "231",
+        "uniprot_start": "23",
+        "species": "Pseudomonas syringae",
+        "description": "RepA amyloid formation is induced by binding to origin DNA sequences (iterons). RepA amyloid assemblies could have a role in the negative regulation of plasmid replication."
+    },
+    {
+        "entry_id": "AP00030",
+        "pdb_id": "1WLA",
+        "pubmed_ids": [
+            "17320902",
+            "14665689"
+        ],
+        "protein_name": "Myoglobin",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P68082",
+        "sequence": "GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHEAELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGDFGADAQGAMTKALELFRNDIAAKYKELGFQG",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-29",
+                "region_sequence": "GLSDGEWQQVLNVWGKVEADIAGHGQEVL"
+            },
+            "region_2": {
+                "region_indices": "101-118",
+                "region_sequence": "IKYLEFISDAIIHVLHSK"
+            }
+        },
+        "uniprot_end": "154",
+        "uniprot_start": "2",
+        "species": "Equus caballus",
+        "description": "Amyloid fibre formation under destabilizing conditions by the apo form. Used as model protein, amyloid formation is biologically probably not relevant."
+    },
+    {
+        "entry_id": "AP00039",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "21628577"
+        ],
+        "protein_name": "Chaplin H",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q9AD92",
+        "sequence": "DSGAQGAAVHSPGVLSGNVVQVPVHVPVNVCGNTISVIGLLNPAFGNVCINK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "13-29",
+                "region_sequence": "GVLSGNVVQVPVHVPVN"
+            },
+            "region_2": {
+                "region_indices": "32-47",
+                "region_sequence": "GNTISVIGLLNPAFGN"
+            }
+        },
+        "uniprot_end": "77",
+        "uniprot_start": "26",
+        "species": "Streptomyces coelicolor",
+        "description": "Formation of aerial structures."
+    },
+    {
+        "entry_id": "AP00038",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26394553"
+        ],
+        "protein_name": "Pmel17",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P40967",
+        "sequence": "KVPRNQDWLGVSRQLRTKAWNRQLYPEWTEAQRLDCWRGGQVSLKVSNDGPTLIGANASFSIALNFPGSQKVLPDGQVIWVNNTIINGSQVWGGQPVYPQETDDACIFPDGGPCPSGSWSQKRSFVYVWKTWGQYWQVLGGPVSGLSIGTGRAMLGTHTMEVTVYHRRGSRSYVPLAHSSSAFTITDQVPFSVSVSQLRALDGGNKHFLRNQPLTFALQLHDPSGYLAEADLSYTWDFGDSSGTLISRALVVTHTYLEPGPVTAQVVLQAAIPLTSCGSSPVPGTTDGHRPTAEAPNTTAGQVPTTEVVGTTPGQAPTAEPSGTTSVQVPTTEVISTAPVQMPTAESTGMTPEKVPVSEVMGTTLAEMSTPEATGMTPAEVSIVVLSGTTAAQVTTTEWVETTARELPIPEPEGPDASSIMSTESITGSLGPLLDGTATLRLVKRQVPLDCVLYRYGSFSVTLDIVQGIESAEILQAVPSGEGDAFELTVSCQGGLPKEACMEISSPGCQPPAQRLCQPVLPSPACQLVLHQILKGGSGTYCLNVSLADTNSLAVVSTQLIMPGQEAGLGQVPLIVGILLVLMAVVLASLIYRRRLMKQDFSVPQLPHSSSHWLRLPRIFCSCPIGENSPLLSGQQV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "381-389",
+                "region_sequence": "VSIVVLSGT"
+            }
+        },
+        "uniprot_end": "661",
+        "uniprot_start": "25",
+        "species": "Homo sapiens",
+        "description": "Elimination of toxic intermediates during melanin synthesis."
+    },
+    {
+        "entry_id": "AP00024",
+        "pdb_id": "1ZNJ",
+        "pubmed_ids": [
+            "6337294",
+            "17468747"
+        ],
+        "protein_name": "Insulin Chain A",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01308",
+        "sequence": "GIVEQCCTSICSLYQLENYCN",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "13-18",
+                "region_sequence": "LYQLEN"
+            }
+        },
+        "uniprot_end": "110",
+        "uniprot_start": "90",
+        "species": "Homo sapiens",
+        "description": "Implicated in insulin-derived amyloidosis, which is a rare, yet significant complication of insulin therapy."
+    },
+    {
+        "entry_id": "AP00025",
+        "pdb_id": "1BEB",
+        "pubmed_ids": [
+            "18590743",
+            "19133274"
+        ],
+        "protein_name": "Beta-lactoglobulin",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "P02754",
+        "sequence": "LIVTQTMKGLDIQKVAGTWYSLAMAASDISLLDAQSAPLRVYVEELKPTPEGDLEILLQKWENGECAQKKIIAEKTKIPAVFKIDALNENKVLVLDTDYKKYLLFCMENSAEPEQSLACQCLVRTPEVDDEALEKFDKALKALPMHIRLSFNPTQLEEQCHI",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "11-20",
+                "region_sequence": "DIQKVAGTWY"
+            },
+            "region_2": {
+                "region_indices": "101-110",
+                "region_sequence": "KYLLFCMENS"
+            },
+            "region_3": {
+                "region_indices": "116-126",
+                "region_sequence": "SLACQCLVRTP"
+            },
+            "region_4": {
+                "region_indices": "146-152",
+                "region_sequence": "HIRLSFN"
+            }
+        },
+        "uniprot_end": "178",
+        "uniprot_start": "17",
+        "species": "Bos taurus",
+        "description": "A series of peptides corresponding to native beta-strands readily form amyloid aggregates that are also capable of seeding fibril formation by a full-length form of beta-lactoglobulin in which the disulfide bonds are reduced. The biological relevance of this is not known."
+    },
+    {
+        "entry_id": "AP00026",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "11799398",
+            "12374855",
+            "16600970"
+        ],
+        "protein_name": "Acylphosphatase-2",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P14621",
+        "sequence": "STAQSLKSVDYEVFGRVQGVCFRMYTEDEARKIGVVGWVKNTSKGTVTGQVQGPEDKVNSMKSWLSKVGSPSSRIDRTNFSNEKTISKLEYSNFSIRY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "16-31",
+                "region_sequence": "RVQGVCFRMYTEDEAR"
+            },
+            "region_2": {
+                "region_indices": "87-98",
+                "region_sequence": "SKLEYSNFSIRY"
+            }
+        },
+        "uniprot_end": "99",
+        "uniprot_start": "2",
+        "species": "Homo sapiens",
+        "description": "Amyloid fibre formation under destabilizing conditions, used as model protein. The amyloid formation is probably not functionally relevant."
+    },
+    {
+        "entry_id": "AP00027",
+        "pdb_id": "1CKT",
+        "pubmed_ids": [
+            "11513581"
+        ],
+        "protein_name": "Amphoterin",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "P63159",
+        "sequence": "GKGDPKKPRGKMSSYAFFVQTCREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPKGETKKKFKDPNAPKRPPSAFFLFCSEYRPKIKGEHPGLSIGDVAKKLGEMWNNTAADDKQPYEKKAAKLKEKYEKDIAAYRAKGKPDAAKKGVVKAEKSKKKKEEEDDEEDEEDEEEEEEEEDEDEEEDDDDE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "12-27",
+                "region_sequence": "MSSYAFFVQTCREEHK"
+            }
+        },
+        "uniprot_end": "215",
+        "uniprot_start": "2",
+        "species": "Rattus norvegicus",
+        "description": "Amphoterin (also known as HMG-1, involved in neuronal development) contains an amyloidogenic peptide fragment which is highly homologous to the Alzheimer's amyloid beta-peptide. The functional relevance of this is not yet elucidated."
+    },
+    {
+        "entry_id": "AP00020",
+        "pdb_id": "1O8T",
+        "pubmed_ids": [
+            "17217959"
+        ],
+        "protein_name": "Apolipoprotein C-II",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02655",
+        "sequence": "TQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "60-70",
+                "region_sequence": "MSTYTGIFTDQ"
+            }
+        },
+        "uniprot_end": "101",
+        "uniprot_start": "23",
+        "species": "Homo sapiens",
+        "description": "Plasma apolipoproteins, including human apolipoprotein C-II that forms amyloid fibres in its lipid-free form, show alpha-helical structure in the lipid-bound state and limited conformational stability in the absence of lipid. This may accounts for the high propensity of apolipoproteins to aggregate and accumulate in disease-related amyloid deposits."
+    },
+    {
+        "entry_id": "AP00021",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "18484335"
+        ],
+        "protein_name": "ODAM",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "A1E959",
+        "sequence": "APLIPQRLMSASNSNELLLNLNNGQLLPLQLQGPLNSWIPPFSGILQQQQQAQIPGLSQFSLSALDQFAGLLPNQIPLTGEASFAQGAQAGQVDPLQLQTPPQTQPGPSHVMPYVFSFKMPQEQGQMFQYYPVYMVLPWEQPQQTVPRSPQQTRQQQYEEQIPFYAQFGYIPQLAEPAISGGQQQLAFDPQLGTAPEIAVMSTGEEIPYLQKEAINFRHDSAGVFMPSTSPKPSTTNVFTSAVDQTITPELPEEKDKTDSLREP",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "112-157",
+                "region_sequence": "MPYVFSFKMPQEQGQMFQYYPVYMVLPWEQPQQTVPRSPQQTRQQQ"
+            }
+        },
+        "uniprot_end": "279",
+        "uniprot_start": "16",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in calcifying epithelial odontogenic tumors and unerupted tooth follicles."
+    },
+    {
+        "entry_id": "AP00022",
+        "pdb_id": "1G96",
+        "pubmed_ids": [
+            "3517880",
+            "18036611",
+            "25479090",
+            "26235923"
+        ],
+        "protein_name": "Cystatin C",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01034",
+        "sequence": "SSPGKPPRLVGGPMDASVEEEGVRRALDFAVGEYNKASNDMYHSRALQVVRARKQIVAGVNYFLDVELGRTTCTKTQPNLDNCPFHDQPHLKRKAFCSFQIYAVPWQGTMTLSKSTCQDA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "47-51",
+                "region_sequence": "LQVVR"
+            },
+            "region_2": {
+                "region_indices": "56-65",
+                "region_sequence": "IVAGVNYFLD"
+            },
+            "region_3": {
+                "region_indices": "95-104",
+                "region_sequence": "AFCSFQIYAV"
+            }
+        },
+        "uniprot_end": "146",
+        "uniprot_start": "27",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Icelandic-type cerebral amyloid angiopathy."
+    },
+    {
+        "entry_id": "AP00023",
+        "pdb_id": "1ZNJ",
+        "pubmed_ids": [
+            "6337294",
+            "17468747",
+            "19864624"
+        ],
+        "protein_name": "Insulin Chain B",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01308",
+        "sequence": "FVNQHLCGSHLVEALYLVCGERGFFYTPKT",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "11-17",
+                "region_sequence": "LVEALYL"
+            }
+        },
+        "uniprot_end": "54",
+        "uniprot_start": "25",
+        "species": "Homo sapiens",
+        "description": "Implicated in insulin-derived amyloidosis, which is a rare, yet significant complication of insulin therapy."
+    },
+    {
+        "entry_id": "AP00028",
+        "pdb_id": "1CSQ",
+        "pubmed_ids": [
+            "10386885",
+            "10785381"
+        ],
+        "protein_name": "Cold shock protein CspB",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P32081",
+        "sequence": "MLEGKVKWFNSEKGFGFIEVEGQDDVFVHFSAIQGEGFKTLEEGQAVSFEIVEGNRGPQAANVTKEA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-67",
+                "region_sequence": "MLEGKVKWFNSEKGFGFIEVEGQDDVFVHFSAIQGEGFKTLEEGQAVSFEIVEGNRGPQAANVTKEA"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Bacillus subtilis",
+        "description": "Residues 1-22 of the cold shock protein CspB form amyloid fibrils when solutions containing this peptide in aqueous (50%) acetonitrile are diluted in water. Amyloid formation is biologically probably not relevant."
+    },
+    {
+        "entry_id": "AP00029",
+        "pdb_id": "1X3B",
+        "pubmed_ids": [
+            "17207483"
+        ],
+        "protein_name": "Kerato-epithelin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q15582",
+        "sequence": "GPAKSPYQLVLQHSRLRGRQHGPNVCAVQKVIGTNRKYFTNCKQWYQRKICGKSTVISYECCPGYEKVPGEKGCPAALPLSNLYETLGVVGSTTTQLYTDRTEKLRPEMEGPGSFTIFAPSNEAWASLPAEVLDSLVSNVNIELLNALRYHMVGRRVLTDELKHGMTLTSMYQNSNIQIHHYPNGIVTVNCARLLKADHHATNGVVHLIDKVISTITNNIQQIIEIEDTFETLRAAVAASGLNTMLEGNGQYTLLAPTNEAFEKIPSETLNRILGDPEALRDLLNNHILKSAMCAEAIVAGLSVETLEGTTLEVGCSGDMLTINGKAIISNKDILATNGVIHYIDELLIPDSAKTLFELAAESDVSTAIDLFRQAGLGNHLSGSERLTLLAPLNSVFKDGTPPIDAHTRNLLRNHIIKDQLASKYLYHGQTLETLGGKKLRVFVYRNSLCIENSCIAAHDKRGRYGTLFTMDRVLTPPMGTVMDVLKGDNRFSMLVAAIQSAGLTETLNREGVYTVFAPTNEAFRALPPRERSRLLGDAKELANILKYHIGDEILVSGGIGALVRLKSLQGDKLEVSLKNNVVSVNKEPVAEPDIMATNGVVHVITNVLQPPANRPQERGDELADSALEIFKQASAFSRASQRSVRLAPVYQKLLERMKH",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "492-509",
+                "region_sequence": "FSMLVAAIQSAGLTETLN"
+            }
+        },
+        "uniprot_end": "683",
+        "uniprot_start": "24",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in familial corneal amyloidosis."
+    },
+    {
+        "entry_id": "AP00068",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Obestatin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q9UBU3",
+        "sequence": "FNAPFDVGIKLSGVQYQQHSQAL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-23",
+                "region_sequence": "FNAPFDVGIKLSGVQYQQHSQAL"
+            }
+        },
+        "uniprot_end": "98",
+        "uniprot_start": "76",
+        "species": "Homo sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00069",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Sauvagin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01144",
+        "sequence": "QGPPISIDLSLELLRKMIEIEKQEKEKQQAANNRLLLDTI",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-40",
+                "region_sequence": "QGPPISIDLSLELLRKMIEIEKQEKEKQQAANNRLLLDTI"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Phyllomedusa sauvagei",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00099",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "20542076",
+            "22304430"
+        ],
+        "protein_name": "Merozoite surface protein 2, MSP2",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "J7GMN2",
+        "sequence": "IKNESKYSNTFINNAYNMSIRRSMTESKTPTPTGAGAGASGSAGSGDGASGSASGSASGSASGSAGASGSASGSAGASGSASGSAGAEGSPSTPATTTTTTTTNDAEASTSTSSENPNHNNAKTNPKGNGGVQKPNQANKETQNNSNVQQDSQTKSNVPPTQDADTKSPTAQPEQAENSAPTAEQTESPELQSAPEN",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "8-15",
+                "region_sequence": "SNTFINNA"
+            }
+        },
+        "uniprot_end": "215",
+        "uniprot_start": "19",
+        "species": "Plasmodium falciparum",
+        "description": "Merozoite surface protein 2 (MSP2), an abundant glycosylphosphatidylinositol-anchored protein on the surface of Plasmodium falciparum merozoites that forms amyloid-like fibrils in solution under physiological conditions. It may be a component of the fibrillar surface coat on P. falciparum merozoites."
+    },
+    {
+        "entry_id": "AP00098",
+        "pdb_id": "2VB1",
+        "pubmed_ids": [
+            "23459392"
+        ],
+        "protein_name": "Hen egg white lysozyme, HEWL",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P00698",
+        "sequence": "KVFGRCELAAAMKRHGLDNYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "54-62",
+                "region_sequence": "GILQINSRW"
+            }
+        },
+        "uniprot_end": "147",
+        "uniprot_start": "19",
+        "species": "Gallus gallus",
+        "description": "Some of the lysozyme mutants in humans cause systemic amyloidosis. Hen egg white lysozyme (HEWL) has been well studied as a model protein of amyloid fibrils formation."
+    },
+    {
+        "entry_id": "AP00091",
+        "pdb_id": "1ND6",
+        "pubmed_ids": [
+            "19995078",
+            "23215256",
+            "22090109"
+        ],
+        "protein_name": "Prostatic acid phosphatase",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P15309",
+        "sequence": "KELKFVTLVFRHGDRSPIDTFPTDPIKESSWPQGFGQLTQLGMEQHYELGEYIRKRYRKFLNESYKHEQVYIRSTDVDRTLMSAMTNLAALFPPEGVSIWNPILLWQPIPVHTVPLSEDQLLYLPFRNCPRFQELESETLKSEEFQKRLHPYKDFIATLGKLSGLHGQDLFGIWSKVYDPLYCESVHNFTLPSWATEDTMTKLRELSELSLLSLYGIHKQKEKSRLQGGVLVNEILNHMKRATQIPSYKKLIMYSAHDTTVSGLQMALDVYNGLLPPYASCHLTELYFEKGEYFVEMYYRNETQHEPYPLMLPGCSPSCPLERFAELVGPVIPQDWSTECMTTNSHQGTEDSTD",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "53-88",
+                "region_sequence": "IRKRYRKFLNESYKHEQVYIRSTDVDRTLMSAMTNL"
+            },
+            "region_2": {
+                "region_indices": "229-254",
+                "region_sequence": "GVLVNEILNHMKRATQIPSYKKLIMY"
+            }
+        },
+        "uniprot_end": "386",
+        "uniprot_start": "33",
+        "species": "Homo sapiens",
+        "description": "PAPf39, a 39-residue peptide fragment from human prostatic acidic phosphatase forms amyloid fibrils in semen (SEVI), which increase HIV infectivity by up to 5 orders of magnitude."
+    },
+    {
+        "entry_id": "AP00090",
+        "pdb_id": "4WXS",
+        "pubmed_ids": [
+            "22197377",
+            "23764838",
+            "24333014"
+        ],
+        "protein_name": "Myocilin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q99972",
+        "sequence": "RTAQLRKANDQSGRCQYTFSVASPNESSCPEQSQAMSVIHNLQRDSSTQRLDLEATKARLSSLESLLHQLTLDQAARPQETQEGLQRELGTLRRERDQLETQTRELETAYSNLLRDKSVLEEEKKRLRQENENLARRLESSSQEVARLRRGQCPQTRDTARAVPPGSREVSTWNLDTLAFQELKSELTEVPASRILKESPSGYLRSGEGDTGCGELVWVGEPLTLRTAETITGKYGVWMRDPKPTYPYTQETTWRIDTVGTDVRQVFEYDLISQFMQGYPSKVHILPRPLESTGAVVYSGSLYFQGAESRTVIRYELNTETVKAEKEIPGAGYHGQFPYSWGGYTDIDLAVDEAGLWVIYSTDEAKGAIVLSKLNPENLELEQTWETNIRKQSVANAFIICGTLYTVSSYTSADATVNFAYDTGTGISKTLTIPFKNRYKYSSMIDYNPLEKKLFAWDNLNMVTYDIKLSKM",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "97-116",
+                "region_sequence": "DQLETQTRELETAYSNLLRD"
+            },
+            "region_2": {
+                "region_indices": "196-212",
+                "region_sequence": "LKESPSGYLRSGEGDTG"
+            },
+            "region_3": {
+                "region_indices": "294-305",
+                "region_sequence": "GAVVYSGSLYFQ"
+            },
+            "region_4": {
+                "region_indices": "394-410",
+                "region_sequence": "VANAFIICGTLYTVSSY"
+            }
+        },
+        "uniprot_end": "504",
+        "uniprot_start": "33",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in glaucoma."
+    },
+    {
+        "entry_id": "AP00093",
+        "pdb_id": "3Q01",
+        "pubmed_ids": [
+            "25181279",
+            "26923710"
+        ],
+        "protein_name": "p53 tumorsuppressor",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P04637",
+        "sequence": "MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "250-257",
+                "region_sequence": "PILTIITL"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "p53 aggregation can lead to loss-of-function (LoF), dominant-negative (DN) and gain-of-function (GoF) effects, with adverse cancer consequences."
+    },
+    {
+        "entry_id": "AP00092",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "16401077",
+            "18637027",
+            "18929530",
+            "24146759"
+        ],
+        "protein_name": "Preprodermaseptin S9, DRS S9",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q1EN15",
+        "sequence": "GLRSKIWLWVLLMIWQESNKFKKM",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-24",
+                "region_sequence": "GLRSKIWLWVLLMIWQESNKFKKM"
+            }
+        },
+        "uniprot_end": "69",
+        "uniprot_start": "46",
+        "species": "Phyllomedusa sauvagei",
+        "description": "Dermaseptin S9 (Drs S9) is an atypical cationic antimicrobial peptide with a long hydrophobic core and with a propensity to form amyloid-like fibrils."
+    },
+    {
+        "entry_id": "AP00095",
+        "pdb_id": "2VXP",
+        "pubmed_ids": [
+            "25910219"
+        ],
+        "protein_name": "Transforming growth factor beta-induced protein, TGFBIp, A546T",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q15582",
+        "sequence": "GPAKSPYQLVLQHSRLRGRQHGPNVCAVQKVIGTNRKYFTNCKQWYQRKICGKSTVISYECCPGYEKVPGEKGCPAALPLSNLYETLGVVGSTTTQLYTDRTEKLRPEMEGPGSFTIFAPSNEAWASLPAEVLDSLVSNVNIELLNALRYHMVGRRVLTDELKHGMTLTSMYQNSNIQIHHYPNGIVTVNCARLLKADHHATNGVVHLIDKVISTITNNIQQIIEIEDTFETLRAAVAASGLNTMLEGNGQYTLLAPTNEAFEKIPSETLNRILGDPEALRDLLNNHILKSAMCAEAIVAGLSVETLEGTTLEVGCSGDMLTINGKAIISNKDILATNGVIHYIDELLIPDSAKTLFELAAESDVSTAIDLFRQAGLGNHLSGSERLTLLAPLNSVFKDGTPPIDAHTRNLLRNHIIKDQLASKYLYHGQTLETLGGKKLRVFVYRNSLCIENSCIAAHDKRGRYGTLFTMDRVLTPPMGTVMDVLKGDNRFSMLVAAIQSAGLTETLNREGVYTVFAPTNETFRALPPRERSRLLGDAKELANILKYHIGDEILVSGGIGALVRLKSLQGDKLEVSLKNNVVSVNKEPVAEPDIMATNGVVHVITNVLQPPANRPQERGDELADSALEIFKQASAFSRASQRSVRLAPVYQKLLERMKH",
+        "mutations": [
+            "A523T"
+        ],
+        "regions": {
+            "region_1": {
+                "region_indices": "548-565",
+                "region_sequence": "YHIGDEILVSGGIGALVR"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "TGFBIp A546T amyloid formation is implicated in lattice corneal dystrophy (LCD), which manifests as amyloid-type aggregates in the corneal stroma."
+    },
+    {
+        "entry_id": "AP00094",
+        "pdb_id": "1OVA",
+        "pubmed_ids": [
+            "21156792"
+        ],
+        "protein_name": "Ovalbumin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01012",
+        "sequence": "GSIGAASMEFCFDVFKELKVHHANENIFYCPIAIMSALAMVYLGAKDSTRTQINKVVRFDKLPGFGDSIEAQCGTSVNVHSSLRDILNQITKPNDVYSFSLASRLYAEERYPILPEYLQCVKELYRGGLEPINFQTAADQARELINSWVESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEAGVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "32-43",
+                "region_sequence": "IAIMSALAMVYL"
+            },
+            "region_2": {
+                "region_indices": "172-181",
+                "region_sequence": "MVLVNAIVFK"
+            },
+            "region_3": {
+                "region_indices": "364-381",
+                "region_sequence": "FLFCIKHIATNAVLFFGR"
+            }
+        },
+        "uniprot_end": "386",
+        "uniprot_start": "2",
+        "species": "Gallus gallus",
+        "description": "Ovalbumin (OVA) is a major globular protein in egg white that forms semiflexible fibrillar aggregates during heat-induced gelation."
+    },
+    {
+        "entry_id": "AP00097",
+        "pdb_id": "1H4A",
+        "pubmed_ids": [
+            "22328156",
+            "23082813"
+        ],
+        "protein_name": "Gamma-crystallin D",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P07320",
+        "sequence": "MGKITLYEDRGFQGRHYECSSDHPNLQPYLSRCNSARVDSGCWMLYEQPNYSGLQYFLRRGDYADHQQWMGLSDSVRSCRLIPHSGSHRIRLYEREDYRGQMIEFTEDCSCLQDRFRFNEIHSLNVLEGSWVLYELSNYRGRQYLLMPGDYRRYQDWGATNARVGSLRRVIDFS",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "80-163",
+                "region_sequence": "RLIPHSGSHRIRLYEREDYRGQMIEFTEDCSCLQDRFRFNEIHSLNVLEGSWVLYELSNYRGRQYLLMPGDYRRYQDWGATNAR"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Human γD-crystallin is an eye lens protein that aggregates into amyloid fibrils under acidic conditions, which makes it a major component of cataracts."
+    },
+    {
+        "entry_id": "AP00096",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "21552534",
+            "23631441",
+            "24547912"
+        ],
+        "protein_name": "Alpha-crystallin A chain",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02489",
+        "sequence": "MDVTIQHPWFKRTLGPFYPSRLFDQFFGEGLFEYDLLPFLSSTISPYYRQSLFRTVLDSGISEVRSDRDKFVIFLDVKHFSPEDLTVKVQDDFVEIHGKHNERQDDHGYISREFHRRYRLPSNVDQSALSCSLSADGMLTFCGPKIQTGLDATHAERAIPVSREEKPTSAPSS",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "66-80",
+                "region_sequence": "SDRDKFVIFLDVKHF"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "An αA-crystallin-derived peptide, αA66-80 (1.8 kDa), is a prominent LMW peptide concentrated in water-insoluble fractions of the aging lens. The peptide has amyloid-like properties and preferentially insolubilizes α-crystallin from lens-soluble fractions causing age-related cataract formation."
+    },
+    {
+        "entry_id": "AP00011",
+        "pdb_id": "3FFN",
+        "pubmed_ids": [
+            "14640038",
+            "12440479",
+            "19904968"
+        ],
+        "protein_name": "Gelsolin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P06396",
+        "sequence": "ATASRGASQAGAPQGRVPEARPNSMVVEHPEFLKAGKEPGLQIWRVEKFDLVPVPTNLYGDFFTGDAYVILKTVQLRNGNLQYDLHYWLGNECSQDESGAAAIFTVQLDDYLNGRAVQHREVQGFESATFLGYFKSGLKYKKGGVASGFKHVVPNEVVVQRLFQVKGRRVVRATEVPVSWESFNNGDCFILDLGNNIHQWCGSNSNRYERLKATQVSKGIRDNERSGRARVHVSEEGTEPEAMLQVLGPKPALPAGTEDTAKEDAANRKLAKLYKVSNGAGTMSVSLVADENPFAQGALKSEDCFILDHGKDGKIFVWKGKQANTEERKAALKTASDFITKMDYPKQTQVSVLPEGGETPLFKQFFKNWRDPDQTDGLGLSYLSSHIANVERVPFDAATLHTSTAMAAQHGMDDDGTGQKQIWRIEGSNKVPVDPATYGQFYGGDSYIILYNYRHGGRQGQIIYNWQGAQSTQDEVAASAILTAQLDEELGGTPVQSRVVQGKEPAHLMSLFGGKPMIIYKGGTSREGGQTAPASTRLFQVRANSAGATRAVEVLPKAGALNSNDAFVLKTPSAAYLWVGTGASEAEKTGAQELLRVLRAQPVQVAEGSEPDGFWEALGGKAAYRTSPRLKDKKMDAHPPRLFACSNKIGRFVIEEVPGELMQEDLATDDVMLLDTWDQVFVWVGKDSQEEEKTEALTSAKRYIETDPANRDRRTPITVVKQGFEPPSFVGWFLGWDDDYWSVDPLDRAMAELAA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "173-230",
+                "region_sequence": "ATEVPVSWESFNNGDCFILDLGNNIHQWCGSNSNRYERLKATQVSKGIRDNERSGRAR"
+            }
+        },
+        "uniprot_end": "782",
+        "uniprot_start": "28",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Finnish type amyloidosis."
+    },
+    {
+        "entry_id": "AP00010",
+        "pdb_id": "1IYT",
+        "pubmed_ids": [
+            "7798921",
+            "7827029",
+            "10212241",
+            "11076514",
+            "14659754",
+            "17468747"
+        ],
+        "protein_name": "Beta-amyloid protein 42",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P05067",
+        "sequence": "DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "11-42",
+                "region_sequence": "EVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA"
+            }
+        },
+        "uniprot_end": "713",
+        "uniprot_start": "672",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Alzheimer’s disease."
+    },
+    {
+        "entry_id": "AP00013",
+        "pdb_id": "2L86",
+        "pubmed_ids": [
+            "11445568",
+            "11327784",
+            "12367525",
+            "10940238",
+            "10600392",
+            "10656810",
+            "17468747",
+            "2195544",
+            "24245879",
+            "20698575"
+        ],
+        "protein_name": "IAPP, Amylin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P10997",
+        "sequence": "KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "8-37",
+                "region_sequence": "ATQRLANFLVHSSNNFGAILSSTNVGSNTY"
+            }
+        },
+        "uniprot_end": "70",
+        "uniprot_start": "34",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in type 2 diabetes and insuloma."
+    },
+    {
+        "entry_id": "AP00012",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "10805776",
+            "11606569",
+            "22701727",
+            "25912737",
+            "17468747"
+        ],
+        "protein_name": "Tau",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P10636",
+        "sequence": "AEPRQEFEVMEDHAGTYGLGDRKDQGGYTMHQDQEGDTDAGLKESPLQTPTEDGSEEPGSETSDAKSTPTAEDVTAPLVDEGAPGKQAAAQPHTEIPEGTTAEEAGIGDTPSLEDEAAGHVTQEPESGKVVQEGFLREPGPPGLSHQLMSGMPGAPLLPEGPREATRQPSGTGPEDTEGGRHAPELLKHQLLGDLHQEGPPLKGAGGKERPGSKEEVDEDRDVDESSPQDSPPSKASPAQDGRPPQTAAREATSIPGFPAEGAIPLPVDFLSKVSTEIPASEPDGPSVGRAKGQDAPLEFTFHVEITPNVQKEQAHSEEHLGRAAFPGAPGEGPEARGPSLGEDTKEADLPEPSEKQPAAAPRGKPVSRVPQLKARMVSKSKDGTGSDDKKAKTSTRSSAKTLKNRPCLSPKLPTPGSSDPLIQPSSPAVCPEPPSSPKHVSSVTSRTGSSGAKEMKLKGADGKTKIATPRGAAPPGQKGQANATRIPAKTPPAPKTPPSSGEPPKSGDRSGYSSPGSPGTPGSRSRTPSLPTPPTREPKKVAVVRTPPKSPSSAKSRLQTAPVPMPDLKNVKSKIGSTENLKHQPGGGKVQIINKKLDLSNVQSKCGSKDNIKHVPGGGSVQIVYKPVDLSKVTSKCGSLGNIHHKPGGGQVEVKSEKLDFKDRVQSKIGSLDNITHVPGGGN",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "589-600",
+                "region_sequence": "GKVQIINKKLDL"
+            },
+            "region_2": {
+                "region_indices": "622-627",
+                "region_sequence": "VQIVYK"
+            }
+        },
+        "uniprot_end": "758",
+        "uniprot_start": "2",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Alzheimer’s disease."
+    },
+    {
+        "entry_id": "AP00015",
+        "pdb_id": "1XQ8",
+        "pubmed_ids": [
+            "9383418",
+            "10759841",
+            "11060312",
+            "12196137",
+            "12873148",
+            "15182228",
+            "16247008",
+            "18550842",
+            "20637318"
+        ],
+        "protein_name": "Alpha-synuclein",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P37840",
+        "sequence": "MDVFMKGLSKAKEGVVAAAEKTKQGVAEAAGKTKEGVLYVGSKTKEGVVHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTVEGAGSIAAATGFVKKDQLGKNEEGAPQEGILEDMPVDPDNEAYEMPSEEGYQDYEPEA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "35-44",
+                "region_sequence": "EGVLYVGSKT"
+            },
+            "region_2": {
+                "region_indices": "49-82",
+                "region_sequence": "VHGVATVAEKTKEQVTNVGGAVVTGVTAVAQKTV"
+            },
+            "region_3": {
+                "region_indices": "86-95",
+                "region_sequence": "GSIAAATGFV"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Parkinson’s disease."
+    },
+    {
+        "entry_id": "AP00014",
+        "pdb_id": "3DBZ",
+        "pubmed_ids": [
+            "9865947",
+            "10618493",
+            "12844270"
+        ],
+        "protein_name": "Lung Surfactant",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P11686",
+        "sequence": "FGIPCCPVHLKRLLIVVVVVVLIVVVIVGALLMGL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "9-34",
+                "region_sequence": "HLKRLLIVVVVVVLIVVVIVGALLMG"
+            }
+        },
+        "uniprot_end": "58",
+        "uniprot_start": "24",
+        "species": "Homo sapiens",
+        "description": "Amyloid form implicated in human lung disease."
+    },
+    {
+        "entry_id": "AP00017",
+        "pdb_id": "2YXF",
+        "pubmed_ids": [
+            "11687582",
+            "12488093",
+            "12705891",
+            "14622000",
+            "15249659",
+            "16537488",
+            "18342332",
+            "19393661"
+        ],
+        "protein_name": "Beta2-microglobulin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P61769",
+        "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "21-31",
+                "region_sequence": "NFLNCYVSGFH"
+            },
+            "region_2": {
+                "region_indices": "33-41",
+                "region_sequence": "SDIEVDLLK"
+            },
+            "region_3": {
+                "region_indices": "59-71",
+                "region_sequence": "DWSFYLLYYTEFT"
+            },
+            "region_4": {
+                "region_indices": "83-89",
+                "region_sequence": "NHVTLSQ"
+            },
+            "region_5": {
+                "region_indices": "91-96",
+                "region_sequence": "KIVKWD"
+            }
+        },
+        "uniprot_end": "119",
+        "uniprot_start": "21",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in haemodialysis-associated amyloidosis."
+    },
+    {
+        "entry_id": "AP00016",
+        "pdb_id": "1LZ1",
+        "pubmed_ids": [
+            "15361882",
+            "17468747",
+            "16859705"
+        ],
+        "protein_name": "Lysozyme C",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P61626",
+        "sequence": "KVFERCELARTLKRLGMDGYRGISLANWMCLAKWESGYNTRATNYNAGDRSTDYGIFQINSRYWCNDGKTPGAVNACHLSCSALLQDNIADAVACAKRVVRDPQGIRAWVAWRNRCQNRDVRQYVQGCGV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "5-14",
+                "region_sequence": "RCELARTLKR"
+            },
+            "region_2": {
+                "region_indices": "25-34",
+                "region_sequence": "LANWMCLAKW"
+            },
+            "region_3": {
+                "region_indices": "56-61",
+                "region_sequence": "IFQINS"
+            }
+        },
+        "uniprot_end": "148",
+        "uniprot_start": "19",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloidosis implicated in familial visceral amyloidosis."
+    },
+    {
+        "entry_id": "AP00019",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "21792845"
+        ],
+        "protein_name": "Natriuretic peptides B, ProBNP",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P16860",
+        "sequence": "HPLGSPGSASDLETSGLQEQRNHLQGKLSELQVEQTSLEPLQESPRPTGVWKSREVATEGIRGHRKMVLYTLRAPRSPKMVQGSGCFGRKMDRISSSSGLGCKVLRRH",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "66-72",
+                "region_sequence": "KMVLYTL"
+            }
+        },
+        "uniprot_end": "134",
+        "uniprot_start": "27",
+        "species": "Homo sapiens",
+        "description": "Implicated in isolated atrial/cardiac amyloid."
+    },
+    {
+        "entry_id": "AP00018",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "10411933",
+            "15478463",
+            "17679143"
+        ],
+        "protein_name": "Medin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q08431",
+        "sequence": "RLDKQGNFNAWVAGSYGNDQWLQVDLGSSKEVTGIITQGARNFGSVQFVA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "32-50",
+                "region_sequence": "VTGIITQGARNFGSVQFVA"
+            }
+        },
+        "uniprot_end": "317",
+        "uniprot_start": "268",
+        "species": "Homo sapiens",
+        "description": "Medin amyloid is commonly deposited in the aging aortic media."
+    },
+    {
+        "entry_id": "AP00066",
+        "pdb_id": "2L63",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Glucagon-like peptide 2",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01275",
+        "sequence": "HADGSFSDEMNTILDNLAARDFINWLIQTKITD",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-33",
+                "region_sequence": "HADGSFSDEMNTILDNLAARDFINWLIQTKITD"
+            }
+        },
+        "uniprot_end": "178",
+        "uniprot_start": "146",
+        "species": "Home sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00067",
+        "pdb_id": "2QKH",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Gastric inhibitory polypeptide GIP",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P09681",
+        "sequence": "YAEGTFISDYSIAMDKIHQQDFVNWLLAQKGKKNDWKHNITQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-42",
+                "region_sequence": "YAEGTFISDYSIAMDKIHQQDFVNWLLAQKGKKNDWKHNITQ"
+            }
+        },
+        "uniprot_end": "93",
+        "uniprot_start": "52",
+        "species": "Homo sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00008",
+        "pdb_id": "1QLX",
+        "pubmed_ids": [
+            "8464494",
+            "1438300",
+            "11020222",
+            "12641727",
+            "12829502",
+            "15361882",
+            "17468747"
+        ],
+        "protein_name": "Major Prion Protein",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P04156",
+        "sequence": "KKRPKPGGWNTGGSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "84-125",
+                "region_sequence": "KTNMKHMAGAAAAGAVVGGLGGYMLGSAMSRPIIHFGSDYED"
+            },
+            "region_2": {
+                "region_indices": "148-171",
+                "region_sequence": "SNQNNFVHDCVNITIKQHTVTTTT"
+            },
+            "region_3": {
+                "region_indices": "180-196",
+                "region_sequence": "DVKMMERVVEQMCITQY"
+            },
+            "region_4": {
+                "region_indices": "209-231",
+                "region_sequence": "SMVLFSSPPVILLISFLIFLIVG"
+            }
+        },
+        "uniprot_end": "253",
+        "uniprot_start": "23",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Creutzfeldt-Jakob disease (CJD), fatal familial insomnia (FFI), Gertsmann-Straussler-Scheinker syndrome (GSS), kuru and variably protease-sensitive prionopathy (VPSPr)."
+    },
+    {
+        "entry_id": "AP00009",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "15962837"
+        ],
+        "protein_name": "Semenogelin I",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P04279",
+        "sequence": "QKGGSKGRLPSEFSQFPHGQKGQHYSGQKGKQQTESKGSFSIQYTYHVDANDHDQSRKSQQYDLNALHKTTKSQRHLGGSQQLLHNKQEGRDHDKSKGHFHRVVIHHKGGKAHRGTQNPSQDQGNSPSGKGISSQYSNTEERLWVHGLSKEQTSVSGAQKGRKQGGSQSSYVLQTEELVANKQQRETKNSHQNKGHYQNVVEVREEHSSKVQTSLCPAHQDKLQHGSKDIFSTQDELLVYNKNQHQTKNLNQDQQHGRKANKISYQSSSTEERRLHYGENGVQKDVSQSSIYSQTEEKAQGKSQKQITIPSQEQEHSQKANKISYQSSSTEERRLHYGENGVQKDVSQRSIYSQTEKLVAGKSQIQAPNPKQEPWHGENAKGESGQSTNREQDLLSHEQKGRHQHGSHGGLDI",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-142",
+                "region_sequence": "QKGGSKGRLPSEFSQFPHGQKGQHYSGQKGKQQTESKGSFSIQYTYHVDANDHDQSRKSQQYDLNALHKTTKSQRHLGGSQQLLHNKQEGRDHDKSKGHFHRVVIHHKGGKAHRGTQNPSQDQGNSPSGKGISSQYSNTEER"
+            }
+        },
+        "uniprot_end": "462",
+        "uniprot_start": "24",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in senile seminal vesicle amyloid."
+    },
+    {
+        "entry_id": "AP00006",
+        "pdb_id": "1BMZ",
+        "pubmed_ids": [
+            "2025248",
+            "8507211",
+            "11106631",
+            "12481032",
+            "14715898",
+            "26459562"
+        ],
+        "protein_name": "Transthyretin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02766",
+        "sequence": "GPTGTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "10-20",
+                "region_sequence": "CPLMVKVLDAV"
+            },
+            "region_2": {
+                "region_indices": "91-96",
+                "region_sequence": "AEVVFT"
+            },
+            "region_3": {
+                "region_indices": "105-115",
+                "region_sequence": "YTIAALLSPYS"
+            },
+            "region_4": {
+                "region_indices": "119-124",
+                "region_sequence": "TAVVTN"
+            }
+        },
+        "uniprot_end": "147",
+        "uniprot_start": "21",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in senile systemic amyloidosis."
+    },
+    {
+        "entry_id": "AP00007",
+        "pdb_id": "1CB6",
+        "pubmed_ids": [
+            "12525164"
+        ],
+        "protein_name": "Lactoferrin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02788",
+        "sequence": "GRRRSVQWCAVSQPEATKCFQWQRNMRKVRGPPVSCIKRDSPIQCIQAIAENRADAVTLDGGFIYEAGLAPYKLRPVAAEVYGTERQPRTHYYAVAVVKKGGSFQLNELQGLKSCHTGLRRTAGWNVPIGTLRPFLNWTGPPEPIEAAVARFFSASCVPGADKGQFPNLCRLCAGTGENKCAFSSQEPYFSYSGAFKCLRDGAGDVAFIRESTVFEDLSDEAERDEYELLCPDNTRKPVDKFKDCHLARVPSHAVVARSVNGKEDAIWNLLRQAQEKFGKDKSPKFQLFGSPSGQKDLLFKDSAIGFSRVPPRIDSGLYLGSGYFTAIQNLRKSEEEVAARRARVVWCAVGEQELRKCNQWSGLSEGSVTCSSASTTEDCIALVLKGEADAMSLDGGYVYTAGKCGLVPVLAENYKSQQSSDPDPNCVDRPVEGYLAVAVVRRSDTSLTWNSVKGKKSCHTAVDRTAGWNIPMGLLFNQTGSCKFDEYFSQSCAPGSDPRSNLCALCIGDEQGENKCVPNSNERYYGYTGAFRCLAENAGDVAFVKDVTVLQNTDGNNNEAWAKDLKLADFALLCLDGKRKPVTEARSCHLAMAPNHAVVSRMDKVERLKQVLLHQQAKFGRNGSDCPDKFCLFQSETKNLLFNDNTECLARLHGKTTYEKYLGPQYVAGITNLKKCSTSPLLEACEFLRK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "538-545",
+                "region_sequence": "NAGDVAFV"
+            }
+        },
+        "uniprot_end": "710",
+        "uniprot_start": "20",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in familial subepithelial corneal amyloidosis."
+    },
+    {
+        "entry_id": "AP00004",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "10611944"
+        ],
+        "protein_name": "Alpha-S2-casein",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02663",
+        "sequence": "KNTMEHVSSSEESIISQETYKQEKNMAINPSKENLCSTFCKEVVRNANEEEYSIGSSSEESAEVATEEVKITVDDKHYQKALNEINQFYQKFPQYLQYLYQGPIVLNPWDQVKRNAVPITPTLNREQLSTSEENSKKTVDMESTEVFTKKTKLTEEEKNRLNFLKKISQRYQKFALPQYLKTVYQHQKAMKPWIQPKTKVIPYVRYL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "81-125",
+                "region_sequence": "ALNEINQFYQKFPQYLQYLYQGPIVLNPWDQVKRNAVPITPTLNR"
+            }
+        },
+        "uniprot_end": "222",
+        "uniprot_start": "16",
+        "species": "Bos taurus",
+        "description": "Implicated in corpora amylacea."
+    },
+    {
+        "entry_id": "AP00005",
+        "pdb_id": "4IP8",
+        "pubmed_ids": [
+            "1731787"
+        ],
+        "protein_name": "Serum Amyloid A",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P0DJI8",
+        "sequence": "RSFFSFLGEAFDGARDMWRAYSDMREANYIGSDKYFHARGNYDAAKRGPGGVWAAEAISDARENIQRFFGHGAEDSLADQAANEWGRSGKDPNHFRPAGLPEKY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-12",
+                "region_sequence": "RSFFSFLGEAFD"
+            }
+        },
+        "uniprot_end": "122",
+        "uniprot_start": "19",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in systemic amyloidosis."
+    },
+    {
+        "entry_id": "AP00002",
+        "pdb_id": "2JXZ",
+        "pubmed_ids": [
+            "12095997",
+            "17468747",
+            "23395606"
+        ],
+        "protein_name": "Calcitonin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01258",
+        "sequence": "CGNLSTCMLGTYTQDFNKFHTFPQTAIGVGAP",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "6-11",
+                "region_sequence": "TCMLGT"
+            },
+            "region_2": {
+                "region_indices": "15-20",
+                "region_sequence": "DFNKFH"
+            }
+        },
+        "uniprot_end": "116",
+        "uniprot_start": "85",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in medullary carcinoma of the thyroid."
+    },
+    {
+        "entry_id": "AP00003",
+        "pdb_id": "2A01",
+        "pubmed_ids": [
+            "12421824",
+            "20182709",
+            "22609356"
+        ],
+        "protein_name": "Apolipoprotein A-I",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P02647",
+        "sequence": "DEPPQSPWDRVKDLATVYVDVLKDSGRDYVSQFEGSALGKQLNLKLLDNWDSVTSTFSKLREQLGPVTQEFWDNLEKETEGLRQEMSKDLEEVKAKVQPYLDDFQKKWQEEMELYRQKVEPLRAELQEGARQKLHELQEKLSPLGEEMRDRARAHVDALRTHLAPYSDELRQRLAARLEALKENGGARLAEYHAKATEHLSTLSEKAKPALEDLRQGLLPVLESFKVSFLSALEEYTKKLNTQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "46-59",
+                "region_sequence": "LLDNWDSVTSTFSK"
+            }
+        },
+        "uniprot_end": "267",
+        "uniprot_start": "25",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in familial visceral amyloidosis."
+    },
+    {
+        "entry_id": "AP00001",
+        "pdb_id": "1RW5",
+        "pubmed_ids": [
+            "9006323"
+        ],
+        "protein_name": "Prolactin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01236",
+        "sequence": "LPICPGGAARCQVTLRDLFDRAVVLSHYIHNLSSEMFSEFDKRYTHGRGFITKAINSCHTSSLATPEDKEQAQQMNQKDFLSLIVSILRSWNEPLYHLVTEVRGMQEAPEAILSKAVEIEEQTKRLLEGMELIVSQVHPETKENEIYPVWSGLPSLQMADEESRLSAYYNLLHCLRRDSHKIDNYLKLLKCRIIHNNNC",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "7-34",
+                "region_sequence": "GAARCQVTLRDLFDRAVVLSHYIHNLSS"
+            },
+            "region_2": {
+                "region_indices": "43-57",
+                "region_sequence": "RYTHGRGFITKAINS"
+            }
+        },
+        "uniprot_end": "227",
+        "uniprot_start": "29",
+        "species": "Homo sapiens",
+        "description": "Prolactin-derived amyloid fibres can be deposited in the aging pituitary gland, causing prolactinoma."
+    },
+    {
+        "entry_id": "AP00079",
+        "pdb_id": "1PG1",
+        "pubmed_ids": [
+            "21463591"
+        ],
+        "protein_name": "Protegrin-1 antimicrobial peptide",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P32194",
+        "sequence": "RGGRLCYCRRRFCVCVGR",
+        "mutations": [],
+        "regions": {},
+        "uniprot_end": "148",
+        "uniprot_start": "131",
+        "species": "Sus scrofa",
+        "description": "The antimicrobial PG-1 induces strong cytotoxic activities on cell membrane by its channel-forming ability."
+    },
+    {
+        "entry_id": "AP00078",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26676975"
+        ],
+        "protein_name": "Uperine-3.5 antimicrobial peptide",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P82042",
+        "sequence": "GVGDLIRKAVSVIKNIV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-17",
+                "region_sequence": "GVGDLIRKAVSVIKNIV"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Uperoleia mjobergii",
+        "description": "Antimicrobial peptide which exerts its cytotoxic effects as a result of membrane disruption."
+    },
+    {
+        "entry_id": "AP00073",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26812143"
+        ],
+        "protein_name": "Probable RNA-binding protein Orb2",
+        "prion_domain": "True",
+        "class_name": "functional prion",
+        "uniprot_id": "Q9VSR3",
+        "sequence": "MDSLKLPKANSATSSASGSNSNLSGSTSASASAATSPTSSGTAVGGILSGAPKSPPGLGSSTPISVRFNANEESLDDILQSFHHSKHSPSGGASGGGDASPTSNLLGMKNNGLGLVVGNCDSLSSSPSQPQMHAGSASLFGNDEVSLRNNFMQAGGFFNRKSCGGLPNLNLNKPPQLHQQQHQQQHQQHQQHQQQQQLHQHQQQLSPNLSALHHHHQQQQQLRESGGSHSPSSPGGGGGGSPYNGSQAGCSSGGISPIPPQMGVSPKYRRSISFPIKGNSPTAIYGNMHMDGMGSGHMNIPTLSIGNGGGGGSTGMVSAGATGGGDAPYLGNSYGNMMTSNGQMHHGGGLDNSLCDYMRNMSLGGNGGGDGSNSMSLMQDRMRVMGGPKHLSEADAMAIAASGNDPSVYLNALKMGSPSRLSPHSPHSPIQGGNGGNVGDGTARFSRKVFVGGLPPDIDEDEITTSFRRFGPLVVDWPHKAESKSYFPPKGYAFLLFQDESSVQQLIDSCITDEDKLYLCVSSPTIKDKAVQIRPWRLADADYVLDATMSLDPRKTVFVGGVPRPLKAFELAMIMDRLYGGVCYAGIDTDPELKYPKGAGRVAFSNQQSYIAAISARFVQLQHGDIDKRVEVKPYVLDDQMCDECEGQRCGGKFAPFFCANVTCLQYYCEHCWAVIHSRPGREYHKPLVKEGADRPRAVPFRWC",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "163-316",
+                "region_sequence": "CGGLPNLNLNKPPQLHQQQHQQQHQQHQQHQQQQQLHQHQQQLSPNLSALHHHHQQQQQLRESGGSHSPSSPGGGGGGSPYNGSQAGCSSGGISPIPPQMGVSPKYRRSISFPIKGNSPTAIYGNMHMDGMGSGHMNIPTLSIGNGGGGGSTGM"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Drosophila melanogaster",
+        "description": "Implicated in long-term memory in Drosophila."
+    },
+    {
+        "entry_id": "AP00072",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "23082034"
+        ],
+        "protein_name": "Major cell-surface adhesin PAc, P1",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P11657",
+        "sequence": "TYETEKPLKPAPVAPNYEKEPTPPTRTPDQAEPNKPTPPT",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-40",
+                "region_sequence": "TYETEKPLKPAPVAPNYEKEPTPPTRTPDQAEPNKPTPPT"
+            }
+        },
+        "uniprot_end": "887",
+        "uniprot_start": "848",
+        "species": "Streptococcus mutans",
+        "description": "Bacterial biofilm formation."
+    },
+    {
+        "entry_id": "AP00071",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "17314101"
+        ],
+        "protein_name": "Elicitor of hypersensitive response HpaG",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "A0MVU0",
+        "sequence": "MNSLNTQLGANSSFFQVDPGQNTQSSPNQGNQGISEKQLDQLLTQLIMALLQQSNNAEQGQGQGQGGDSGGQGGNPRQAGQSNGSPSQYTQALMNIVGDILQAQNGGGFGGGFGGGFGGILVTSLASDTGSMQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "31-53",
+                "region_sequence": "NQGISEKQLDQLLTQLIMALLQQ"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Xanthomonas axonopodis",
+        "description": "Harpins are virulence factors in a plant pathogenic bacteria."
+    },
+    {
+        "entry_id": "AP00070",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Urotensin-1",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01145",
+        "sequence": "NDDPPISIDLTFHLLRNMIEMARIENEREQAGLNRKYLDEV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-41",
+                "region_sequence": "NDDPPISIDLTFHLLRNMIEMARIENEREQAGLNRKYLDEV"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Catostomus commersonii",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00077",
+        "pdb_id": "2N2C",
+        "pubmed_ids": [
+            "23689371"
+        ],
+        "protein_name": "TAR DNA-binding protein of 43 kDa, TDP-43",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q13148",
+        "sequence": "MSEYIRVTEDENDEPIEIPSEDDGTVLLSTVTAQFPGACGLRYRNPVSQCMRGVRLVEGILHAPDAGWGNLVYVVNYPKDNKRKMDETDASSAVKVKRAVQKTSDLIVLGLPWKTTEQDLKEYFSTFGEVLMVQVKKDLKTGHSKGFGFVRFTEYETQVKVMSQRHMIDGRWCDSKLPNSKQSQDEPLRSRKVFVGRCTEDMTEDELREFFSQYGDVMDVFIPKPFRAFAFVTFADDQIAQSLCGEDLIIKGISVHISNAEPKHNSNRQLERSGRFGGNPGGFGNQGGFGNSRGGGAGLGNNQGSNMGGGMNFGAFSINPAMMAAAQAALKSSWGMMGMLASQQNQSGPSGNNQNQGNMQREPNQAFGSGNNSYSGSNSGAAIGWGSASNAGSGSGFNGGFGSSMDSKSSGWGM",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "318-343",
+                "region_sequence": "INPAMMAAAQAALKSSWGMMGMLASQ"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "A major deposited protein in amyotrophic lateral sclerosis and frontotemporal dementia with ubiquitin."
+    },
+    {
+        "entry_id": "AP00076",
+        "pdb_id": "1AYJ",
+        "pubmed_ids": [
+            "23665069"
+        ],
+        "protein_name": "Defensin-like protein 1 C-terminal peptide, C65A_C74A_C76A",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P69241",
+        "sequence": "ARHGSANYVFPAHKAIAYF",
+        "mutations": [
+            "C6A",
+            "C15A",
+            "C17A"
+        ],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-19",
+                "region_sequence": "ARHGSANYVFPAHKAIAYF"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Raphanus sativus",
+        "description": "Possesses antifungal activity sensitive to inorganic cations."
+    },
+    {
+        "entry_id": "AP00075",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "18083824",
+            "24802757"
+        ],
+        "protein_name": "Agglutinin-like protein 3",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q59L12",
+        "sequence": "KTITGVFNSFNSLTWSNAATYNYKGPGTPTWNAVLGWSLDGTSASPGDTFTLNMPCVFKFTTSQTSVDLTAHGVKYATCQFQAGEEFMTFSTLTCTVSNTLTPSIKALGTVTLPLAFNVGGTGSSVDLEDSKCFTAGTNTVTFNDGGKKISINVDFERSNVDPKGYLTDSRVIPSLNKVSTLFVAPQCANGYTSGTMGFANTYGDVQIDCSNIHVGITKGLNDWNYPVSSESFSYTKTCSSNGIFITYKNVPAGYRPFVDAYISATDVNSYTLSYANEYTCAGGYWQRAPFTLRWTGYRNSDAGSNGIVIVATTRTVTDSTTAVTTLPFDPNRDKTKTIEILKPIPTTTITTSYVGVTTSYSTKTAPIGETATVIVDIPYHTTTTVTSKWTGTITSTTTHTNPTDSIDTVIVQVPSPNPTVTTTEYWSQSFATTTTITGPPGNTDTVLIREPPNHTVTTTEYWSESYTTTSTFTAPPGGTDSVIIKEPPNPTVTTTEYWSESYTTTTTVTAPPGGTDTVIIREPPNHTVTTTEYWSQSYTTTTTVIAPPGGTDSVIIREPPNPTVTTTEYWSQSYATTTTITAPPGETDTVLIREPPNHTVTTTEYWSQSYATTTTITAPPGETDTVLIREPPNHTVTTTEYWSQSYTTTTTVIAPPGETDSVIIKEPPNPTVTTTEYWSQSYATTTTITAPPGETDTVLIREPPNHTVTTTEYWSQSYATTTTITAPPGETDTVLIREPPNHTVTTTEYWSQSFATTTTVTAPPGGTDTVIIREPPNHTVTTTEYWSQSFATTTTVTAPPGGTDTVLIREPPNPTVTTTEYWSQPYTTTTTVIAPPGGTDTVIIYDTMSSSEISSFSRPHYTNHTTLWSTTWVIETKTITETSCEGDKGCSWVSVSTRIVTIPNNIETPMVTNTVDSTTTESTSQSPSGIFSESGVSVETESSTVTTAQTNPSVPTTESEVVFTTKGNNGNGPYESPSTNVKSSMDENSEFTTSTAASTSTDIENETIATTGSVEASSPIISSSADETTTVTTTAESTSVIEQPTNNNGGGNAPSATSTSSPSTTTTANSDSVITSTTSTNQSQSQSNSDTQQTTLSQQMTSSLVSLHMLTTFDGS",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "308-314",
+                "region_sequence": "IVIVATT"
+            }
+        },
+        "uniprot_end": "1134",
+        "uniprot_start": "18",
+        "species": "Candida albicans",
+        "description": "Cell surface adhesion protein which mediates both yeast-to-host tissue adherence and yeast aggregation. Plays an important role in the biofilm formation and pathogenesis of C. albicans infections."
+    },
+    {
+        "entry_id": "AP00074",
+        "pdb_id": "3R9J",
+        "pubmed_ids": [
+            "24914211",
+            "26562523"
+        ],
+        "protein_name": "Cell division topological specificity factor MinE",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P0A734",
+        "sequence": "MALLDFFLSRKKNTANIAKERLQIIVAERRRSDAEPHYLPQLRKDILEVICKYVQIDPEMVTVQLEQKDGDISILELNVTLPEAEELK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "19-28",
+                "region_sequence": "KERLQIIVAE"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Escherichia coli K12",
+        "description": "MinE of the Min system forms a ring-like structure that plays a critical role in triggering the oscillation cycle and thus facilitating placement of the division septum at the midcell. To form this ring, MinE self-assembles into amyloid fibril-like structures on the supported lipid bilayer."
+    },
+    {
+        "entry_id": "AP00086",
+        "pdb_id": "1QIU",
+        "pubmed_ids": [
+            "10683434",
+            "15513921"
+        ],
+        "protein_name": "Fiber protein",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P03275",
+        "sequence": "MKRARPSEDTFNPVYPYDTETGPPTVPFLTPPFVSPNGFQESPPGVLSLRVSEPLDTSHGMLALKMGSGLTLDKAGNLTSQNVTTVTQPLKKTKSNISLDTSAPLTITSGALTVATTAPLIVTSGALSVQSQAPLTVQDSKLSIATKGPITVSDGKLALQTSAPLSGSDSDTLTVTASPPLTTATGSLGINMEDPIYVNNGKIGIKISGPLQVAQNSDTLTVVTGPGVTVEQNSLRTKVAGAIGYDSSNNMEIKTGGGMRINNNLLILDVDYPFDAQTKLRLKLGQGPLYINASHNLDINYNRGLYLFNASNNTKKLEVSIKKSSGLNFDNTAIAINAGKGLEFDTNTSESPDINPIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITIGNKNDDKLTLWTTPDPSPNCRIHSDNDCKFTLVLTKCGSQVLATVAALAVSGDLSSMTGTVASVSIFLRFDQNGVLMENSSLKKHYWNFRNGNSTNANPYTNAVGFMPNLLAYPKTQSQTAKNNIVSQVYLHGDKTKPMILTITLNGTSESTETSEVSTYSMSFTWSWESGKYTTETFATNSYTFSYIAQE",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "355-396",
+                "region_sequence": "NPIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITIGNKND"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Human adenovirus 2",
+        "description": "The fibers formed by this protein protrude from the 5-fold vertices of the adenovirus virion and are the cell attachment points of the virus."
+    },
+    {
+        "entry_id": "AP00087",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "1463722"
+        ],
+        "protein_name": "Osmotically-inducible lipoprotein B",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "P0ADA7",
+        "sequence": "CSNWSKRDRNTAIGAGAGALGGAVLTDGSTLGTLGGAAVGGVIGHQVGK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "28-44",
+                "region_sequence": "GSTLGTLGGAAVGGVIG"
+            }
+        },
+        "uniprot_end": "72",
+        "uniprot_start": "24",
+        "species": "Escherichia coli K12",
+        "description": "The sequence of the Escherichia coli OsmB protein was found to resemble that of the C-terminal region of the beta amyloid protein of Alzheimer's disease. The peptide OsmB(28-44) forms amyloid fibrils, however the associated functional relevance is not known."
+    },
+    {
+        "entry_id": "AP00084",
+        "pdb_id": "4A7U",
+        "pubmed_ids": [
+            "24344300",
+            "26815332"
+        ],
+        "protein_name": "Superoxide dismutase Cu-Zn, SOD1",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P00441",
+        "sequence": "ATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVHEFGDNTAGCTSAGPHFNPLSRKHGGPKDEERHVGDLGNVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEESTKTGNAGSRLACGVIGIAQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "101-107",
+                "region_sequence": "DSVISLS"
+            },
+            "region_2": {
+                "region_indices": "147-153",
+                "region_sequence": "GVIGIAQ"
+            }
+        },
+        "uniprot_end": "154",
+        "uniprot_start": "2",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in familial amyotrophic lateral sclerosis, a progressive neurodegenerative disease."
+    },
+    {
+        "entry_id": "AP00085",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "18939994"
+        ],
+        "protein_name": "Vitronectin",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P04004",
+        "sequence": "DQESCKGRCTEGFNVDKKCQCDELCSYYQSCCTDYTAECKPQVTRGDVFTMPEDEYTVYDDGEEKNNATVHEQVGGPSLTSDLQAQSKGNPEQTPVLKPEEEAPAPEVGASKPEGIDSRPETLHPGRPQPPAEEELCSGKPFDAFTDLKNGSLFAFRGQYCYELDEKAVRPGYPKLIRDVWGIEGPIDAAFTRINCQGKTYLFKGSQYWRFEDGVLDPDYPRNISDGFDGIPDNVDAALALPAHSYSGRERVYFFKGKQYWEYQFQHQPSQEECEGSSLSAVFEHFAMMQRDSWEDIFELLFWGRTSAGTRQPQFISRDWHGVPGQVDAAMAGRIYISGMAPRPSLAKKQRFRHRNRKGYRSQRGHSRGRNQNSRRPSRATWLSLFSSEESNLGANNYDDYRMDWLVPATCEPIQSVFFFSGDKYYRVNLRTRRVDTVDPPYPRSIAQYWLGCPAPGHL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "380-400",
+                "region_sequence": "ATWLSLFSSEESNLGANNYDD"
+            }
+        },
+        "uniprot_end": "478",
+        "uniprot_start": "20",
+        "species": "Homo sapiens",
+        "description": "Vitronectin is present within the deposits associated with Alzheimer disease (AD), age-related macular degeneration (AMD), atherosclerosis, systemic amyloidoses, and glomerulonephritis. The role of vitronectin in the pathophysiology of these diseases is currently unknown."
+    },
+    {
+        "entry_id": "AP00082",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "16756960"
+        ],
+        "protein_name": "DNA-binding protein inhibitor ID-2",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "Q02363",
+        "sequence": "MKAFSPVRSVRKNSLSDHSLGISRSKTPVDDPMSLLYNMNDCYSKLKELVPSIPQNKKVSKMEILQHVIDYILDLQIALDSHPTIVSLHHQRPGQNQASRTPLTTLNTDISILSLQASEFPSELMSNDSKALCG",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "103-124",
+                "region_sequence": "LTTLNTDISILSLQASEFPSEL"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Whereas the isolated Id2 HLH motif is highly helical, large C-terminal Id2 fragments including the NES sequence are either unordered or aggregation-prone. The biological relevance of this is unknown."
+    },
+    {
+        "entry_id": "AP00083",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "20071514"
+        ],
+        "protein_name": "Pumilio",
+        "prion_domain": "True",
+        "class_name": "not known",
+        "uniprot_id": "P25822",
+        "sequence": "MKFLGGNDDRNGRGGVGVGTDAIVGSRGGVSQDAADAAGAAAAAAVGYVFQQRPSPGGVGVGVGGVGGGVPGVGAVGSTLHEAAAAEYAAHFAQKQQQTRWACGDDGHGIDNPDKWKYNPPMNPANAAPGGPPGNGSNGGPGAIGTIGMGSGLGGGGGGGAGGGNNGGSGTNGGLHHQSMAAAAANMAAMQQAAALAKHNHMISQAAAAVAAQQQHQHPHQQHPQQQQQQQQAQNQGHPHHLMGGGNGLGNGNGLGIQHPGQQQQQQQQQQQQQHPGQYNANLLNHAAALGHMSSYAQSGGSMYDHHGGAMHPGMNGGMPKQQPLGPPGAGGPQDYVYMGGQTTVPMGAAMMPPQNQYMNSSAVAAANRNAAITTSTAKKLWEKSDGKGVSSSTPGGPLHPLQIPGIGDPSSVWKDHTWSTQGENILVPPPSRAYAHGGASDTSNSGNAGILSPRDSTCAKVVEYVFSGSPTNKDSSLSGLEPHLRNLKFDDNDKSRDDKEKANSPFDTNGLKKDDQVTNSNGVVNGIDDDKGFNRTPGSRQPSPAEESQPRPPNLLFPPLPFNHMLMDHGQGMGGGLGGVVGSGNGVGGGSGGGGAGGAYAAHQQMAAQMSQLQPPMMNGVGGGMPMAAQSPMLNHQAAGPNHMESPGNLLQQQNFDVQQLFRSQNPGLAAVATNAAAAAAAAAAATSAASAAAAVGAPPVPNGSLQQSQQQQQQQQQQQQQQQMHMAAASQQFLAAQQQAQNAAYAAQQATSYVINPGQEAAPYMGMIAAAQMPYYGVAPWGMYPGNLIPQQGTQPRRPLTPSQQGAENQPYQVIPAFLDHTGSLLMGGPRTGTPMRLVSPAPVLVPPGATRAGPPPPQGPQLYQPQPQTAQQNLYSQQNGSSVGGLALNTSSLTGRRDSFDRSTSAFSPSTMDYTSSGVAAAANAVNSTVAQAAAAAAAAAAARGKWPGAMSGAASGAYGALGAGNASASPLGAPITPPPSAQSCLLGSRAPGAESRQRQQQQQQLAAVGLPATAAAAQAAVAAAANNMFGSNSSIFSNPLAIPGTAAVAAAAAAAAAANSRQVAATAAAAAAVAAAAGGVGGAPQPGRSRLLEDFRNQRYPNLQLRDLANHIVEFSQDQHGSRFIQQKLERATAAEKQMVFSEILAAAYSLMTDVFGNYVIQKFFEFGTPEQKNTLGMQVKGHVLQLALQMYGCRVIQKALESISPEQQQEIVHELDGHVLKCVKDQNGNHVVQKCIECVDPVALQFIINAFKGQVYSLSTHPYGCRVIQRILEHCTAEQTTPILDELHEHTEQLIQDQYGNYVIQHVLEHGKQEDKSILINSVRGKVLVLSQHKFASNVVEKCVTHATRGERTGLIDEVCTFNDNALHVMMKDQYANYVVQKMIDVSEPTQLKKLMTKIRPHMAALRKYTYGKHINAKLEKYYMKITNPITVGTGAGGVPAASSAAAVSSGATSASVTACTSGSSTTTTSTTNSLASPTICSVQENGSAMVVEPSSPDASESSSSVVSGAVNSSLGPIGPPTNGNVVL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "190-570",
+                "region_sequence": "MQQAAALAKHNHMISQAAAAVAAQQQHQHPHQQHPQQQQQQQQAQNQGHPHHLMGGGNGLGNGNGLGIQHPGQQQQQQQQQQQQQHPGQYNANLLNHAAALGHMSSYAQSGGSMYDHHGGAMHPGMNGGMPKQQPLGPPGAGGPQDYVYMGGQTTVPMGAAMMPPQNQYMNSSAVAAANRNAAITTSTAKKLWEKSDGKGVSSSTPGGPLHPLQIPGIGDPSSVWKDHTWSTQGENILVPPPSRAYAHGGASDTSNSGNAGILSPRDSTCAKVVEYVFSGSPTNKDSSLSGLEPHLRNLKFDDNDKSRDDKEKANSPFDTNGLKKDDQVTNSNGVVNGIDDDKGFNRTPGSRQPSPAEESQPRPPNLLFPPLPFNHMLMDH"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Drosophila melanogaster",
+        "description": "The functional benefits of the prion form are not known."
+    },
+    {
+        "entry_id": "AP00080",
+        "pdb_id": "2MM4",
+        "pubmed_ids": [
+            "25785896"
+        ],
+        "protein_name": "Envelope small membrane protein, TK9",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P59637",
+        "sequence": "MYSFVSEETGTLIVNSVLLFLAFVVFLLVTLAILTALRLCAYCCNIVNVSLVKPTVYVYSRVKNLNSSEGVPDLLV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "55-63",
+                "region_sequence": "TVYVYSRVK"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Human SARS coronavirus",
+        "description": "SARS coronavirus E protein forms cation-selective ion channels. The amyloidogenic nature of TK9 might be important for channel formation."
+    },
+    {
+        "entry_id": "AP00081",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24220659"
+        ],
+        "protein_name": "N-terminal part of atrial natriuretic peptide, ANP",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P01160",
+        "sequence": "NPMYNAVSNADLMDFKNLLDHLEEKMPLEDEVVPPQVLSEPNEEAGAALSPLPEVPPWTGEVSPAQRDGGALGRGPWDSSDRSALLKSKLRALLTAPRSLRRSSCFGGRMDRIGAQSGLGCNSFRY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "89-95",
+                "region_sequence": "KLRALLT"
+            }
+        },
+        "uniprot_end": "151",
+        "uniprot_start": "26",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in senile amyloid of atria of heart."
+    },
+    {
+        "entry_id": "AP00088",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26440769"
+        ],
+        "protein_name": "Viral protease VP4",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P61825",
+        "sequence": "ADKGYEVVANLFQVPQNPVVDGILASPGVLRGAHNLDCVLREGATLFPVVITTVEDAMTPKALNSKMFAVIEGVREDLQPPSQRGSFIRTLSGHRVYGYAPDGVLPLETGRDYTVVPIDDVWDDSIMLSKDPIPPIVGNSGNLAIAYMDVFRPKVPIHVAMTGALNACGEIEKVSFRSTKLATAHRLGLKLAGPGAFDVNTGPNWATFIKRFPHNPRDWDRLPYLNLPYLPPNAGRQYHLAMA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "238-243",
+                "region_sequence": "YHLAMA"
+            }
+        },
+        "uniprot_end": "755",
+        "uniprot_start": "513",
+        "species": "Avibirnavirus infectious bursal disease virus",
+        "description": "VP4 forms unusual intracellular tubule-like structures during viral infection that deform the host cytoskeleton and nucleus, which is potentially associated with IBDV lytic infection. The assembly of VP4 reduces the cytotoxicity of protease activity in host cells which might prevent the premature cell death and facilitate viral replication."
+    },
+    {
+        "entry_id": "AP00089",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24354773"
+        ],
+        "protein_name": "Biofilm-associated protein, Bap",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q4ZHU1",
+        "sequence": "AELDTITKGDVKSQDKGEALDLKNIKESEKDVTTEDDNNAQVQNSAQTVDKSENSNDTAVESTNDSVKTDETKETSENKSAQDGDNIKEDSNTQEESTNTSLQSSEVPQTKKDTDETSETAIDEDAYTKEQNNKDNDTAQDDDNIKEDSNTQEESTNTSSQYSEDSQTKKEQPDKSSNSIKEPDKQQEEVAKEEKATTEIADKNKELELKNNKTDKNEESELESNLSSSENKKDTVESFLNSQLSDPETKKIMENANIDYDKATDEEINTEILRASLIEMANKKKKTETLATPQRTMFRAMATPTALRAAVNQDEELQKSLGYTDNYTFASMLFDPGKLDSDDALNSNIIPFDLHSYMSGSNSGNRYKIDLKLDPIIAEHVTKISANPSGSNKPVEFVRIKDENGNLTDTWEVNFIRANDGLFGGAEILSQYTAKNGKIELDDTVGNIVSNAGNLSNNKLNYQVFVRDSKENKIVRTSESSGYFLTKADDDLVNLENNVSTENNNAFKASSGSATYNKDVGEFGGILIDQQIMKNGIFSYSKTKANQWSYNYQIDKDLLPYIEGVELHQYDYKGLEGFDKNYDAKNKVADLTIDEVGNGTITSDNLNKLIEFNNALPETVGVRVVLKLNQSVNNILTKDAKYDSEGNLIRETTKQKEDFTFAGYLTDSKGALINNTLGTSTLALQDYDKDGLLDRYERQVSLSDAESEDTDGDGKNDGDEVINYKTSPLVGKPQAADITTEDTVVSGSVPLKEGAATQTAKVINAEGTTVGTTTVNSDGTFSVSIPNSPEGTYTIAIDSPNYDNDEVNTFEIVDSSKLPAPSINPVDDNDQQIVVNGTSGSTVTVTDSNNNVLGTVTIPADDTSAAINVDTPLEAGTVLTSTASKDGKTSDVSDQITVTDATAPDAPTLDEVNTDATQVTGQAEPGSTVTVALPGGGKASTTADDAGNFIVDIPSEVNLEGGETFTATATDETGNESEPSTTTVVDTTAPDAPTVNDVTSNDKVINGTAEPNSTVKLTFPDGTTAAGTTDSNGNYTVDIPENMSLKGGETITATSSDAEGNESESATTTVVDATAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEKLQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEEVQVTATDKDGNTSEPSSANVTDTTAPDAPTVNDVTSDATQVTGQAEPNSTVTVTFPDGTTATGTADDQGNYTIDIPSNVDLNGGEELQVTATDKDGNTSESTNTTVIDSDDNSDNGNNSGAGDNSDSDNNSGNGDNSGAGDNSDSDNNSDSGDNSNAGDNSDSDNNSGNGDSSNAGDNSDSDNNSGNGDNSSAGDNSDSDNSSNNEDNSSSNKDSINQDSNVNSNDSKHDKQNELPETGEKEVRNGTLFGTLFAGLGSLLLFTKRRRKKNDKK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1099-1105",
+                "region_sequence": "STVTVTF"
+            }
+        },
+        "uniprot_end": "2742",
+        "uniprot_start": "44",
+        "species": "Staphylococcus epidermidis",
+        "description": "Role in bacterial biofilm formation."
+    },
+    {
+        "entry_id": "AP00107",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "10391242",
+            "10818498"
+        ],
+        "protein_name": "ABri peptide",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q9Y287",
+        "sequence": "EASNCFAIRHFENKFAVETLICSRTVKKNIIEEN",
+        "mutations": [
+            "S266SRTVKKNIIEEN"
+        ],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-34",
+                "region_sequence": "EASNCFAIRHFENKFAVETLICSRTVKKNIIEEN"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in British-type cerebral amyloid angiopathy."
+    },
+    {
+        "entry_id": "AP00106",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "25600945",
+            "26088800"
+        ],
+        "protein_name": "60 kDa SS-A/Ro ribonucleoprotein",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "P10155",
+        "sequence": "MEESVNQMQPLNEKQIANSQDGYVWQVTDMNRLHRFLCFGSEGGTYYIKEQKLGLENAEALIRLIEDGRGCEVIQEIKSFSQEGRTTKQEPMLFALAICSQCSDISTKQAAFKAVSEVCRIPTHLFTFIQFKKDLKESMKCGMWGRALRKAIADWYNEKGGMALALAVTKYKQRNGWSHKDLLRLSHLKPSSEGLAIVTKYITKGWKEVHELYKEKALSVETEKLLKYLEAVEKVKRTRDELEVIHLIEEHRLVREHLLTNHLKSKEVWKALLQEMPLTALLRNLGKMTANSVLEPGNSEVSLVCEKLCNEKLLKKARIHPFHILIALETYKTGHGLRGKLKWRPDEEILKALDAAFYKTFKTVEPTGKRFLLAVDVSASMNQRVLGSILNASTVAAAMCMVVTRTEKDSYVVAFSDEMVPCPVTTDMTLQQVLMAMSQIPAGGTDCSLPMIWAQKTNTPADVFIVFTDNETFAGGVHPAIALREYRKKMDIPAKLIVCGMTSNGFTIADPDDRGMLDMCGFDTGALDVIRNFTLDMI",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "126-131",
+                "region_sequence": "FTFIQF"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Taken from dedicated databases for amyloidogenic peptides. Biological relevance not known."
+    },
+    {
+        "entry_id": "AP00105",
+        "pdb_id": "2DH2",
+        "pubmed_ids": [
+            "25600945",
+            "26088800"
+        ],
+        "protein_name": "4F2 cell-surface antigen heavy chain",
+        "prion_domain": "False",
+        "class_name": "not known",
+        "uniprot_id": "P08195",
+        "sequence": "MELQPPEASIAVVSIPRQLPGSHSEAGVQGLSAGDDSELGSHCVAQTGLELLASGDPLPSASQNAEMIETGSDCVTQAGLQLLASSDPPALASKNAEVTGTMSQDTEVDMKEVELNELEPEKQPMNAASGAAMSLAGAEKNGLVKIKVAEDEAEAAAAAKFTGLSKEELLKVAGSPGWVRTRWALLLLFWLGWLGMLAGAVVIIVRAPRCRELPAQKWWHTGALYRIGDLQAFQGHGAGNLAGLKGRLDYLSSLKVKGLVLGPIHKNQKDDVAQTDLLQIDPNFGSKEDFDSLLQSAKKKSIRVILDLTPNYRGENSWFSTQVDTVATKVKDALEFWLQAGVDGFQVRDIENLKDASSFLAEWQNITKGFSEDRLLIAGTNSSDLQQILSLLESNKDLLLTSSYLSDSGSTGEHTKSLVTQYLNATGNRWCSWSLSQARLLTSFLPAQLLRLYQLMLFTLPGTPVFSYGDEIGLDAAALPGQPMEAPVMLWDESSFPDIPGAVSANMTVKGQSEDPGSLLSLFRRLSDQRSKERSLLHGDFHAFSAGPGLFSYIRHWDQNERFLVVLNFGDVGLSAGLQASDLPASASLPAKADLLLSTQPGREEGSPLELERLKLEPHEGLLLRFPYAA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "334-339",
+                "region_sequence": "LEFWLQ"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Taken from dedicated databases for amyloidogenic peptides. Biological relevance not known."
+    },
+    {
+        "entry_id": "AP00104",
+        "pdb_id": "2CRO",
+        "pubmed_ids": [
+            "10452612"
+        ],
+        "protein_name": "Regulatory protein Cro peptide",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P03036",
+        "sequence": "TKRPRFLYEIAMALNSD",
+        "mutations": [
+            "F8Y",
+            "C16S"
+        ],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-17",
+                "region_sequence": "TKRPRFLYEIAMALNSD"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Enterobacteria phage 434",
+        "description": "The peptide corresponding to the 434 Cro helix 4 has low water solubility and forms amyloid fibres."
+    },
+    {
+        "entry_id": "AP00103",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "8619814"
+        ],
+        "protein_name": "Tubulin alpha-1A chain",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q71U36",
+        "sequence": "MRECISIHVGQAGVQIGNACWELYCLEHGIQPDGQMPSDKTIGGGDDSFNTFFSETGAGKHVPRAVFVDLEPTVIDEVRTGTYRQLFHPEQLITGKEDAANNYARGHYTIGKEIIDLVLDRIRKLADQCTGLQGFLVFHSFGGGTGSGFTSLLMERLSVDYGKKSKLEFSIYPAPQVSTAVVEPYNSILTTHTTLEHSDCAFMVDNEAIYDICRRNLDIERPTYTNLNRLIGQIVSSITASLRFDGALNVDLTEFQTNLVPYPRIHFPLATYAPVISAEKAYHEQLSVAEITNACFEPANQMVKCDPRHGKYMACCLLYRGDVVPKDVNAAIATIKTKRTIQFVDWCPTGFKVGINYQPPTVVPGGDLAKVQRAVCMLSNTTAIAEAWARLDHKFDLMYAKRAFVHWYVGEGMEEGEFSEAREDMAALEKDYEEVGVDSVEGEGEEEGEEY",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "353-370",
+                "region_sequence": "VGINYQPPTVVPGGDLAK"
+            },
+            "region_2": {
+                "region_indices": "395-401",
+                "region_sequence": "FDLMYAK"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "The C-terminal fragments of both alpha- and beta-tubulin are closely associated to the amyloid deposits of familial amyloidosis, British type."
+    },
+    {
+        "entry_id": "AP00102",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "12427014",
+            "12962511"
+        ],
+        "protein_name": "Acetylcholinesterase, AChE",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P22303",
+        "sequence": "EGREDAELLVTVRGGRLRGIRLKTPGGPVSAFLGIPFAEPPMGPRRFLPPEPKQPWSGVVDATTFQSVCYQYVDTLYPGFEGTEMWNPNRELSEDCLYLNVWTPYPRPTSPTPVLVWIYGGGFYSGASSLDVYDGRFLVQAERTVLVSMNYRVGAFGFLALPGSREAPGNVGLLDQRLALQWVQENVAAFGGDPTSVTLFGESAGAASVGMHLLSPPSRGLFHRAVLQSGAPNGPWATVGMGEARRRATQLAHLVGCPPGGTGGNDTELVACLRTRPAQVLVNHEWHVLPQESVFRFSFVPVVDGDFLSDTPEALINAGDFHGLQVLVGVVKDEGSYFLVYGAPGFSKDNESLISRAEFLAGVRVGVPQVSDLAAEAVVLHYTDWLHPEDPARLREALSDVVGDHNVVCPVAQLAGRLAAQGARVYAYVFEHRASTLSWPLWMGVPHGYEIEFIFGIPLDPSRNYTAEEKIFAQRLMRYWANFARTGDPNEPRDPKAPQWPPYTAGAQQYVSLDLRPLEVRRGLRAQACAFWNRFLPKLLSATDTLDEAERQWKAEFHRWSSYMVHWKNQFDHYSKQDRCSDL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "555-568",
+                "region_sequence": "AEFHRWSSYMVHWK"
+            }
+        },
+        "uniprot_end": "614",
+        "uniprot_start": "32",
+        "species": "Homo sapiens",
+        "description": "AChE normally resides mainly on cholinergic neuronal membranes, but is abnormally localized to senile plaques in Alzheimer's disease. AChE and A beta interact in vitro; the fibrillogenic region within AChE may be relevant to the interaction of AChE with amyloid fibrils formed by Abeta."
+    },
+    {
+        "entry_id": "AP00101",
+        "pdb_id": "2OCT",
+        "pubmed_ids": [
+            "20685229",
+            "18021806",
+            "15048832"
+        ],
+        "protein_name": "Cystatin-B",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "P04080",
+        "sequence": "MMCGAPSATQPATAETQHIADQVRSQLEEKENKKFPVFKAVSFKSQVVAGTNYFIKVHVGDEDFVHLRVFQSLPHENKPLTLSNYQTNKAKHDELTYF",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "39-59",
+                "region_sequence": "KAVSFKSQVVAGTNYFIKVHV"
+            },
+            "region_2": {
+                "region_indices": "64-71",
+                "region_sequence": "FVHLRVFQ"
+            },
+            "region_3": {
+                "region_indices": "80-87",
+                "region_sequence": "LTLSNYQT"
+            },
+            "region_4": {
+                "region_indices": "95-98",
+                "region_sequence": "LTYF"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Members of the cystatin superfamily are involved in an inherited form of cerebral amyloid angiopathy and readily form amyloid fibrils in vitro."
+    },
+    {
+        "entry_id": "AP00100",
+        "pdb_id": "4POC",
+        "pubmed_ids": [
+            "26870617"
+        ],
+        "protein_name": "Triosephosphate isomerase",
+        "prion_domain": "False",
+        "class_name": "biologically not relevant",
+        "uniprot_id": "P60174",
+        "sequence": "MAEDGEEAEFHFAALYISGQWPRLRADTDLQRLGSSAMAPSRKFFVGGNWKMNGRKQSLGELIGTLNAAKVPADTEVVCAPPTAYIDFARQKLDPKIAVAAQNCYKVTNGAFTGEISPGMIKDCGATWVVLGHSERRHVFGESDELIGQKVAHALAEGLGVIACIGEKLDEREAGITEKVVFEQTKVIADNVKDWSKVVLAYEPVWAIGTGKTATPQQAQEVHEKLRGWLKSNVSDAVAQSTRIIYGGSVTGATCKELASQPDVDGFLVGGASLKPEFVDIINAKQ",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "59-66",
+                "region_sequence": "LGELIGTL"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Despite the fibrillogenic regions present in HsTPI, the enzyme maintained under native-favoring conditions displayed low fibrillogenic propensity. This amyloid-resistance can be attributed to the three-dimensional arrangement of the protein, where β-strands, susceptible to aggregation, are protected in the core of the molecule. Destabilization of the protein structure may expose inner regions promoting β-aggregation, as well as the formation of hydrophobic disordered aggregates."
+    },
+    {
+        "entry_id": "AP00060",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "22685403",
+            "26365835"
+        ],
+        "protein_name": "Phenol-soluble modulin A1",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "A8Z0V1",
+        "sequence": "MGIIAGIIKVIKSLIEQFTGK",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-21",
+                "region_sequence": "MGIIAGIIKVIKSLIEQFTGK"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Staphylococcus aureus",
+        "description": "Bacterial biofilm component and secreted virulence factor."
+    },
+    {
+        "entry_id": "AP00061",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "24980969"
+        ],
+        "protein_name": "Accessory gene regulator D amphipathic leader sequence, N-AgrD",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q53643",
+        "sequence": "MNTLFNLFFDFITGILKNIGNIAA",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-24",
+                "region_sequence": "MNTLFNLFFDFITGILKNIGNIAA"
+            }
+        },
+        "uniprot_end": "24",
+        "uniprot_start": "1",
+        "species": "Staphylococcus aureus",
+        "description": "N-AgrD, like the phenol-soluble modulins, is found in the amyloid fibrils of S. aureus biofilms and is capable of forming and seeding amyloid fibrils in vitro. N-AgrD displays cytolytic and proinflammatory properties that are abrogated after fibril formation."
+    },
+    {
+        "entry_id": "AP00062",
+        "pdb_id": "1GOE",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Corticoliberin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P06850",
+        "sequence": "SEEPPISLDLTFHLLREVLEMARAEQLAQQAHSNRKLMEII",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-41",
+                "region_sequence": "SEEPPISLDLTFHLLREVLEMARAEQLAQQAHSNRKLMEII"
+            }
+        },
+        "uniprot_end": "194",
+        "uniprot_start": "154",
+        "species": "Homo sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00063",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Urocortin",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P55090",
+        "sequence": "DDPPLSIDLTFHLLRTLLELARTQSQRERAEQNRIIFDSV",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-40",
+                "region_sequence": "DDPPLSIDLTFHLLRTLLELARTQSQRERAEQNRIIFDSV"
+            }
+        },
+        "uniprot_end": "120",
+        "uniprot_start": "81",
+        "species": "Rattus norvegicus",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00064",
+        "pdb_id": "2RMH",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Urocortin-3",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q969E3",
+        "sequence": "FTLSLDVPTNIMNLLFNIAKAKNLRAQAAANAHLMAQI",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-38",
+                "region_sequence": "FTLSLDVPTNIMNLLFNIAKAKNLRAQAAANAHLMAQI"
+            }
+        },
+        "uniprot_end": "157",
+        "uniprot_start": "120",
+        "species": "Homo sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00065",
+        "pdb_id": "4ZGM",
+        "pubmed_ids": [
+            "19541956"
+        ],
+        "protein_name": "Glucagon-like peptide 1",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P01275",
+        "sequence": "HDEFERHAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-37",
+                "region_sequence": "HDEFERHAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG"
+            }
+        },
+        "uniprot_end": "128",
+        "uniprot_start": "92",
+        "species": "Home sapiens",
+        "description": "Peptide hormones are stored in the form of functional amyloids in pituitary secretory granules."
+    },
+    {
+        "entry_id": "AP00109",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "27028204",
+            "25234689"
+        ],
+        "protein_name": "Cn-AMP2",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "P86706",
+        "sequence": "TESYFVFSVGM",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-11",
+                "region_sequence": "TESYFVFSVGM"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Cocos nucifera",
+        "description": "Cn-AMP2 is an antimicrobial peptide derived from liquid endosperm of coconut."
+    },
+    {
+        "entry_id": "AP00108",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "10781099"
+        ],
+        "protein_name": "ADan peptide",
+        "prion_domain": "False",
+        "class_name": "pathogenic",
+        "uniprot_id": "Q9Y287",
+        "sequence": "EASNCFAIRHFENKFAVETLICFNLFLNSQEKHY",
+        "mutations": [
+            "S266FNLFLNSQEKHY"
+        ],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-34",
+                "region_sequence": "EASNCFAIRHFENKFAVETLICFNLFLNSQEKHY"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Homo sapiens",
+        "description": "Pathogenic amyloid implicated in Danish-type cerebral amyloid angiopathy."
+    },
+    {
+        "entry_id": "AP00124",
+        "pdb_id": "1ZMQ",
+        "pubmed_ids": [
+            "22722251",
+            "27151743",
+            "25158166"
+        ],
+        "protein_name": "Human α-defensin 6, HD6",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q01524",
+        "sequence": "AFTCHCRRSCYSTEYSYGTCTVMGINHRFCCL",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "1-32",
+                "region_sequence": "AFTCHCRRSCYSTEYSYGTCTVMGINHRFCCL"
+            }
+        },
+        "uniprot_end": "100",
+        "uniprot_start": "69",
+        "species": "Homo sapiens",
+        "description": "D 6 is an antimicrobial peptide that self-assembles into fibrils, which agglutinate both Gram-negative and -positive bacteria, and block the invasion of mammalian mucosal cells by the human gastrointestinal pathogen, Listeria monocytogenes, Salmonella typhimurium and Yersinia enterocolitica."
+    },
+    {
+        "entry_id": "AP00125",
+        "pdb_id": "N/A",
+        "pubmed_ids": [
+            "26601953"
+        ],
+        "protein_name": "PB1-F2 C-terminal domain",
+        "prion_domain": "False",
+        "class_name": "functional amyloid",
+        "uniprot_id": "Q0HD51",
+        "sequence": "MEQEQDTPWILSTGHISTQKGEGGQQTPKLEHHNSTRLMDHCQKTMNQVVMPKQIVYWKQWLSLRNPILVFLKTRVLRQWRLFSKHEWTN",
+        "mutations": [],
+        "regions": {
+            "region_1": {
+                "region_indices": "53-90",
+                "region_sequence": "KQIVYWKQWLSLRNPILVFLKTRVLRQWRLFSKHEWTN"
+            }
+        },
+        "uniprot_end": "",
+        "uniprot_start": "",
+        "species": "Influenza A virus",
+        "description": "PB1-F2 is involved in virulence by inducing mitochondria-mediated immune cells apoptosis through membrane disruptive activity. The membrane-lytic activity of PB1-F2 is closely related to its amyloid-like supramolecular organization."
+    }
+]

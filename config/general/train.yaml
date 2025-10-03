@@ -1,0 +1,6 @@
+run_mode: train
+abs_repo_path: null
+composite_model_name: null
+composite_model_path: null
+precomputed_embeddings_path: null
+random_state: 42

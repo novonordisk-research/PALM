@@ -1,0 +1,71 @@
+general:
+  run_mode: test
+  abs_repo_path: null
+  composite_model_name: onehot_LightAttention_sbxwfibrillationpeptidecanyaNNK1to3-5foldtrain-valcanyaNNK4-test
+  composite_model_path: null
+  precomputed_embeddings_path: null
+  random_state: 42
+dataset:
+  data_name: sbxw_fibrillation_peptide_canyaNNK1to3-5fold_train-val_canyaNNK4-test
+  add_data_columns: []
+  data_columns_dimred: []
+  data_columns_standard: []
+  group_column: null
+  data_scaler: RobustScaler
+  target_scaling: null
+  rbf_encoder: RadialBasisFunctionGaussian
+  rbf_n_kernels: 10
+  task: classification_binary
+  use_predefined_split: true
+  use_sample_weights: false
+  residue_prediction_labels: null
+  data_split_column: data_split_fold4
+  data_split:
+    train: 0.8
+    val: 0.0
+    test: 0.2
+embedder:
+  class_name: OneHot
+  model_name: onehot
+  standardize: false
+  scalar_type: null
+  model_path: null
+  hparams: null
+  batch_size_scaling_factor: null
+  mean_pool: false
+dimred:
+  class_name: NoReduction
+  transform_name: null
+  fraction_variance_explained: null
+predictor:
+  class_name: LightAttention
+  model_name: lightattention_output_dim_1_kernel_size_5_dropout_0.25_conv_dropout_0.25_optimizer_type_sgd_learning_rate_0.005_batch_size_1000_max_epochs_50000_patience_20_post_attention_mlp_conv1d_output_dim_-1_optimal_cutoff_0.32_reduction_mode_weighted_mean_penalty_weight_0.0
+  model_type: classification_binary
+  mem_per_job: null
+  residue_prediction_mode: false
+  hparams:
+    output_dim: 1
+    kernel_size: 5
+    dropout: 0.25
+    conv_dropout: 0.25
+    optimizer_type: sgd
+    learning_rate: 0.005
+    batch_size: 1000
+    max_epochs: 50000
+    patience: 20
+    post_attention: mlp
+    conv1d_output_dim: -1
+    optimal_cutoff: 0.32
+    reduction_mode: weighted_mean
+    penalty_weight: 0.0
+persistence:
+  type: lovelace
+  data_root_folder: /novo/projects/departments/cdd/molecular_ai/mlbp/data
+  artifacts_root_folder: /novo/projects/departments/cdd/public/users/ehec/au24/250309_respred_dump
+  training_data: fibrillation_data
+  pretrained_weights: static_pretrained_weights
+mlflow:
+  tracking_uri: https://datalab.corp.novocorp.net/mlflow/
+  experiment_name: waltz_fibrillation_model_fivefold
+plots:
+  generate_plots: false

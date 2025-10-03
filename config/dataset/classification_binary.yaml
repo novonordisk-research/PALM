@@ -1,0 +1,18 @@
+data_name: null
+add_data_columns: false # if set to true, columns with prefix data_ will be added to embedding
+data_columns_dimred: false # set to true to transform all or list specific ones
+data_columns_standard: false # set to true to standardize all or list specific ones
+group_column: null # categorical column to define classes for class specific eval
+data_scaler: RobustScaler # set to null for no rescaling
+target_scaling: null # set to MinMaxScaler, RobustScaler, StandardScaler, or None
+rbf_encoder: RadialBasisFunctionGaussian # set to null for no RBF encoding
+rbf_n_kernels: 10
+task: classification_binary
+use_predefined_split: false # if true, will use "data_split" column
+use_sample_weights: false # if true, will use "sample_weight" columns
+residue_prediction_labels: null # set to column name (string) to activate
+data_split_column: "data_split"
+data_split:
+  train: 0.8
+  val: 0.0
+  test: 0.2
