@@ -194,7 +194,9 @@ Probability scores (0-1): Higher values indicate greater amyloidogenic propensit
 Residue arrays: Each position corresponds to aggregation probability for that residue
 High-risk positions: Residue positions with scores > 0.5
 
+The `--plot` argument can be used to generate residue score plots with plotly
 
+![Residue score plot](images/residue_plot_html.gif)
 
 ## Project Structure
 ```bash
