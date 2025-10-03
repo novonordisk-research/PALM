@@ -73,9 +73,7 @@ class ESM(LLMEmbedderModel):
             self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=hf_dir_path)
 
             # Setup device
-            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-            if self.device == "cpu":
-                raise NotImplementedError("Batching is only implemented for GPUs")
+            self.device = torch.device("cpu" if torch.backends.mps.is_available() else "cpu")
 
             logger.info(f"Moving model to {self.device}")
             self.model = self.model.to(self.device).eval()
