@@ -231,10 +231,10 @@ class LLMEmbedderModel(EmbedderModel):
             batch (list[str]): A valid batch
         """
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        if self.device == "cpu" and not self.simple_batching:
+        
+        if self.device.type == 'cpu':
             logger.info("No GPU found, switching to simple batching.")
-
-        if self.simple_batching:
+            
             for seq in sequences:
                 yield [seq]
         else:
