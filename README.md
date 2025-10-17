@@ -124,6 +124,9 @@ python src/cli/inference.py \
     --sequences "MVLSEGEWQLVLHVWAK" "KPKATEEQLKTVMENFV" \
     --model_name PALM
 
+#Direct plot outputs a html file of aggregation profile plot  of residues within a sequences using the plot command 
+python inference_script.py --fasta sequences.fasta --plot
+
 # Disable ensemble (use individual folds only)
 python src/cli/inference.py --fasta proteins.fasta --no_ensemble
 
@@ -191,7 +194,9 @@ Probability scores (0-1): Higher values indicate greater amyloidogenic propensit
 Residue arrays: Each position corresponds to aggregation probability for that residue
 High-risk positions: Residue positions with scores > 0.5
 
+The `--plot` argument can be used to generate residue score plots with plotly
 
+![Residue score plot](images/residue_plot_html.gif)
 
 ## Project Structure
 ```bash
@@ -245,7 +250,7 @@ If you use PALM in your research, please cite:
 ### CUDA/CPU device mismatch
 Use the `--cpu` flag to force CPU usage:
 ```bash
-python src/cli/inference.py --dataset data.csv --cpu --huggingface
+python src/cli/inference.py --dataset data.csv --cpu 
 ```
 
 ### Memory issues with large datasets
