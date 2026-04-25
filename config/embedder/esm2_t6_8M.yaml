@@ -13,3 +13,4 @@ strict: True
 verbose: False
 mean_pool: True
 output_hidden_states: False 
+mask_placeholder: "#"  # or null/omit to disable

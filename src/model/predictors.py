@@ -277,8 +277,8 @@ class TorchMLP(TorchPredictorModel):
         Returns:
             model_path (str): The path to where the model was saved
         """
-        model_path = Path(dir_path, self.cfg.predictor.model_name + ".pt")
-        torch.save(self.model, model_path)
+        model_path = Path(dir_path, "model_state_dict.pt")
+        torch.save(self.model.state_dict(), model_path)
         return model_path
 
     def update_predictor_name(self) -> None:
@@ -379,7 +379,11 @@ class LightAttention(TorchPredictorModel):
             logger.info(f"Loading model from {model_path}")
             emb_dims = {
                 "esm2_t6_8M_UR50D":320,
-                "onehot":20
+                "esm2_t12_35M_UR50D":480,
+                "esm2_t30_150M_UR50D":640,
+                "esm2_t33_650M_UR50D":1280,
+                "onehot":20,
+                "zscale":5,
             }
             self.init_torch_module(emb_dims[self.cfg.embedder.model_name])
             device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
@@ -456,8 +460,8 @@ class LightAttention(TorchPredictorModel):
         Returns:
             model_path (str): The path to where the model was saved
         """
-        model_path = Path(dir_path, "model.pt")
-        torch.save(self.model, model_path)
+        model_path = Path(dir_path, "model_state_dict.pt")
+        torch.save(self.model.state_dict(), model_path)
         return model_path
 
     def update_predictor_name(self) -> None:
@@ -622,8 +626,8 @@ class LSTM(TorchPredictorModel):
         Returns:
             model_path (str): The path to where the model was saved
         """
-        model_path = Path(dir_path, self.cfg.predictor.model_name + ".pt")
-        torch.save(self.model, model_path)
+        model_path = Path(dir_path, "model_state_dict.pt")
+        torch.save(self.model.state_dict(), model_path)
         return model_path
 
     def update_predictor_name(self) -> None:
