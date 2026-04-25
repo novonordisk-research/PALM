@@ -2,6 +2,8 @@
 
 PALM is a deep learning model for predicting amyloidogenic regions in protein sequences at residue-level resolution. It combines the protein language model, ESM2 8M, with an adapted light attention architecture to achieve state-of-the-art performance in aggregation prediction.
 
+> NOTE: Multiple releases are available. v1.1.0 corresponds exactly to the version used in the [publication](10.1021/acs.jcim.6c00577), and should be used for replication. v1.2.0 includes an improvement to the LightAttention reduction layer (`weighted_mean_three`) that produces cleaner residue-level score plots with negligible change on the performance on sequence/residue-level prediction benchmarks
+
 ## Features
 
 - **Residue-level predictions** for amyloidogenic propensity
