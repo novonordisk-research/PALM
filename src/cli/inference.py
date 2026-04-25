@@ -498,8 +498,8 @@ class FlexiblePALMInference:
         sequence_df = df[seq_columns].copy()
         
         # Save outputs
-        csv_file = f"{output_prefix}_sequences.csv"
-        json_file = f"{output_prefix}_residues.json"
+        csv_file = f"{output_prefix}__sequences.csv"
+        json_file = f"{output_prefix}__residues.json"
         
         # Save sequence predictions to CSV
         sequence_df.to_csv(csv_file, index=False)

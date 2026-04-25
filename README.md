@@ -155,7 +155,7 @@ The inference script generates comprehensive predictions at both sequence and re
 
 ### 1. Sequence-level predictions (CSV)
 
-**File:** `{output_prefix}_sequences.csv`
+**File:** `{output_prefix}__sequences.csv`
 
 - **name**: Sequence identifier
 - **sequence**: Original protein sequence
@@ -171,7 +171,7 @@ Protein_2,LIVTQTMKGL...,0.423,0.431,0.418,0.427,0.435,0.427
 
 ### 2. Residue-level predictions (JSON)
 ```bash
-File: {output_prefix}_residues.json
+File: {output_prefix}__residues.json
 json{
   "Protein_1": {
     "sequence": "MVLSEGEWQL...",

@@ -72,8 +72,11 @@ class ESM(LLMEmbedderModel):
             self.model = EsmModel.from_pretrained(model_name, cache_dir=hf_dir_path)
             self.tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=hf_dir_path)
 
-            # Setup device
-            self.device = torch.device("cpu" if torch.backends.mps.is_available() else "cpu")
+            # Setup device (prefer CUDA, avoid MPS which has issues with ESM)
+            if torch.cuda.is_available():
+                self.device = torch.device("cuda")
+            else:
+                self.device = torch.device("cpu")
 
             logger.info(f"Moving model to {self.device}")
             self.model = self.model.to(self.device).eval()
@@ -87,9 +90,44 @@ class ESM(LLMEmbedderModel):
                 else:
                     raise ValueError(f"Unsupported chain break: {self.cfg.embedder.chain_break}")
 
+            # Validate mask placeholder if configured
+            self._validate_mask_placeholder()
+
         except Exception as e:
             logger.error(f"Error loading model: {e}")
             raise
+
+    def _validate_mask_placeholder(self) -> None:
+        """Validate that the mask placeholder is not a valid amino acid."""
+        placeholder = self.cfg.embedder.get("mask_placeholder")
+        if placeholder is None:
+            return
+        
+        valid_aa = set("ACDEFGHIKLMNPQRSTVWY")
+        if placeholder in valid_aa:
+            raise ValueError(
+                f"Mask placeholder '{placeholder}' cannot be a valid amino acid. "
+                f"Use a character like '#' or '*' instead."
+            )
+        logger.info(f"Mask placeholder '{placeholder}' will be replaced with '{self.tokenizer.mask_token}'")
+
+    def replace_mask_placeholders(self, spaced_sequences: list[str]) -> list[str]:
+        """Replace placeholder characters with the tokenizer's mask token.
+        
+        Args:
+            spaced_sequences: List of sequences with spaces between residues.
+                              e.g., ["M K T A Y # G C V S", ...]
+        
+        Returns:
+            Sequences with placeholders replaced by the mask token.
+                              e.g., ["M K T A Y <mask> G C V S", ...]
+        """
+        placeholder = self.cfg.embedder.get("mask_placeholder")
+        if placeholder is None:
+            return spaced_sequences
+        
+        mask_token = self.tokenizer.mask_token  # "<mask>" for ESM models
+        return [seq.replace(placeholder, mask_token) for seq in spaced_sequences]
 
     def duplicate_sequences(self, sequences: list[str]) -> list[str]:
         """Duplicate sequences with chain breaks if configured."""
@@ -107,6 +145,9 @@ class ESM(LLMEmbedderModel):
         self.validate_layer_idx()
         seq_lens = [len(x) for x in seqs]
         seqs = [" ".join(list(x)) for x in seqs]
+
+        # Replace mask placeholders with actual mask tokens
+        seqs = self.replace_mask_placeholders(seqs)
 
         # Tokenize sequences
         token_encoding = self.tokenizer.batch_encode_plus(
@@ -214,9 +255,53 @@ class OneHot(AAFeaturizerModel):
 
     def validate_sequences(self, sequences: list) -> None:
         aa_alphabet = set(self.aa_feature_mapping.keys())
-        for _, seq in enumerate(sequences):
+        for i, seq in enumerate(sequences):
             for char in seq:
                 if char not in aa_alphabet:
                     raise ValueError(
-                        "Sequence {i} contains a character {char} that is not in the alphabet: {aa_alphabet}"
+                       f"Sequence {i} contains a character {char} that is not in the alphabet: {aa_alphabet}"
+                    )
+
+
+
+class ZScale(AAFeaturizerModel):
+    def __init__(self, cfg: DictConfig):
+        super().__init__(cfg)
+        logger.info(f"Loading model: {self.cfg.embedder.model_name}")
+
+    @property
+    def aa_feature_mapping(self):
+        # fmt: off
+        aa_feature_mapping = { 
+            'A': [0.24, -2.32, 0.6, -0.14, 1.3],
+            'C': [0.84, -1.67, 3.71, 0.18, -2.65],
+            'D': [3.98, 0.93, 1.93, -2.46, 0.75],
+            'E': [3.11, 0.26, -0.11, -3.04, -0.25],
+            'F': [-4.22, 1.94, 1.06, 0.54, -0.62],
+            'G': [2.05, -4.06, 0.36, -0.82, -0.38],
+            'H': [2.47, 1.95, 0.26, 3.9, 0.09],
+            'I': [-3.89, -1.73, -1.71, -0.84, 0.26],
+            'K': [2.29, 0.89, -2.49, 1.49, 0.31],
+            'L': [-4.28, -1.3, -1.49, -0.72, 0.84],
+            'M': [-2.85, -0.22, 0.47, 1.94, -0.98],
+            'N': [3.05, 1.62, 1.04, -1.15, 1.61],
+            'P': [-1.66, 0.27, 1.84, 0.7, 2.0],
+            'Q': [1.75, 0.5, -1.44, -1.34, 0.66],
+            'R': [3.52, 2.5, -3.5, 1.99, -0.17],
+            'S': [2.39, -1.07, 1.15, -1.39, 0.67],
+            'T': [0.75, -2.18, -1.12, -1.46, -0.4],
+            'V': [-2.59, -2.64, -1.54, -0.85, -0.02],
+            'W': [-4.36, 3.94, 0.59, 3.44, -1.59],
+            'Y': [-2.54, 2.44, 0.43, 0.04, -1.47]
+        }
+        # fmt: on
+        return aa_feature_mapping
+
+    def validate_sequences(self, sequences: list) -> None:
+        aa_alphabet = set(self.aa_feature_mapping.keys())
+        for i, seq in enumerate(sequences):
+            for char in seq:
+                if char not in aa_alphabet:
+                    raise ValueError(
+                        f"Sequence {i} contains a character {char} that is not in the alphabet: {aa_alphabet}"
                     )
