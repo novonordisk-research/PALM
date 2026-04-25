@@ -40,13 +40,14 @@ embedder:
   verbose: false
   mean_pool: false
   output_hidden_states: false
+  mask_placeholder: '#'
 dimred:
   class_name: NoReduction
   transform_name: null
   fraction_variance_explained: null
 predictor:
   class_name: LightAttention
-  model_name: lightattention_output_dim_1_kernel_size_5_dropout_0.25_conv_dropout_0.25_optimizer_type_sgd_learning_rate_0.005_batch_size_1000_max_epochs_50000_patience_20_post_attention_mlp_conv1d_output_dim_-1_optimal_cutoff_0.3_reduction_mode_weighted_mean_penalty_weight_0.0
+  model_name: lightattention_output_dim_1_kernel_size_5_dropout_0.25_conv_dropout_0.25_optimizer_type_sgd_learning_rate_0.05_batch_size_1000_max_epochs_10000_patience_200_post_attention_mlp_conv1d_output_dim_-1_optimal_cutoff_0.39_reduction_mode_weighted_mean_three_penalty_weight_0.0
   model_type: classification_binary
   mem_per_job: null
   residue_prediction_mode: false
@@ -56,23 +57,23 @@ predictor:
     dropout: 0.25
     conv_dropout: 0.25
     optimizer_type: sgd
-    learning_rate: 0.005
+    learning_rate: 0.05
     batch_size: 1000
-    max_epochs: 50000
-    patience: 20
+    max_epochs: 10000
+    patience: 200
     post_attention: mlp
     conv1d_output_dim: -1
-    optimal_cutoff: 0.3
-    reduction_mode: weighted_mean
+    optimal_cutoff: 0.39
+    reduction_mode: weighted_mean_three
     penalty_weight: 0.0
 persistence:
-  type: lovelace
-  data_root_folder: /path/to/data
-  artifacts_root_folder: /path/to/artifacts
-  training_data: fibrillation_data
-  pretrained_weights: static_pretrained_weights
+  type: local
+  data_root_folder: /novo/projects/departments/cdd/molecular_ai/sbxw/repos/PALM_internal/revisions/training/data
+  artifacts_root_folder: /novo/projects/departments/cdd/molecular_ai/sbxw/repos/PALM_internal/revisions/training/artifacts
+  training_data: training_data
+  pretrained_weights: pretrained_weights
 mlflow:
-  tracking_uri: local
-  experiment_name: waltz_fibrillation_model_fivefold
+  tracking_uri: null
+  experiment_name: null
 plots:
   generate_plots: false

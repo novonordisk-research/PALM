@@ -82,6 +82,9 @@ class LightAttentionModule(L.LightningModule):
         self.dropout = nn.Dropout(conv_dropout)
         self.sigmoid = nn.Sigmoid()
 
+        if self.reduction_mode == "weighted_mean_three":
+            self.temperature = nn.Parameter(torch.ones(1))  # learnable temperature for weighted_mean
+
         concat_factor = 1  # if self.residue_prediction_mode else 2
         if post_attention == "mlp":
             # from LA paper
@@ -223,6 +226,17 @@ class LightAttentionModule(L.LightningModule):
             self.o_reduced = torch.sum(self.o_unflattened_weighted, dim=-1, keepdim=False)
             self.o_reduced = torch.clamp(self.o_reduced, max=1)
             logger.info(f"TENSOR MAXIMUM {torch.max(self.o_reduced)}")
+        elif self.reduction_mode == "weighted_mean_three":
+            # Compute attention weights from logits (pre-sigmoid) with learnable temperature
+            weights = self.softmax(self.o_unflattened.masked_fill(mask == False, -1e9) / self.temperature.clamp(min=0.01))
+            # Apply sigmoid to get bounded values
+            self.o_unflattened = self.sigmoid(self.o_unflattened)
+            self.o_unflattened_weighted = self.o_unflattened * weights
+            self.penalty = torch.nanmean(
+                self.o_unflattened_weighted.masked_fill(mask == False, float("nan"))
+            )
+            self.o_reduced = torch.sum(self.o_unflattened_weighted, dim=-1, keepdim=False)
+            self.o_reduced = torch.clamp(self.o_reduced, max=1)
 
         self.o_reduced = self.o_reduced  # [m, 1]
 
@@ -264,6 +278,8 @@ class LightAttentionModule(L.LightningModule):
             "train.penalty", penalty, on_step=False, on_epoch=True, batch_size=batch[0].shape[0]
         )
         self.log("train.loss", loss, on_step=False, on_epoch=True, batch_size=batch[0].shape[0])
+        if self.reduction_mode == "weighted_mean_three":
+            self.log("train.temperature", self.temperature, on_step=False, on_epoch=True)
         return loss
 
     def validation_step(self, batch):
