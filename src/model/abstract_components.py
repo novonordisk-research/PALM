@@ -233,10 +233,16 @@ class LLMEmbedderModel(EmbedderModel):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         
         if self.device.type == 'cpu':
-            logger.info("No GPU found, switching to simple batching.")
-            
+            logger.info("No GPU found, batching all sequences together on CPU.")
+
+            batch = []
             for seq in sequences:
-                yield [seq]
+                if len(batch) >= self.max_batch_size:
+                    yield batch
+                    batch = []
+                batch.append(seq)
+            if batch:
+                yield batch
         else:
             total_mem_avail = torch.cuda.get_device_properties(0).total_memory
             base_mem_allocated = torch.cuda.memory_allocated(0)
