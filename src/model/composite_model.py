@@ -5,6 +5,7 @@ from pathlib import Path
 import mlflow
 import numpy as np
 import pandas as pd
+import torch
 from omegaconf import DictConfig, OmegaConf, open_dict
 
 from src.helpers.dataset import CSVDataLoader
@@ -13,6 +14,7 @@ from src.model.abstract_components import (
     DimRedModel,
     EmbedderModel,
     PredictorModel,
+    TorchPredictorModel,
     component_type,
 )
 from src.model.scalers import ScalerWrap
@@ -165,6 +167,17 @@ class CompositeModel:
             logger.info("Running in inference-only mode - skipping dataset loading")
         self.target_scaler = ScalerWrap(self.cfg, name="targetscaler")
 
+    def _embedding_return_device(self) -> torch.device | None:
+        if (
+            self.cfg.general.run_mode == "test"
+            and self.cfg.embedder.get("class_name") == "ESM"
+            and not self.cfg.embedder.mean_pool
+            and isinstance(self.predictor, TorchPredictorModel)
+            and torch.cuda.is_available()
+        ):
+            return torch.device("cuda")
+        return None
+
     def load_embedder(self):
         """
         Method for loading the embedder class.
@@ -186,7 +199,11 @@ class CompositeModel:
         """
         if self.embedder is None:
             self.load_embedder()
-        embeddings = self.embedder.forward(sequences)
+        return_device = self._embedding_return_device()
+        if return_device is not None:
+            embeddings = self.embedder.forward(sequences, return_device=return_device)
+        else:
+            embeddings = self.embedder.forward(sequences)
         # logger.info(f"These are the embeddings before standardization{embeddings}")
         if self.cfg.embedder.standardize:
             # Determine if we should fit the scaler (only during training)
