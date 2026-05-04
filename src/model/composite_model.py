@@ -66,7 +66,7 @@ class Prediction:
             df["res_aa"] = df["sequence"].apply(list)
             df["res_aa_idx"] = df["sequence"].apply(lambda x: range(len(x)))
             df["res_value_bool"] = (
-                [[int(y) for y in list(x)] for x in self.labels]
+                [np.array(x, dtype=int).tolist() for x in self.labels]
                 if self.labels is not None
                 else None
             )
@@ -80,7 +80,7 @@ class Prediction:
 
             # add the labels and predictions
             df["y"] = np.concatenate(
-                [np.array([float(y) for y in list(x)], dtype=float) for x in self.labels]
+                [np.asarray(x, dtype=float) for x in self.labels]
             )
             df["y_pred"] = self.predictions.compressed()
             df["y_pred_prob"] = self.predictions_probability.compressed()
