@@ -140,9 +140,14 @@ class ESM(LLMEmbedderModel):
             duplicated.append(self.chain_break_value.join(copies))
         return duplicated
 
-    def process_batch(self, seqs: list[str]) -> list[torch.Tensor]:
+    def process_batch(
+        self,
+        seqs: list[str],
+        return_device: torch.device | str | None = None,
+    ) -> list[torch.Tensor]:
         """Process a batch of sequences and extract embeddings."""
         self.validate_layer_idx()
+        return_device = torch.device("cpu") if return_device is None else torch.device(return_device)
         seq_lens = [len(x) for x in seqs]
         seqs = [" ".join(list(x)) for x in seqs]
 
@@ -166,7 +171,7 @@ class ESM(LLMEmbedderModel):
                 )
                 hidden_states = embedding_repr.hidden_states[self.cfg.embedder.layer_idx]
                 residue_embeddings = [
-                    hidden_states[batch_idx, :s_len].detach().cpu()
+                    hidden_states[batch_idx, :s_len].detach().to(return_device)
                     for batch_idx, s_len in enumerate(seq_lens)
                 ]
             else:
@@ -174,7 +179,7 @@ class ESM(LLMEmbedderModel):
                 # Extract from last layer
                 embedding_repr = self.model(input_ids, attention_mask=attention_mask)
                 residue_embeddings = [
-                    embedding_repr.last_hidden_state[batch_idx, :s_len].detach().cpu()
+                    embedding_repr.last_hidden_state[batch_idx, :s_len].detach().to(return_device)
                     for batch_idx, s_len in enumerate(seq_lens)
                 ]
 
@@ -192,8 +197,10 @@ class ESM(LLMEmbedderModel):
 
         return extracted_embeddings
 
-    def forward(self, sequences: list):
+    def forward(self, sequences: list, return_device: torch.device | str | None = None):
         """Forward pass to extract embeddings from sequences."""
+        return_device = torch.device("cpu") if return_device is None else torch.device(return_device)
+        batch_return_device = torch.device("cpu") if self.cfg.embedder.mean_pool else return_device
         # Handle sequence duplication if configured
         if self.cfg.embedder.n_copies and self.cfg.embedder.n_copies > 1:
             seq_lens = [len(seq) for seq in sequences]
@@ -208,7 +215,7 @@ class ESM(LLMEmbedderModel):
         # Process batches and collect embeddings
         residue_embeddings = []
         for batch in self.get_batches(sequences):
-            batch_embeddings = self.process_batch(batch)
+            batch_embeddings = self.process_batch(batch, return_device=batch_return_device)
             residue_embeddings.extend(batch_embeddings)
 
         # Extract central sequence embeddings if using copies
