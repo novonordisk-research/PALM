@@ -211,7 +211,7 @@ class CompositeModel:
         Returns:
             np.array: The dimensionality reduced vector embeddings.
         """
-        embeddings_compressed = self.dimensionreducer.forward(embeddings.copy())
+        embeddings_compressed = self.dimensionreducer.forward(embeddings)
         return embeddings_compressed
 
     def predict_properties(self, embeddings: np.array) -> np.array:
