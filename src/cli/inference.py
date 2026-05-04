@@ -452,8 +452,7 @@ class FlexiblePALMInference:
             df[f'{model_name}_{fold_name}_seq_score'] = results['sequence_predictions']
             
             # Store residue predictions in dictionary
-            for idx, (_, row) in enumerate(df.iterrows()):
-                protein_name = row['name']
+            for idx, protein_name in enumerate(df['name'].values):
                 residue_predictions_dict[protein_name][f'{model_name}_{fold_name}_residue_scores'] = \
                     results['residue_predictions'][idx].tolist()
         
