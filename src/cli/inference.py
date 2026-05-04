@@ -476,17 +476,17 @@ class FlexiblePALMInference:
                     key = f'{model_name}_{fold_name}_residue_scores'
                     if key in residue_predictions_dict[protein_name]:
                         fold_scores.append(residue_predictions_dict[protein_name][key])
-                
+
                 if fold_scores:
-                    ensemble_res = np.mean(fold_scores, axis=0).tolist()
-                    residue_predictions_dict[protein_name][f'{model_name}_ensemble_residue_scores'] = ensemble_res
-                    
-                    # Add summary statistics
+                    ensemble_arr = np.mean(fold_scores, axis=0)
+                    residue_predictions_dict[protein_name][f'{model_name}_ensemble_residue_scores'] = ensemble_arr.tolist()
+
+                    # Add summary statistics - reuse the ndarray directly, no round-trip through list
                     residue_predictions_dict[protein_name]['summary'] = {
-                        'mean_residue_score': float(np.mean(ensemble_res)),
-                        'max_residue_score': float(np.max(ensemble_res)),
-                        'min_residue_score': float(np.min(ensemble_res)),
-                        'high_risk_positions': [int(i) for i in np.where(np.array(ensemble_res) > 0.5)[0]]
+                        'mean_residue_score': float(ensemble_arr.mean()),
+                        'max_residue_score': float(ensemble_arr.max()),
+                        'min_residue_score': float(ensemble_arr.min()),
+                        'high_risk_positions': np.where(ensemble_arr > 0.5)[0].tolist()
                     }
             
             print(f"Ensemble predictions calculated from {successful_folds} folds")
